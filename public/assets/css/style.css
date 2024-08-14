@@ -39,7 +39,7 @@ body, html {
 @media screen and (max-width: 600px) {
 	.intro_text{
 		font-size: 2.5em;
-		margin:1em 1em;
+		margin: 0 1em 1em;
 	}
 .intro_para {
 			margin:0 1em !important;
