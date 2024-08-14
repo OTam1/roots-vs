@@ -32,7 +32,7 @@ Route::get('/admin-login', function () {
 })->name('login');
 
 
-Route::get('/', function () {
+Route::get('/dashboard', function () {
     return view('dashboard.dashboard');
 })->name('dashboard');
 
