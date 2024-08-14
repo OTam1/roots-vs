@@ -24,3 +24,15 @@ Route::get('/news', function () {
 Route::get('/detailed-news', function () {
     return view('detailed-news');
 })->name('detailed-news');
+
+
+
+Route::get('/admin-login', function () {
+    return view('dashboard.login');
+})->name('login');
+
+
+Route::get('/', function () {
+    return view('dashboard.dashboard');
+})->name('dashboard');
+
