@@ -44,11 +44,8 @@
     data-mobile-nav-scheme="dark" data-mobile-nav-trigger-alignment="right" data-mobile-header-scheme="custom"
     data-mobile-logo-alignment="default">
 
-    <div id="loader" class="loader">
-        <div class="spinner"></div>
-    </div>
 
-        <div id="wrap" style="display: none;">
+        <div id="wrap" >
         <div class="lqd-sticky-placeholder hidden"></div>
 
             @include('sections.header-footer.header')
@@ -58,7 +55,10 @@
             >
 
             <div id="lqd-contents-wrap">
-
+                <div id="loader" class="loader">
+                    <div class="spinner"></div>
+                </div>
+            
             @include('sections.intro')
 
             @include('sections.strategic-focus')

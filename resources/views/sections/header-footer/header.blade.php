@@ -43,7 +43,7 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                 </div>
             </div>
             <div class="header-module module-button ml-25 module-button"><a
-                    href="#contact-modal"
+                    href="#co-contactus"
                     class="btn btn-solid btn-sm round border-thin leading-1/6em tracking-0 text-15 rounded-4 bg-black border-black text-white hover:bg-primary"
                     data-lity="#contact-modal"><span class="btn-txt" data-text="Send message">Send
                         message</span></a></div>

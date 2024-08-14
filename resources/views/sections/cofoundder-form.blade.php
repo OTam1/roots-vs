@@ -1,4 +1,4 @@
-<section
+<section id="co-contactus"
 class="lqd-section lqd-modal-content flex items-center link-black bg-center bg-cover bg-norepeat h-100vh py-80 sm:h-auto"
 style="background-image: url(assets/images/common/modal-bg.jpeg);">
 <div class="container flex items-center sm:p-0">
