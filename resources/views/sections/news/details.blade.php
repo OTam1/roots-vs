@@ -54,7 +54,7 @@
 </style>
 <div id="lqd-contents-wrap">
     <div class="lqd-post-cover overflow-hidden">
-        <figure class="lqd-post-media loaded"  style="transition: none; will-change: transform;"> <img width="560" height="auto" src="https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2018/08/post3-760x540-1-760x540-1.jpg" class="attachment-full size-full ld-lazyload wp-post-image entered loaded" alt="" loading="lazy" itemprop="url" data-src="https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2018/08/post3-760x540-1-760x540-1.jpg" data-srcset="https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2018/08/post3-760x540-1-760x540-1.jpg 760w, https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2018/08/post3-760x540-1-760x540-1-300x213.jpg 300w" data-sizes="(max-width: 760px) 100vw, 760px" data-aspect="1.4074074074074" data-ll-status="loaded" sizes="(max-width: 760px) 100vw, 760px" srcset="https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2018/08/post3-760x540-1-760x540-1.jpg 760w, https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2018/08/post3-760x540-1-760x540-1-300x213.jpg 300w">
+        <figure class="lqd-post-media loaded"  style="transition: none; will-change: transform;"> <img width="560" height="auto" src="./assets/images/demo/asymmetric-agency/blog-1.jpg" class="attachment-full size-full ld-lazyload wp-post-image entered loaded" alt="" loading="lazy" itemprop="url" data-src="./assets/images/demo/asymmetric-agency/blog-1.jpg 300w">
         </figure> <span class="lqd-overlay lqd-post-cover-overlay z-index-2"></span>
         
     </div>
@@ -124,14 +124,14 @@
         </div>
         <footer class="blog-post-footer entry-footer">
             <nav class="post-nav align-items-center h5">
-                <div class="nav-previous"> <a href="https://asymmetric-agencypro.liquid-themes.com/investment-trend-monitor-top-trends-in-2017/" rel="prev"> <span class="screen-reader-text">Previous Article</span> <span aria-hidden="true" class="nav-subtitle"> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" stroke="#444" stroke-width="2" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve" width="24" height="24">
+                <div class="nav-previous"> <a href="#" rel="prev"> <span class="screen-reader-text">Previous Article</span> <span aria-hidden="true" class="nav-subtitle"> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" stroke="#444" stroke-width="2" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve" width="24" height="24">
                                 <g>
                                     <line stroke-miterlimit="10" x1="22" y1="12" x2="2" y2="12" stroke-linejoin="miter" stroke-linecap="butt"></line>
                                     <polyline stroke-linecap="square" stroke-miterlimit="10" points="9,19 2,12 9,5 " stroke-linejoin="miter"></polyline>
                                 </g>
                             </svg> Previous Article </span> <span class="nav-title">Investment trend monitor: Top
                             trends in 2017</span> </a> </div>
-                <div class="nav-next"> <a href="https://asymmetric-agencypro.liquid-themes.com/investment-trend-monitor-top-trends-in-2021/" rel="next"> <span class="screen-reader-text">Next Article</span> <span aria-hidden="true" class="nav-subtitle"> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" stroke="#444" stroke-width="2" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve" width="24" height="24">
+                <div class="nav-next"> <a href="#" rel="next"> <span class="screen-reader-text">Next Article</span> <span aria-hidden="true" class="nav-subtitle"> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" stroke="#444" stroke-width="2" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve" width="24" height="24">
                                 <g transform="rotate(180 12,12) ">
                                     <line stroke-miterlimit="10" x1="22" y1="12" x2="2" y2="12" stroke-linejoin="miter" stroke-linecap="butt"></line>
                                     <polyline stroke-linecap="square" stroke-miterlimit="10" points="9,19 2,12 9,5 " stroke-linejoin="miter"></polyline>
@@ -148,35 +148,35 @@
                 <div class="col-lg-4 col-sm-7 col-xs-12">
                     <article class="lqd-lp lqd-lp-style-13 lqd-lp-hover-img-zoom pos-rel">
                         <div class="lqd-lp-img pos-rel mb-4 overflow-hidden">
-                            <figure class="pos-rel loaded"> <img width="2080" height="1123" src="https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2021/03/asgency12x_4_1_79.jpeg" class="w-100 ld-lazyload wp-post-image entered loaded" alt="" loading="lazy" data-src="https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2021/03/asgency12x_4_1_79.jpeg" data-srcset="https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2021/03/asgency12x_4_1_79.jpeg 2080w, https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2021/03/asgency12x_4_1_79-300x162.jpeg 300w, https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2021/03/asgency12x_4_1_79-1024x553.jpeg 1024w" data-sizes="(max-width: 2080px) 100vw, 2080px" data-aspect="1.8521816562778" data-ll-status="loaded" sizes="(max-width: 2080px) 100vw, 2080px" srcset="https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2021/03/asgency12x_4_1_79.jpeg 2080w, https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2021/03/asgency12x_4_1_79-300x162.jpeg 300w, https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2021/03/asgency12x_4_1_79-1024x553.jpeg 1024w">
+                            <figure class="pos-rel loaded"> <img width="2080" height="1123" src="./assets/images/demo/asymmetric-agency/blog-1.jpg" class="w-100 ld-lazyload wp-post-image entered loaded" alt="" loading="lazy" data-src="./assets/images/demo/asymmetric-agency/blog-1.jpg" data-srcset="./assets/images/demo/asymmetric-agency/blog-1.jpg 2080w, ./assets/images/demo/asymmetric-agency/blog-1.jpg 300w, ./assets/images/demo/asymmetric-agency/blog-1.jpg 1024w" data-sizes="(max-width: 2080px) 100vw, 2080px" data-aspect="1.8521816562778" data-ll-status="loaded" sizes="(max-width: 2080px) 100vw, 2080px" srcset="./assets/images/demo/asymmetric-agency/blog-1.jpg 2080w, ./assets/images/demo/asymmetric-agency/blog-1.jpg 300w, ./assets/images/demo/asymmetric-agency/blog-1.jpg 1024w">
                             </figure>
                             <div class="lqd-lp-meta lqd-lp-meta-solid pos-b-l d-flex align-items-center p-0"> <span class="lqd-lp-date pos-rel z-index-2 py-2 px-3">4 years ago</span>
                                 <ul class="lqd-lp-cat reset-ul inline-nav pos-rel z-index-2 py-2 px-3">
-                                    <li><a href="https://asymmetric-agencypro.liquid-themes.com/category/modern/" rel="category tag">Modern</a></li>
+                                    <li><a href="{{route('news')}}" rel="News tag">News</a></li>
                                 </ul>
                             </div>
                         </div>
                         <header class="lqd-lp-header mb-2">
-                            <h2 class="lqd-lp-title h5 m-0"> <a href="https://asymmetric-agencypro.liquid-themes.com/business-meeting-2021-in-san-francisco/">Business
+                            <h2 class="lqd-lp-title h5 m-0"> <a href="{{route('news')}}">Business
                                     meeting 2021 in San Francisco</a> </h2>
-                        </header> <a href="https://asymmetric-agencypro.liquid-themes.com/business-meeting-2021-in-san-francisco/" class="lqd-lp-overlay-link lqd-overlay z-index-2"></a>
+                        </header> <a href="{{route('news')}}" class="lqd-lp-overlay-link lqd-overlay z-index-2"></a>
                     </article>
                 </div>
                 <div class="col-lg-4 col-sm-7 col-xs-12">
                     <article class="lqd-lp lqd-lp-style-13 lqd-lp-hover-img-zoom pos-rel">
                         <div class="lqd-lp-img pos-rel mb-4 overflow-hidden">
-                            <figure class="pos-rel loaded"> <img width="2560" height="1448" src="https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2021/01/nikeair@2x-scaled-4.jpg" class="w-100 ld-lazyload wp-post-image entered loaded" alt="" loading="lazy" data-src="https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2021/01/nikeair@2x-scaled-4.jpg" data-srcset="https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2021/01/nikeair@2x-scaled-4.jpg 2560w, https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2021/01/nikeair@2x-scaled-4-300x170.jpg 300w, https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2021/01/nikeair@2x-scaled-4-1024x579.jpg 1024w" data-sizes="(max-width: 2560px) 100vw, 2560px" data-aspect="1.767955801105" data-ll-status="loaded" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2021/01/nikeair@2x-scaled-4.jpg 2560w, https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2021/01/nikeair@2x-scaled-4-300x170.jpg 300w, https://asymmetric-agencypro.liquid-themes.com/wp-content/uploads/2021/01/nikeair@2x-scaled-4-1024x579.jpg 1024w">
+                            <figure class="pos-rel loaded"> <img width="2560" height="1448" src="./assets/images/demo/asymmetric-agency/blog-2.jpg" class="w-100 ld-lazyload wp-post-image entered loaded" alt="" loading="lazy" data-src="./assets/images/demo/asymmetric-agency/blog-2.jpg" data-srcset="./assets/images/demo/asymmetric-agency/blog-2.jpg 2560w, ./assets/images/demo/asymmetric-agency/blog-2.jpg 300w, ./assets/images/demo/asymmetric-agency/blog-2.jpg 1024w" data-sizes="(max-width: 2560px) 100vw, 2560px" data-aspect="1.767955801105" data-ll-status="loaded" sizes="(max-width: 2560px) 100vw, 2560px" srcset="./assets/images/demo/asymmetric-agency/blog-2.jpg 2560w, ./assets/images/demo/asymmetric-agency/blog-2.jpg 300w, ./assets/images/demo/asymmetric-agency/blog-2.jpg 1024w">
                             </figure>
                             <div class="lqd-lp-meta lqd-lp-meta-solid pos-b-l d-flex align-items-center p-0"> <span class="lqd-lp-date pos-rel z-index-2 py-2 px-3">4 years ago</span>
                                 <ul class="lqd-lp-cat reset-ul inline-nav pos-rel z-index-2 py-2 px-3">
-                                    <li><a href="https://asymmetric-agencypro.liquid-themes.com/category/modern/" rel="category tag">Modern</a></li>
+                                    <li><a href="{{route('news')}}" rel="News tag">News</a></li>
                                 </ul>
                             </div>
                         </div>
                         <header class="lqd-lp-header mb-2">
-                            <h2 class="lqd-lp-title h5 m-0"> <a href="https://asymmetric-agencypro.liquid-themes.com/see-the-unmatched-beauty-of-the-great-lakes/">See
+                            <h2 class="lqd-lp-title h5 m-0"> <a href="{{route('news')}}">See
                                     the unmatched beauty of the great lakes</a> </h2>
-                        </header> <a href="https://asymmetric-agencypro.liquid-themes.com/see-the-unmatched-beauty-of-the-great-lakes/" class="lqd-lp-overlay-link lqd-overlay z-index-2"></a>
+                        </header> <a href="{{route('news')}}" class="lqd-lp-overlay-link lqd-overlay z-index-2"></a>
                     </article>
                 </div>
             </div>
