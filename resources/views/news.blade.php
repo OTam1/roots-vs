@@ -12,7 +12,12 @@
     <meta property="og:description"
         content="Roots Ventures.">
     <meta property="og:type" content="Roots Ventures">
-    <meta property="og:image" content="./assets/images/common/og-image.jpg">
+    <meta property="og:image" content="./assets/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/style.css">
@@ -40,7 +45,7 @@
         <div class="spinner"></div>
     </div>
 
-    
+
     <div id="wrap">
         <div class="lqd-sticky-placeholder hidden"></div>
 
