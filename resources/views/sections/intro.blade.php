@@ -1,5 +1,5 @@
 <section class="intro-section ">
-    <video class="bg-video" autoplay muted loop>
+    <video class="bg-video" autoplay muted loop playsinline>
         <source src="{{('/assets/video/intro_video.mp4')}}" type="video/mp4">
         Your browser does not support the video tag.
     </video>
