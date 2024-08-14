@@ -37,8 +37,12 @@
 <body class="lqd-cc-outer-hidden scroll-content" data-lqd-cc="true" data-mobile-nav-style="modern" data-mobile-nav-breakpoint="1199"
     data-mobile-nav-scheme="dark" data-mobile-nav-trigger-alignment="right" data-mobile-header-scheme="custom"
     data-mobile-logo-alignment="default">
-    
-    <div id="wrap">
+
+    <div id="loader" class="loader">
+        <div class="spinner"></div>
+    </div>
+
+        <div id="wrap" style="display: none;">
         <div class="lqd-sticky-placeholder hidden"></div>
 
             @include('sections.header-footer.header')
@@ -94,6 +98,7 @@
     <script src="{{ '/assets/js/owl.carousel.min.js' }}"></script>
     <script src="{{('/assets/js/partners-slider.js')}}"></script>
     <script src="{{('/assets/js/our-ventures.js')}}"></script>
+    <script src="{{('/assets/js/loader.js')}}"></script>
 
     {{-- <div class="lqd-cc lqd-cc--inner fixed pointer-events-none"></div> --}}
 </body>

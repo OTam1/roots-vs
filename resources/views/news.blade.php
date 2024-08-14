@@ -36,6 +36,11 @@
     data-mobile-nav-scheme="dark" data-mobile-nav-trigger-alignment="right" data-mobile-header-scheme="custom"
     data-mobile-logo-alignment="default">
     
+    <div id="loader" class="loader">
+        <div class="spinner"></div>
+    </div>
+
+    
     <div id="wrap">
         <div class="lqd-sticky-placeholder hidden"></div>
 
@@ -78,6 +83,7 @@
     <script src="{{ '/assets/js/owl.carousel.min.js' }}"></script>
     <script src="{{('/assets/js/partners-slider.js')}}"></script>
     <script src="{{('/assets/js/our-ventures.js')}}"></script>
+    <script src="{{('/assets/js/loader.js')}}"></script>
 
 </body>
 
