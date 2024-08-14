@@ -39,9 +39,13 @@ body, html {
 @media screen and (max-width: 600px) {
 	.intro_text{
 		font-size: 2.5em;
-
+		margin:1em 1em;
 	}
+.intro_para {
+			margin:0 1em !important;
+		}
 }
+
 .intro_highlight{
     color: #048C8D;
 }
@@ -67,6 +71,11 @@ body, html {
     animation: bounce 2s infinite;
 }
 
+@media screen and (max-width: 600px) {
+.scroll-mouse img {
+width: 2em !important;
+}
+}
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);
