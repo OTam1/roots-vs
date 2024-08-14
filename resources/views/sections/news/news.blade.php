@@ -29,6 +29,7 @@
                     </header>
                     <div class="lqd-lp-excerpt mb-1em">You want to succeed,
                         surround yourself with the right kind of people who will support and encourage you all the</div>
+                        <a href="{{ route('detailed-news') }}" class="lqd-lp-overlay-link lqd-overlay z-index-2"></a>
                 </article>
             </div>
             <div class="col col-12 col-md-6 col-lg-4 px-15 mb-30">
@@ -48,6 +49,7 @@
                     </header>
                     <div class="lqd-lp-excerpt mb-1em">You want to succeed,
                         surround yourself with the right kind of people who will support and encourage you all the</div>
+                        <a href="{{ route('detailed-news') }}" class="lqd-lp-overlay-link lqd-overlay z-index-2"></a>
                 </article>
             </div>
             <div class="col col-12 col-md-6 col-lg-4 px-15 mb-30">
@@ -67,6 +69,7 @@
                     </header>
                     <div class="lqd-lp-excerpt mb-1em">You want to succeed,
                         surround yourself with the right kind of people who will support and encourage you all the</div>
+                        <a href="{{ route('detailed-news') }}" class="lqd-lp-overlay-link lqd-overlay z-index-2"></a>
                 </article>
             </div>
             <div class="col col-12 col-md-6 col-lg-4 px-15 mb-30">
@@ -86,6 +89,7 @@
                     </header>
                     <div class="lqd-lp-excerpt mb-1em">You want to succeed,
                         surround yourself with the right kind of people who will support and encourage you all the</div>
+                        <a href="{{ route('detailed-news') }}" class="lqd-lp-overlay-link lqd-overlay z-index-2"></a>
                 </article>
             </div>
         </div>
