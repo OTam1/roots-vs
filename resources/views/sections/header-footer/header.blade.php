@@ -19,14 +19,23 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                         data-submenu-options="{&quot;toggleType&quot;: &quot;fade&quot;, &quot;handler&quot;: &quot;mouse-in-out&quot;}"
                         data-localscroll="true"
                         data-localscroll-options="{&quot;itemsSelector&quot;:&quot;> li > a&quot;, &quot;trackWindowScroll&quot;: true }">
-                        <li><a href="#banner">Home <sup
-                                    class="link-sup">01</sup></a></li>
+                        <li><a
+                            @if (!request()->routeIs('home')) 
+                            href="{{ route('home') }}" 
+                        @endif
+                        >Home <sup class="link-sup">01</sup></a></li>
                         <li><a href="#">Get To Know Us <sup
                                     class="link-sup">02</sup></a></li>
                         <li><a href="#">Why The Venutre Studio? <sup
                                     class="link-sup">03</sup></a></li>
-                        <li><a href="#">Media Center <sup
-                                    class="link-sup">04</sup></a></li>
+                        <li><a
+                        @if (!request()->routeIs('news')) 
+                            href="{{ route('news') }}" 
+                        @endif
+                        >News <sup class="link-sup">04</sup></a></li>
+                        <li><a href="#">Blogs <sup
+                            class="link-sup">05</sup></a></li>
+    
                     </ul>
                 </div>
             </div>
@@ -69,13 +78,21 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                                     <ul class="reset-ul" data-localscroll="true"
                                         data-localscroll-options="{&quot;itemsSelector&quot;:&quot;> li > a&quot;}">
                                         <li class="mb-15"><a class="flex hover:text-primary"
-                                                href="#banner">Home</a></li>
+                                            @if (!request()->routeIs('home')) 
+                                            href="{{ route('home') }}" 
+                                        @endif
+                                        >Home</a></li>
                                         <li class="mb-15"><a class="flex hover:text-primary"
                                                 href="#">Get To Know Us</a></li>
                                         <li class="mb-15"><a class="flex hover:text-primary"
                                                 href="#">Why The Venutre Studio?</a></li>
                                         <li class="mb-15"><a class="flex hover:text-primary"
-                                                href="#">Media Center</a>
+                                        @if (!request()->routeIs('news')) 
+                                            href="{{ route('news') }}" 
+                                        @endif
+                                        >News</a></li>
+                                        <li class="mb-15"><a class="flex hover:text-primary"
+                                            href="#">Blogs</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -164,15 +181,26 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
             aria-expanded="false" role="navigation">
             <ul id="mobile-primary-nav" class="lqd-mobile-main-nav main-nav" data-localscroll="true"
                 data-localscroll-options="{&quot;itemsSelector&quot;:&quot;> li > a&quot;, &quot;trackWindowScroll&quot;: true, &quot;includeParentAsOffset&quot;: true}">
-                <li><a class="mt-0/75em" href="#banner">Home <sup
+                <li><a class="mt-0/75em"
+                @if (!request()->routeIs('home')) 
+                    href="{{ route('home') }}" 
+                @endif
+                >Home <sup
                             class="link-sup">01</sup></a></li>
                 <li><a class="mt-0/75em" href="#">Get To Know Us <sup
                             class="link-sup">02</sup></a></li>
                 <li><a class="mt-0/75em" href="#">Why The Venutre Studio?
                         <span class="submenu-expander absolute"></span> <sup class="link-sup">03</sup></a>
                 </li>
-                <li><a class="mt-0/75em" href="#">Media Center <sup
+                <li><a class="mt-0/75em"
+                @if (!request()->routeIs('news')) 
+                    href="{{ route('news') }}" 
+                @endif
+                >News <sup
                             class="link-sup">04</sup></a></li>
+                <li><a class="mt-0/75em" href="#">Blogs <sup
+                    class="link-sup">05</sup></a></li>
+    
             </ul>
         </div>
     </div>

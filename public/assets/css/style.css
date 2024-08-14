@@ -125,6 +125,11 @@ width: 2em !important;
     position: relative;
     z-index: 1;
 }
+@media (max-width: 450px) {
+.image-section {
+    flex: 1.5;
+}
+}
 .image-section img {
     width: 100%;
     height: auto;
@@ -1853,7 +1858,6 @@ width: 800px;
 		z-index: 10;
 	}
 
-.content-sf {}
 	
 	.item-sf .content-sf h2 {
 		width: 100%;
@@ -1897,7 +1901,6 @@ width: 800px;
 		/* margin-bottom: auto; */
 	}
 
-.content-sf {}
 	@media (min-width: 1001px) {
 
 	.container-sf:hover .item-sf:not(:hover) .content-sf {
@@ -2030,4 +2033,13 @@ width: 800px;
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+
+/* */
+@media (max-width: 575px) {
+
+.lqd-contact-form.lqd-contact-form-inputs-underlined.lqd-contact-form-button-lg.lqd-contact-form-button-block.py-45.px-65.-mb-50.md\:p-0{
+	margin:0 1em;
+}
 }
