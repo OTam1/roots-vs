@@ -130,7 +130,7 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                 <div class="lqd-module-backdrop"></div>
             </div>
         </div>
-        <div class="flex flex-grow-1 items-center justify-center rotate-180">
+        {{-- <div class="flex flex-grow-1 items-center justify-center rotate-180">
             <div class="header-module-rotate py-10">
                 <div class="lqd-fancy-menu lqd-menu-td-none">
                     <ul class="reset-ul inline-nav flex -mr-10 -ml-10">
@@ -143,7 +143,7 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <div class="flex flex-grow-1 items-center justify-center rotate-180">
             <div class="header-module-rotate py-10">
                 <p class="font-medium" data-lqd-interactive-color="true"><a
