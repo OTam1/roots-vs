@@ -4,7 +4,10 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
     <div class="lqd-head-sec w-full flex items-stretch justify-between">
         <div class="col-auto lqd-head-col justify-start">
             <div class="module-logo navbar-brand-plain py-45"><a class="navbar-brand"
-                    href=""><span class="navbar-brand-inner"><img
+                @if (!request()->routeIs('home')) 
+                href="{{ route('home') }}" 
+            @endif
+            ><span class="navbar-brand-inner"><img
                             class="logo-light" width="52" height="23"
                             src="assets/img/Roots-Logo-Original.png" alt="Roots Ventures"> <img
                             class="logo-default" width="52" height="23"
@@ -66,7 +69,10 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                         <div class="w-full relative flex flex-wrap h-full justify-between -mr-15 -ml-15">
                             <div class="w-full flex flex-auto flex-col items-start justify-start px-15">
                                 <div class="py-45 module-logo navbar-brand-plain"><a class="navbar-brand"
-                                        href="#" rel="home"><span
+                                    @if (!request()->routeIs('home')) 
+                                    href="{{ route('home') }}" 
+                                @endif
+                                rel="home"><span
                                             class="navbar-brand-inner"><img class="logo-light"
                                                 src="assets/img/Roots-Logo-White.png"
                                                 alt="Hub Theme"> <img class="logo-default"
@@ -171,7 +177,11 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                         class="bar bg-black transition-all"></span> <span
                         class="bar bg-black transition-all"></span> <span
                         class="bar bg-black transition-all"></span></span></span></button> <a
-            class="text-start navbar-brand" href=""><span
+            class="text-start navbar-brand"
+            @if (!request()->routeIs('home')) 
+            href="{{ route('home') }}" 
+            @endif
+            ><span
                 class="navbar-brand-inner justify-start"><img class="logo-default" width="52"
                     height="23" src="assets/img/Roots-Logo-Original.png"
                     alt="Hub Theme"></span></a>
