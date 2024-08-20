@@ -9,9 +9,9 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
             @endif
             ><span class="navbar-brand-inner"><img
                             class="logo-light" width="52" height="23"
-                            src="assets/img/Roots-Logo-Original.png" alt="Roots Ventures"> <img
+                            src="{{ asset('assets/img/Roots-Logo-Original.png') }}" alt="Roots Ventures"> <img
                             class="logo-default" width="52" height="23"
-                            src="assets/img/Roots-Logo-Original.png" alt="Roots Ventures"></span></a>
+                            src="{{ asset('assets/img/Roots-Logo-Original.png') }}" alt="Roots Ventures"></span></a>
             </div>
         </div>
         <div class="col lqd-head-col justify-end">
@@ -36,7 +36,11 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                             href="{{ route('news') }}" 
                         @endif
                         >News <sup class="link-sup">04</sup></a></li>
-                        <li><a href="#">Blogs <sup
+                        <li><a 
+                            @if (!request()->routeIs('blog')) 
+                            href="{{ route('blog') }}" 
+                            @endif
+                            >Blog <sup
                             class="link-sup">05</sup></a></li>
     
                     </ul>
@@ -74,9 +78,9 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                                 @endif
                                 rel="home"><span
                                             class="navbar-brand-inner"><img class="logo-light"
-                                                src="assets/img/Roots-Logo-White.png"
+                                                src="{{ asset('assets/img/Roots-Logo-White.png') }}"
                                                 alt="Hub Theme"> <img class="logo-default"
-                                                src="assets/img/Roots-Logo-Original.png"
+                                                src="{{ asset('assets/img/Roots-Logo-Original.pn') }}g"
                                                 alt="Hub Theme"></span></a></div>
                             </div>
                             <div class="w-full flex flex-auto flex-col items-start justify-center px-15">
@@ -98,7 +102,10 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                                         @endif
                                         >News</a></li>
                                         <li class="mb-15"><a class="flex hover:text-primary"
-                                            href="#">Blogs</a>
+                                            @if (!request()->routeIs('blog')) 
+                                            href="{{ route('blog') }}" 
+                                            @endif
+                                            >Blog</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -183,7 +190,7 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
             @endif
             ><span
                 class="navbar-brand-inner justify-start"><img class="logo-default" width="52"
-                    height="23" src="assets/img/Roots-Logo-Original.png"
+                    height="23" src="{{ asset('assets/img/Roots-Logo-Original.png') }}"
                     alt="Hub Theme"></span></a>
     </div>
     <div class="lqd-mobile-sec-nav w-full absolute z-10">
@@ -208,7 +215,11 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                 @endif
                 >News <sup
                             class="link-sup">04</sup></a></li>
-                <li><a class="mt-0/75em" href="#">Blogs <sup
+                <li><a class="mt-0/75em" 
+                    @if (!request()->routeIs('blog')) 
+                    href="{{ route('blog') }}" 
+                    @endif>
+                    Blog <sup
                     class="link-sup">05</sup></a></li>
     
             </ul>

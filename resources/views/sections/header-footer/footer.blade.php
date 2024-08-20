@@ -5,7 +5,7 @@
                 <div class="col col-12 hidden sm:block">
                     <div class="lqd-imggrp-single mb-35">
                         <div class="lqd-imggrp-img-container">
-                            <figure><img src="assets/img/Roots-Logo-White.png"
+                            <figure><img src="{{ asset('assets/img/Roots-Logo-White.png') }}"
                                     alt="hub logo"></figure>
                         </div>
                     </div>
@@ -23,7 +23,7 @@
                 <div class="col col-sm-1 col-lg-1 offset-lg-1 xs:hidden sm:hidden lg:block">
                     <div class="lqd-imggrp-single">
                         <div class="lqd-imggrp-img-container mb-0">
-                            <figure><img src="assets/images/demo/asymmetric-agency/shape-hand.svg"
+                            <figure><img src="{{ asset('assets/images/demo/asymmetric-agency/shape-hand.svg') }}"
                                     alt="hand icon"></figure>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
                 <div class="col col-12 col-md-5 col-lg-6 sm:hidden">
                     <div class="lqd-imggrp-single pt-160 md:pt-0">
                         <div class="lqd-imggrp-img-container mb-0">
-                            <figure><img src="assets/img/Roots-Logo-White.png"
+                            <figure><img src="{{ asset('assets/img/Roots-Logo-White.png') }}"
                                     alt="hub logo"></figure>
                         </div>
                     </div>

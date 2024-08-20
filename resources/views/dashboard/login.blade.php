@@ -31,12 +31,23 @@
 				<div class="login100-pic js-tilt" data-tilt>
 					<img src="{{asset('assets/loginForm/images/img-01.png')}}" alt="IMG">   
 				</div>
-				<form class="login100-form validate-form" method="POST" action="">
+				<form class="login100-form validate-form" method="POST" action="{{ route('login') }}">
 					<span class="login100-form-title"> @csrf
 						Dashboard Login
 
 					{{--	<a href="{{route('admin.mail.login', ['id' => '40b0dd77-cc1a-4419-be91-b95cdf6fe2de'])}}"> login here</a> --}}
+					
 					</span>
+
+					@if ($errors->any())
+						<div class="alert alert-danger">
+							<ul>
+								@foreach ($errors->all() as $error)
+									<li>{{ $error }}</li>
+								@endforeach
+							</ul>
+						</div>
+					@endif
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
 						<input class="input100" type="text" name="email" placeholder="Email">

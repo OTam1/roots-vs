@@ -20,16 +20,16 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{ ('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ '/assets/css/owl.carousel.min.css' }}">
     <link rel="stylesheet" href="{{ '/assets/css/owl.theme.default.min.css' }}">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/vendors/liquid-icon/lqd-essentials/lqd-essentials.min.css">
-    <link rel="stylesheet" href="assets/css/theme.min.css">
-    <link rel="stylesheet" href="assets/css/utility.min.css">
-    <link rel="stylesheet" href="assets/css/demo/asymmetric-agency/base.css">
-    <link rel="stylesheet" href="assets/css/demo/asymmetric-agency/asymmetric-agency.css">
+    <link rel="stylesheet" href="{{ ('assets/vendors/liquid-icon/lqd-essentials/lqd-essentials.min.css') }}">
+    <link rel="stylesheet" href="{{ ('assets/css/theme.min.css') }}">
+    <link rel="stylesheet" href="{{ ('assets/css/utility.min.css') }}">
+    <link rel="stylesheet" href="{{ ('assets/css/demo/asymmetric-agency/base.css') }}">
+    <link rel="stylesheet" href="{{ ('assets/css/demo/asymmetric-agency/asymmetric-agency.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
@@ -67,29 +67,29 @@
     </div>
     @include('sections.modals.contactus')
 
-    <script src="assets/vendors/jquery.min.js"></script>
-    <script src="assets/vendors/jquery-ui/jquery-ui.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/vendors/gsap/minified/gsap.min.js"></script>
-    <script src="assets/vendors/gsap/minified/ScrollTrigger.min.js"></script>
-    <script src="assets/vendors/gsap/utils/SplitText.min.js"></script>
-    <script src="assets/vendors/fastdom/fastdom.min.js"></script>
-    <script src="assets/vendors/isotope/isotope.pkgd.min.js"></script>
-    <script src="assets/vendors/isotope/packery-mode.pkgd.min.js"></script>
-    <script src="assets/vendors/flickity/flickity.pkgd.min.js"></script>
-    <script src="assets/vendors/lity/lity.min.js"></script>
-    <script src="assets/vendors/particles.min.js"></script>
-    <script src="assets/vendors/fontfaceobserver.js"></script>
-    <script src="assets/vendors/fresco/js/fresco.js"></script>
-    <script src="assets/vendors/tinycolor-min.js"></script>
-    <script src="assets/js/liquid-gdpr.min.js"></script>
-    <script src="assets/js/theme.min.js"></script>
-    <script src="assets/js/liquid-ajax-contact-form.min.js"></script>
-    <script src="{{ '/assets/js/owl.carousel.min.js' }}"></script>
-    <script src="{{('/assets/js/partners-slider.js')}}"></script>
-    <script src="{{('/assets/js/our-ventures.js')}}"></script>
-    <script src="{{('/assets/js/loader.js')}}"></script>
-
+    <script src="{{ asset('assets/vendors/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/jquery-ui/jquery-ui.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/gsap/minified/gsap.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/gsap/minified/ScrollTrigger.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/gsap/utils/SplitText.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/fastdom/fastdom.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/isotope/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/isotope/packery-mode.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/flickity/flickity.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/lity/lity.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/particles.min.js') }}"></script>
+    <script src="{{ asset('assets/vendors/fontfaceobserver.js') }}"></script>
+    <script src="{{ asset('assets/vendors/fresco/js/fresco.js') }}"></script>
+    <script src="{{ asset('assets/vendors/tinycolor-min.js') }}"></script>
+    <script src="{{ asset('assets/js/liquid-gdpr.min.js') }}"></script>
+    <script src="{{ asset('assets/js/theme.min.js') }}"></script>
+    <script src="{{ asset('assets/js/liquid-ajax-contact-form.min.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/js/partners-slider.js') }}"></script>
+    <script src="{{ asset('assets/js/our-ventures.js') }}"></script>
+    <script src="{{ asset('assets/js/loader.js') }}"></script>
+    
 </body>
 
 </html>

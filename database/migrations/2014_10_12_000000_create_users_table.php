@@ -22,6 +22,16 @@ return new class extends Migration
             $table->rememberToken();
             $table->timestamps();
         });
+
+        // Insert a new user
+        DB::table('users')->insert([
+        'name' => 'Admin', // Adjust if you want to set a name
+        'email' => 'admin@roots-vs.sa',
+        'password' => bcrypt('@dmin2024!'), // Hash the password before storing
+        'created_at' => now(),
+        'updated_at' => now(),
+        ]);
+        
     }
 
     /**
