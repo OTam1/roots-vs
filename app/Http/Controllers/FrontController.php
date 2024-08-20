@@ -11,7 +11,7 @@ class FrontController extends Controller
         // Display the list of news items
         public function newsIndex()
         {
-            $news = News::all(); // Fetch all news items
+            $news = News::where('visibility', true)->get();
             return view('news', ['news' => $news]);
         }
     
@@ -19,8 +19,16 @@ class FrontController extends Controller
         public function newsShow($id)
         {
             $newsItem = News::findOrFail($id); // Fetch a specific news item by ID
-            $randomNews = News::where('id', '!=', $id)->inRandomOrder()->take(2)->get();
-
+            $randomNews = News::where('id', '!=', $id)
+                               ->where('visibility', true)
+                               ->inRandomOrder()
+                               ->take(2)
+                               ->get();
+        
+            // Ensure randomNews has items
+            $randomNews1 = $randomNews->count() > 0 ? $randomNews->first() : null;
+            $randomNews2 = $randomNews->count() > 1 ? $randomNews->skip(1)->first() : null;
+        
             return view('detailed-news', [
             'newsItem' => $newsItem,
             'randomNews1' => $randomNews->get(0), 
@@ -33,7 +41,9 @@ class FrontController extends Controller
         // Display the list of blog items
         public function blogIndex()
         {
-            $blog = Blog::all(); // Fetch all blog items
+            // Display the list of news items
+            $blog = Blog::where('visibility', true)->get();
+
             return view('blog', ['blog' => $blog]);
         }
     
@@ -41,7 +51,11 @@ class FrontController extends Controller
         public function blogShow($id)
         {
             $blogItem = Blog::findOrFail($id); // Fetch a specific blog item by ID
-            $randomBlog = Blog::where('id', '!=', $id)->inRandomOrder()->take(2)->get();
+            $randomBlog = Blog::where('id', '!=', $id) // Exclude the blog with the specified ID
+            ->where('visibility', true) // Only include visible blogs
+            ->inRandomOrder() // Order the results randomly
+            ->take(2) // Take 2 random blogs
+            ->get(); // Execute the query and get the results
 
             return view('detailed-blog', [
             'blogItem' => $blogItem,

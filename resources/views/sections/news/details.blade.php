@@ -103,21 +103,28 @@
         <footer class="blog-post-footer entry-footer">
             <nav class="post-nav align-items-center h5">
                 <div class="nav-previous">
+                    @if($randomNews1)
                      <a href="{{ route('detailed-news', $randomNews1->id) }}" rel="prev"> <span class="screen-reader-text">Previous Article</span> <span aria-hidden="true" class="nav-subtitle"> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" stroke="#444" stroke-width="2" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve" width="24" height="24">
                                 <g>
                                     <line stroke-miterlimit="10" x1="22" y1="12" x2="2" y2="12" stroke-linejoin="miter" stroke-linecap="butt"></line>
                                     <polyline stroke-linecap="square" stroke-miterlimit="10" points="9,19 2,12 9,5 " stroke-linejoin="miter"></polyline>
                                 </g>
                             </svg> Previous Article </span> <span class="nav-title">{{$randomNews1->title}}</span> </a> </div>
+                    @endif
+                    @if($randomNews2)
+            
                 <div class="nav-next"> <a href="{{ route('detailed-news', $randomNews2->id) }}" rel="next"> <span class="screen-reader-text">Next Article</span> <span aria-hidden="true" class="nav-subtitle"> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" stroke="#444" stroke-width="2" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve" width="24" height="24">
                                 <g transform="rotate(180 12,12) ">
                                     <line stroke-miterlimit="10" x1="22" y1="12" x2="2" y2="12" stroke-linejoin="miter" stroke-linecap="butt"></line>
                                     <polyline stroke-linecap="square" stroke-miterlimit="10" points="9,19 2,12 9,5 " stroke-linejoin="miter"></polyline>
                                 </g>
                             </svg> Next Article </span> <span class="nav-title">{{$randomNews2->title}}</span> </a> </div>
+                    @endif
+
             </nav>
         </footer>
     </article>
+    @if($randomNews1)
     <div class="related-posts">
         <div class="container">
             <h3 class="related-posts-title">You may also like</h3>
@@ -144,7 +151,11 @@
                         <a href="{{ route('detailed-news', $randomNews1->id) }}" class="lqd-lp-overlay-link lqd-overlay z-index-2"></a>
                     </article>
                 </div>
+
+                @endif
+
                 <!-- Second Random News Item -->
+                @if($randomNews2)
                 <div class="col-lg-4 col-sm-7 col-xs-12">
                     <article class="lqd-lp lqd-lp-style-13 lqd-lp-hover-img-zoom pos-rel">
                         <div class="lqd-lp-img pos-rel mb-4 overflow-hidden">
@@ -166,6 +177,8 @@
                         <a href="{{ route('detailed-news', $randomNews2->id) }}" class="lqd-lp-overlay-link lqd-overlay z-index-2"></a>
                     </article>
                 </div>
+                @endif
+
             </div>
         </div>
     </div>

@@ -229,8 +229,10 @@
                 </div>
             </section>
         </div>
+
         <footer class="blog-post-footer entry-footer">
             <nav class="post-nav align-items-center h5">
+                @if($randomBlog1)
                 <div class="nav-previous">
                     <a href="{{ route('detailed-blog', $randomBlog1->id) }}" rel="prev"> <span
                             class="screen-reader-text">Previous Article</span> <span aria-hidden="true"
@@ -247,6 +249,8 @@
                             </svg> Previous Article </span> <span class="nav-title">{{ $randomBlog1->title }}</span>
                     </a>
                 </div>
+                @endif
+                @if($randomBlog2)
                 <div class="nav-next"> <a href="{{ route('detailed-blog', $randomBlog2->id) }}" rel="next"> <span
                             class="screen-reader-text">Next Article</span> <span aria-hidden="true"
                             class="nav-subtitle"> <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -261,9 +265,13 @@
                                 </g>
                             </svg> Next Article </span> <span class="nav-title">{{ $randomBlog2->title }}</span> </a>
                 </div>
+                @endif
+
             </nav>
         </footer>
+
     </article>
+    @if($randomBlog1)
     <div class="related-posts">
         <div class="container">
             <h3 class="related-posts-title">You may also like</h3>
@@ -295,7 +303,10 @@
                             class="lqd-lp-overlay-link lqd-overlay z-index-2"></a>
                     </article>
                 </div>
+                @endif
+
                 <!-- Second Random Blog Item -->
+                @if($randomBlog2)
                 <div class="col-lg-4 col-sm-7 col-xs-12">
                     <article class="lqd-lp lqd-lp-style-13 lqd-lp-hover-img-zoom pos-rel">
                         <div class="lqd-lp-img pos-rel mb-4 overflow-hidden">
@@ -322,6 +333,8 @@
                             class="lqd-lp-overlay-link lqd-overlay z-index-2"></a>
                     </article>
                 </div>
+                @endif
+
             </div>
         </div>
     </div>
