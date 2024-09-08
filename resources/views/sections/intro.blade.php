@@ -4,7 +4,14 @@
         Your browser does not support the video tag.
     </video>
     <div class="intro-content">
-        <h1 class="intro_text">We Build Saudi Ventures For A <span class="intro_highlight">Sustainable</span> Future</h1>
+        <h1 class="intro_text">We Build Saudi Ventures For A <span class="intro_highlight">
+            <h2 class="ld-fh-element intro_highlight"
+                data-text-rotator="true"><span
+                    class="txt-rotate-keywords"><span
+                        class="txt-rotate-keyword"><span class="intro_highlight" style="font-weight: 900;">Sustainable</span> </span><span
+                        class="txt-rotate-keyword"><span class="intro_highlight" style="font-weight: 900;">Sustainable</span> </span><span
+                        class="txt-rotate-keyword"><span class="intro_highlight" style="font-weight: 900;">Sustainable</span></span></span></h2>
+        </span> Future</h1>
         <p class="intro_para">ROOTS is on a mission to address the most pressing sustainability challenges in Saudi Arabia and the world through utilizing its resources of capital, knowledge, and network of partners and enablers to create impactful ventures.</p>
     </div>
     <div class="scroll-mouse">

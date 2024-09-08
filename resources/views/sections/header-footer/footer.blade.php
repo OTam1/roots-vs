@@ -32,7 +32,7 @@
                     <div class="ld-fancy-heading">
                         <p class="ld-fh-element text-24 leading-1/5em mb-0/5em"><span>Looking for
                                 collaboration? Send an email to</span> <span class="text-white"><span
-                                    class="text-white underline"><a href="#"
+                                    class="text-white underline"><a href="mailto:Info@roots.ventures"
                                         class="__cf_email__"
                                         data-cfemail="157c7b737a55797c64607c7138617d707870663b767a78" style="
                                         text-decoration: underline;

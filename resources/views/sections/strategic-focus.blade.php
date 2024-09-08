@@ -216,4 +216,15 @@
       <p class="desc-sf">KSA aims to Increase coverage of Wastewater Treatment from 50% to 100%, to meet 90% of water demand by desalinated water, and to reuse over 70% of reclaimed water for Irrigation.
       </p>
   </div>
+  <div class="item-sf item6-sf">
+    <div class="content-sf">
+        <h2>DATA AND INTELlIGENCE SOLUTIONS</h2>
+    </div>
+    <p class="desc-sf">Saudi Arabia To raise the contribution of the digital economy to GDP to 19% by 2030.
+    </p>
+</div>
+
+  
+
+
 </div>

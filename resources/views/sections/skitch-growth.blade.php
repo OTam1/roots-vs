@@ -7,7 +7,7 @@
                 <h1 class="title_sf">Ideation</h1>
                 <p class="para_sf">We ensure a strategic-fit that align to the National ambitious
                     targets for sustainability,
-                    the Sustainable Development Goals, and a significant economical growth
+                    the Sustainable Development Goals, and a significant economical growth.
                 </p>
             </div>
 
@@ -16,7 +16,7 @@
                 <h1 class="title_sf">Validation</h1>
                 <p class="para_sf">We actively engage the relevant stakeholders and early-adopters to
                     ensure a Product-Market-Fit,
-                    and achieve an accelerated Go-to-Market through piloting
+                    and achieve an accelerated Go-to-Market through piloting.
                 </p>
             </div>
 
@@ -36,7 +36,7 @@
                 <p class="para_sf">Filling the blanks in securing growth funding and achieve strategic
                     milestones, provide support
                     ecosystem and access to markets opportunities, while while support impact
-                    measurement and improvement
+                    measurement and improvement.
                 </p>
             </div>
         </div>
