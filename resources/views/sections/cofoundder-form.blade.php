@@ -5,8 +5,7 @@ style="background-image: url(assets/images/common/modal-bg.jpeg);">
     <div class="row items-center content-center h-full">
         <div class="col col-12 col-md-6 mb-30">
             <div class="ld-fancy-heading">
-                <h2 class="ld-fh-element text-88 mb-0/5em leading-1em text-medium">Become a 
-                    <span>Co-Founder</span>
+                <h2 class="ld-fh-element text-88 mb-0/5em leading-1em text-medium">Build with us
                 </h2>
             </div>
             <div class="ld-fancy-heading">
@@ -100,7 +99,7 @@ style="background-image: url(assets/images/common/modal-bg.jpeg);">
                 <p
                     class="ld-fh-element mb-0/5em inline-block relative font-bold leading-1/2em text-16 text-black">
                     <a href="cdn-cgi/l/email-protection.html" class="__cf_email__"
-                        data-cfemail="086b697a6d6d7a7b48607d6a266b6765">Info@roots.ventures</a>
+                        data-cfemail="086b697a6d6d7a7b48607d6a266b6765">Engage@roots.ventures</a>
                 </p>
             </div>
         </div>
@@ -119,7 +118,7 @@ style="background-image: url(assets/images/common/modal-bg.jpeg);">
                 <p
                     class="ld-fh-element mb-0/5em inline-block relative font-bold leading-1/2em text-16 text-black">
                     <a href="cdn-cgi/l/email-protection.html" class="__cf_email__"
-                        data-cfemail="cda4a3aba28da5b8afe3aea2a0">Info@roots.ventures</a>
+                        data-cfemail="cda4a3aba28da5b8afe3aea2a0">Engage@roots.ventures</a>
                 </p>
             </div>
         </div>

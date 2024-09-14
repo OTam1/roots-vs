@@ -6,7 +6,7 @@
         </div>
         <div class="text-section">
             <div class="text-content">
-                <h1 class="mbs-text">
+                <h1 class="mbs-text" id="test1">
                     The first set of initiatives under SGI represents investments worth more than SAR
                     700Bn.
                     Which contribute to creating quality job opportunities, providing significant

@@ -23,16 +23,16 @@
 
     {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> --}}
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=1">
     <link rel="stylesheet" href="{{ '/assets/css/owl.carousel.min.css' }}">
     <link rel="stylesheet" href="{{ '/assets/css/owl.theme.default.min.css' }}">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/vendors/liquid-icon/lqd-essentials/lqd-essentials.min.css">
-    <link rel="stylesheet" href="assets/css/theme.min.css">
-    <link rel="stylesheet" href="assets/css/utility.min.css">
-    <link rel="stylesheet" href="assets/css/demo/asymmetric-agency/base.css">
-    <link rel="stylesheet" href="assets/css/demo/asymmetric-agency/asymmetric-agency.css">
+    <link rel="stylesheet" href="assets/vendors/liquid-icon/lqd-essentials/lqd-essentials.min.css?v=1">
+    <link rel="stylesheet" href="assets/css/theme.min.css?v=1">
+    <link rel="stylesheet" href="assets/css/utility.min.css?v=1">
+    <link rel="stylesheet" href="assets/css/demo/asymmetric-agency/base.css?v=1">
+    <link rel="stylesheet" href="assets/css/demo/asymmetric-agency/asymmetric-agency.css?v=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">

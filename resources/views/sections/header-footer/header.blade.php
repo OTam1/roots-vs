@@ -3,7 +3,7 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
 <div class="lqd-head-sec-wrap lqd-hide-onstuck relative pr-40 pl-125 lg:pl-0 lg:pr-0 md:hidden">
     <div class="lqd-head-sec w-full flex items-stretch justify-between">
         <div class="col-auto lqd-head-col justify-start">
-            <div class="module-logo navbar-brand-plain py-45"><a class="navbar-brand"
+            <div class="module-logo navbar-brand-plain py-20"><a class="navbar-brand"
                 @if (!request()->routeIs('home')) 
                 href="{{ route('home') }}" 
             @endif
@@ -120,8 +120,8 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                             <div class="w-full flex flex-auto flex-col items-start justify-end px-15">
                                 <div class="ld-fancy-heading">
                                     <p class="ld-fh-element text-black mb-1/5em"><a
-                                            href="mailto:Info@roots.ventures" class="__cf_email__"
-                                            >Info@roots.ventures</a>
+                                            href="mailto:Engage@roots.ventures" class="__cf_email__"
+                                            >Engage@roots.ventures</a>
                                     </p>
                                 </div>
                                 <div class="ld-fancy-heading">
@@ -163,7 +163,7 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                 <p class="font-medium" data-lqd-interactive-color="true">
                     {{-- <a
                         href="#" class="__cf_email__"
-                        data-cfemail="6704080913060413270f12054904080a">Info@roots.ventures</a> --}}
+                        data-cfemail="6704080913060413270f12054904080a">Engage@roots.ventures</a> --}}
                         <ul class="social-icon social-icon-lg">
                             <li><a href="https://twitter.com/roots_ventures" target="_blank"><svg class="w-20" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.64"><rect width="512" height="509.64" rx="115.61" ry="115.61"></rect><path fill="#fff" fill-rule="nonzero" d="M323.74 148.35h36.12l-78.91 90.2 92.83 122.73h-72.69l-56.93-74.43-65.15 74.43h-36.14l84.4-96.47-89.05-116.46h74.53l51.46 68.04 59.53-68.04zm-12.68 191.31h20.02l-129.2-170.82H180.4l130.66 170.82z"></path></svg>
                             </a></li>
