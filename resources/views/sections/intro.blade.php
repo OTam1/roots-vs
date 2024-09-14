@@ -8,11 +8,12 @@
             <h2 class="ld-fh-element intro_highlight"
                 data-text-rotator="true"><span
                     class="txt-rotate-keywords"><span
-                        class="txt-rotate-keyword"><span class="intro_highlight" style="font-weight: 900;">Sustainable</span> </span><span
-                        class="txt-rotate-keyword"><span class="intro_highlight" style="font-weight: 900;">Sustainable</span> </span><span
-                        class="txt-rotate-keyword"><span class="intro_highlight" style="font-weight: 900;">Sustainable</span></span></span></h2>
+                        class="txt-rotate-keyword"><span class="intro_highlight">Sustainable</span> </span><span
+                        class="txt-rotate-keyword"><span class="intro_highlight">Greener</span> </span><span
+                        class="txt-rotate-keyword"><span class="intro_highlight">Better</span></span><span
+                        class="txt-rotate-keyword"><span class="intro_highlight">Brighter</span> </span></span></h2>
         </span> Future</h1>
-        <p class="intro_para">ROOTS is on a mission to address the most pressing sustainability challenges in Saudi Arabia and the world through utilizing its resources of capital, knowledge, and network of partners and enablers to create impactful ventures.</p>
+        <p class="w-70percent ld-fh-element text-22 leading-1/5em mb-0/5em">ROOTS is on a mission to address the most pressing sustainability challenges in Saudi Arabia and the world through utilizing its resources of capital, knowledge, and network of partners and enablers to create impactful ventures.</p>
     </div>
     <div class="scroll-mouse">
         <a href="#scrollto">

@@ -41,10 +41,24 @@ $('.ourventures').owlCarousel({
 //     }
 // }
 
+// document.querySelectorAll('.item-sf').forEach(item => {
+//     item.addEventListener('mouseenter', () => {
+//         gsap.to('.item-sf', { flex: 0.26, duration: 0.2 });
+//         gsap.to(item, { flex: 3.90, duration: 0.2 });
+//         gsap.to('.center-title', { opacity: 0, duration: 0.2 });
+//     });
+
+//     item.addEventListener('mouseleave', () => {
+//         gsap.to('.item-sf', { flex: 1, duration: 0.2 });
+//         gsap.to('.center-title', { opacity: 1, duration: 0.2 });
+//     });
+// });
+
+
 document.querySelectorAll('.item-sf').forEach(item => {
     item.addEventListener('mouseenter', () => {
-        gsap.to('.item-sf', { flex: 0.26, duration: 0.2 });
-        gsap.to(item, { flex: 3.90, duration: 0.2 });
+        gsap.to('.item-sf', { flex: 0.46, duration: 0.2 });
+        gsap.to(item, { flex: 3.00, duration: 0.2 });
         gsap.to('.center-title', { opacity: 0, duration: 0.2 });
     });
 
