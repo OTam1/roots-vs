@@ -50,9 +50,7 @@
 
             @include('sections.header-footer.header')
 
-        <main class="content bg-center-top bg-repeat z-2" id="lqd-site-content"
-            style="background-image: url(assets/images/demo/asymmetric-agency/bg-lines.svg);"
-            >
+        <main class="content bg-center-top bg-repeat z-2" id="lqd-site-content">
 
             <div id="lqd-contents-wrap">
                 <div id="loader" class="loader">
