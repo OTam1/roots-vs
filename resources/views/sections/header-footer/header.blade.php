@@ -29,7 +29,11 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                         >Home 
                         {{-- <sup class="link-sup">01</sup> --}}
                     </a></li>
-                        <li><a href="#">Get To Know Us 
+                        <li><a 
+                            @if (!request()->routeIs('about')) 
+                            href="{{ route('about') }}" 
+                        @endif
+                            >Get To Know Us 
                             {{-- <sup class="link-sup">02</sup> --}}
                         </a></li>
 

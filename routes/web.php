@@ -22,6 +22,10 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+Route::get('/get-to-know-us', function () {
+    return view('about');
+})->name('about');
+
 Route::post('/submit-form', [ContactFormController::class, 'submit'])->name('contact.submit');
 Route::get('/news', [FrontController::class, 'newsIndex'])->name('news');
 Route::get('/news/{id}', [FrontController::class, 'newsShow'])->name('detailed-news');

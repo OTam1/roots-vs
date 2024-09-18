@@ -55,13 +55,23 @@
                     <div class="link-14 link-white lqd-fancy-menu lqd-custom-menu lqd-menu-td-none">
                         <ul class="reset-ul">
                             <li class="mb-10"><a class="leading-1/8em"
-                                    href="#">Home</a></li>
+                                @if (!request()->routeIs('home')) 
+                                href="{{ route('home') }}" 
+                            @endif        
+                                >Home</a></li>
                             <li class="mb-10"><a class="leading-1/8em"
-                                    href="#">Get To Know Us</a></li>
+                                @if (!request()->routeIs('about')) 
+                                href="{{ route('about') }}" 
+                            @endif    
+                                >Get To Know Us</a></li>
+                            {{-- <li class="mb-10"><a class="leading-1/8em"
+                                    href="#">Why The Venutre Studio?</a></li> --}}
                             <li class="mb-10"><a class="leading-1/8em"
-                                    href="#">Why The Venutre Studio?</a></li>
-                            <li class="mb-10"><a class="leading-1/8em"
-                                    href="#">Media Center</a></li>
+                                @if (!request()->routeIs('news')) 
+                                href="{{ route('news') }}" 
+                            @endif    
+                                >News</a></li>
+
                         </ul>
                     </div>
                 </div>
