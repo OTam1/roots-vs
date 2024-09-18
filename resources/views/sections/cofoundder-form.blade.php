@@ -20,63 +20,40 @@ style="background-image: url(assets/images/common/modal-bg.jpeg);">
                     <div class="screen-reader-response">
                         <p role="status" aria-live="polite" aria-atomic="true"></p>
                     </div>
-                    <form action="https://hubhtml.liquid-themes.com/assets/php/mailer.php"
-                        method="post" class="lqd-cf-form" novalidate="novalidate"
-                        data-status="init">
+                    Updated Contact Form
+
+                    <form action="{{ route('contact.submit') }}" method="post" class="lqd-cf-form" novalidate="novalidate" data-status="init">
+                        @csrf
                         <div class="row">
                             <div class="col col-md-6 col-12">
                                 <p class="m-0 text-black-30 text-12">Full Name</p>
-                                <p><span class="lqd-form-control-wrap text"><input
-                                            class="text-13 text-black border-black-10 font-bold bg-transparent"
-                                            type="text" name="name" value size="40"
-                                            aria-required="true" aria-invalid="false"
-                                            placeholder="Full Name"></span></p>
+                                <p class=""><span class="lqd-form-control-wrap text"><input class="text-13 text-black border-black-10 font-bold bg-transparent" type="text" name="name" value="{{ old('name') }}" size="40" aria-required="true" aria-invalid="false" placeholder="Full Name"></span></p>
                             </div>
                             <div class="col col-md-6 col-12">
                                 <p class="m-0 text-black-30 text-12">Email Address</p>
-                                <p><span class="lqd-form-control-wrap email"><input
-                                            class="text-13 text-black border-black-10 font-bold bg-transparent"
-                                            type="email" name="email" value size="40"
-                                            aria-required="true" aria-invalid="false"
-                                            placeholder="Email Address"></span></p>
+                                <p><span class="lqd-form-control-wrap email"><input class="text-13 text-black border-black-10 font-bold bg-transparent" type="email" name="email" value="{{ old('email') }}" size="40" aria-required="true" aria-invalid="false" placeholder="Email Address"></span></p>
                             </div>
                             <div class="col col-md-6 col-12">
                                 <p class="m-0 text-black-30 text-12">Mobile number</p>
-                                <p><span class="lqd-form-control-wrap tel"><input
-                                            class="text-13 text-black border-black-10 font-bold bg-transparent"
-                                            type="tel" name="tel" value size="40"
-                                            aria-invalid="false"
-                                            placeholder="Mobile number"></span>
+                                <p class=""><span class="lqd-form-control-wrap tel"><input class="text-13 text-black border-black-10 font-bold bg-transparent" type="tel" name="tel" value="{{ old('tel') }}" size="40" aria-invalid="false" placeholder="Mobile number"></span>
                                 </p>
                             </div>
                             <div class="col col-md-6 col-12">
                                 <p class="m-0 text-black-30 text-12">Linkedin Link</p>
-                                <p><span class="lqd-form-control-wrap text"><input
-                                            class="text-13 text-black border-black-10 font-bold bg-transparent"
-                                            type="text" name="project-name" value
-                                            size="40" aria-required="true"
-                                            aria-invalid="false" placeholder="Linkedin Link"></span>
+                                <p><span class="lqd-form-control-wrap text"><input class="text-13 text-black border-black-10 font-bold bg-transparent" type="text" name="project-name" value="{{ old('project-name') }}" size="40" aria-required="true" aria-invalid="false" placeholder="Linkedin Link"></span>
                                 </p>
                             </div>
                             <div class="col col-12">
                                 <p class="m-0 text-black-30 text-12">Tell Us Why</p>
-                                <p><span class="lqd-form-control-wrap textarea">
-                                        <textarea class="text-13 text-black border-black-10 font-bold bg-transparent" name="message" cols="10"
-                                            rows="4" aria-required="true" aria-invalid="false" placeholder="Write here.."></textarea>
+                                <p class=""><span class="lqd-form-control-wrap textarea">
+                                        <textarea class="text-13 text-black border-black-10 font-bold bg-transparent" name="message" cols="10" rows="4" aria-required="true" aria-invalid="false" placeholder="Write here..">{{ old('message') }}</textarea>
                                     </span></p>
                             </div>
-                            <div class="col col-12"><span
-                                    class="lqd-form-control-wrap acceptance"><span
-                                        class="lqd-cf-form-control lqd-cf-acceptance"><span
-                                            class="lqd-cf-list-item"><label><input type="checkbox"
-                                                    name="acceptance" value="1"
-                                                    aria-invalid="false"> <span
-                                                    class="lqd-cf-list-item-label">I am bound by
+                            <div class="col col-12"><span class="lqd-form-control-wrap acceptance"><span class="lqd-cf-form-control lqd-cf-acceptance"><span class="lqd-cf-list-item"><label><input type="checkbox" name="acceptance" value="1" aria-invalid="false"> <span class="lqd-cf-list-item-label">I am bound by
                                                     the
                                                     terms of the Service I accept Privacy
                                                     Policy</span></label></span></span></span></div>
-                            <div class="col col-12"><input type="submit" value="Send message"
-                                    class="lqd-cf-form-control bg-primary text-white text-17 leading-1/5em font-medium">
+                            <div class="col col-12"><input type="submit" value="Send message" class="lqd-cf-form-control bg-primary text-white text-17 leading-1/5em font-medium">
                             </div>
                         </div>
                     </form>

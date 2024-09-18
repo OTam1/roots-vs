@@ -32,9 +32,11 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                         <li><a href="#">Get To Know Us 
                             {{-- <sup class="link-sup">02</sup> --}}
                         </a></li>
-                        <li><a href="#">Why The Venutre Studio?
-                         {{-- <sup class="link-sup">03</sup> --}}
-                        </a></li>
+
+                                     {{-- hidden --}}
+                        {{-- <li><a href="#">Why The Venutre Studio?
+                         <sup class="link-sup">03</sup>
+                        </a></li> --}}
                         <li><a
                         @if (!request()->routeIs('news')) 
                             href="{{ route('news') }}" 
@@ -42,13 +44,16 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                         >News 
                         {{-- <sup class="link-sup">04</sup> --}}
                         </a></li>
-                        <li><a 
+
+
+                               {{-- hidden --}}
+                        {{-- <li><a 
                             @if (!request()->routeIs('blog')) 
                             href="{{ route('blog') }}" 
                             @endif
                             >Blog 
-                            {{-- <sup class="link-sup">05</sup> --}}
-                        </a></li>
+                            <sup class="link-sup">05</sup>
+                        </a></li> --}}
     
                     </ul>
                 </div>
@@ -101,19 +106,25 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                                         >Home</a></li>
                                         <li class="mb-15"><a class="flex hover:text-primary"
                                                 href="#">Get To Know Us</a></li>
-                                        <li class="mb-15"><a class="flex hover:text-primary"
-                                                href="#">Why The Venutre Studio?</a></li>
+
+                                              {{-- hidden --}}
+                                        {{-- <li class="mb-15"><a class="flex hover:text-primary"
+                                                href="#">Why The Venutre Studio?</a></li> --}}
+
                                         <li class="mb-15"><a class="flex hover:text-primary"
                                         @if (!request()->routeIs('news')) 
                                             href="{{ route('news') }}" 
                                         @endif
                                         >News</a></li>
-                                        <li class="mb-15"><a class="flex hover:text-primary"
+
+                                            {{-- hidden --}}
+                                        {{-- <li class="mb-15"><a class="flex hover:text-primary"
                                             @if (!request()->routeIs('blog')) 
                                             href="{{ route('blog') }}" 
                                             @endif
                                             >Blog</a>
-                                        </li>
+                                        </li> --}}
+
                                     </ul>
                                 </div>
                             </div>
@@ -227,21 +238,25 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                             class="link-sup">01</sup></a></li>
                 <li><a class="mt-0/75em" href="#">Get To Know Us <sup
                             class="link-sup">02</sup></a></li>
-                <li><a class="mt-0/75em" href="#">Why The Venutre Studio?
+                            
+                                    {{-- hidden --}}
+                {{-- <li><a class="mt-0/75em" href="#">Why The Venutre Studio?
                         <span class="submenu-expander absolute"></span> <sup class="link-sup">03</sup></a>
-                </li>
+                </li> --}}
+
                 <li><a class="mt-0/75em"
                 @if (!request()->routeIs('news')) 
                     href="{{ route('news') }}" 
                 @endif
-                >News <sup
-                            class="link-sup">04</sup></a></li>
-                <li><a class="mt-0/75em" 
+                >News <sup class="link-sup">04</sup></a></li>
+
+                           {{-- hidden --}}
+                {{-- <li><a class="mt-0/75em" 
                     @if (!request()->routeIs('blog')) 
                     href="{{ route('blog') }}" 
                     @endif>
                     Blog <sup
-                    class="link-sup">05</sup></a></li>
+                    class="link-sup">05</sup></a></li> --}}
     
             </ul>
         </div>

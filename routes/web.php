@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomLoginController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\FrontController;
+use App\Http\Controllers\ContactFormController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +22,7 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+Route::post('/submit-form', [ContactFormController::class, 'submit'])->name('contact.submit');
 Route::get('/news', [FrontController::class, 'newsIndex'])->name('news');
 Route::get('/news/{id}', [FrontController::class, 'newsShow'])->name('detailed-news');
 

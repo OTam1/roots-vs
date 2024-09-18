@@ -70,7 +70,7 @@
                         <h3 class="ld-fh-element text-14 leading-1/5em text-white mb-1/5em">Find us</h3>
                     </div>
                     <div class="ld-fancy-heading">
-                        <p class="ld-fh-element text-14 mb-1/5em">290 Maryam Springs<br>Saudi Arabia, Riyadh</p>
+                        <p class="ld-fh-element text-14 mb-1/5em">Al-Malqa<br>Saudi Arabia, Riyadh</p>
                     </div>
                 </div>
             </div>
