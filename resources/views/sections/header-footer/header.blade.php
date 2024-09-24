@@ -109,7 +109,11 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                                         @endif
                                         >Home</a></li>
                                         <li class="mb-15"><a class="flex hover:text-primary"
-                                                href="#">Get To Know Us</a></li>
+                                        @if (!request()->routeIs('about')) 
+                                        href="{{ route('about') }}" 
+                                        @endif
+
+                                        >Get To Know Us</a></li>
 
                                               {{-- hidden --}}
                                         {{-- <li class="mb-15"><a class="flex hover:text-primary"
