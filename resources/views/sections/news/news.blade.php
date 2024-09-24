@@ -7,7 +7,7 @@
                         <h2 class="ld-fh-element mb-0/5em">Latest News </h2>
                     </div>
                     <div class="ld-fancy-heading">
-                        <p class="ld-fh-element mb-0/5em">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <!-- <p class="ld-fh-element mb-0/5em">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
                     </div>
                 </div>
             </div>
@@ -30,7 +30,9 @@
                         <h5 class="lqd-lp-title text-22 m-0">{{ $item->title }}</h5>
                     </header>
                     <div class="lqd-lp-excerpt mb-1em">{{ $item->excerpt }}</div>
-                        <a href="{{ route('detailed-news', $item->id) }}" class="lqd-lp-overlay-link lqd-overlay z-index-2"></a>
+                        <!-- <a href="{{ route('detailed-news', $item->id) }}" class="lqd-lp-overlay-link lqd-overlay z-index-2"></a> -->
+                        <a href="{{ $item->link }}" class="lqd-lp-overlay-link lqd-overlay z-index-2"></a>
+
                 </article>
             </div>
             @endforeach
