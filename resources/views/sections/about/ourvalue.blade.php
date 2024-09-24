@@ -11,7 +11,7 @@
             <div class="col col-12 col-lg-4 lqd-unit-animation-done" style="">
                 <div class="w-full relative flex flex-col justify-center border-1 border-black-20 pt-65 pb-50 px-55 mb-30 module-icon-box">
                     <div class="iconbox relative flex-col items-start justify-center text-start" data-animate-icon="true" data-plugin-options="{&quot;color&quot; : &quot;rgb(255, 255, 255)&quot;}">
-                        <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-55 text-52 text-primary"><i class="lqd-icn-ess icon-lqd-path"></i></span></div>
+                        <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-55 text-52 text-primary"><i class="lqd-icn-ess icon-ion-ios-add"></i></span></div>
                         <div class="contents">
                             <h3 class="font-semibold uppercase mb-10 text-14 text-black">Impact</h3>
                             <p><span class="text-16 leading-20 text-gray-400">We aim for meaningful contributions that benefit the economy and the community.
@@ -57,7 +57,7 @@
 <div class="col col-12 col-lg-4 lqd-unit-animation-done" style="">
                 <div class="w-full relative flex flex-col justify-center border-1 border-black-20 pt-65 pb-50 px-55 mb-30 module-icon-box">
                     <div class="iconbox relative flex-col items-start justify-center text-start" data-animate-icon="true" data-plugin-options="{&quot;color&quot; : &quot;rgb(255, 255, 255)&quot;}">
-                        <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-55 text-52 text-primary"><i class="lqd-icn-ess icon-lqd-path"></i></span></div>
+                        <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-55 text-52 text-primary"><i class="lqd-icn-ess icon-lqd-target"></i></span></div>
                         <div class="contents">
                             <h3 class="font-semibold uppercase mb-10 text-14 text-black">Enablement</h3>
                             <p><span class="text-16 leading-20 text-gray-400">We equip our people with the necessary tools and knowledge &amp; foster informed decision-making among partners.
