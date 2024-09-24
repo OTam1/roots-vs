@@ -240,7 +240,11 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                 @endif
                 >Home <sup
                             class="link-sup">01</sup></a></li>
-                <li><a class="mt-0/75em" href="#">Get To Know Us <sup
+                <li><a class="mt-0/75em" 
+                @if (!request()->routeIs('about')) 
+                    href="{{ route('about') }}" 
+                @endif
+                >Get To Know Us <sup
                             class="link-sup">02</sup></a></li>
                             
                                     {{-- hidden --}}
