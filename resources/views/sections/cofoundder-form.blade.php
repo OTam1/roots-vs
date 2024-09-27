@@ -1,15 +1,15 @@
 <section id="co-contactus"
 class="lqd-section lqd-modal-content flex items-center link-black bg-center bg-cover bg-norepeat h-100vh py-80 sm:h-auto"
-style="background-image: url(assets/images/common/modal-bg.jpeg);">
+style="background-image: url();" dir="{{ app()->getLocale() == 'ar' ? 'rtl' : 'ltr' }}">
 <div class="container flex items-center sm:p-0">
     <div class="row items-center content-center h-full">
         <div class="col col-12 col-md-6 mb-30">
             <div class="ld-fancy-heading">
-                <h2 class="ld-fh-element text-88 mb-0/5em leading-1em text-medium">Build with us
+                <h2 class="ld-fh-element text-88 mb-0/5em leading-1em text-medium">@lang('home.contact_title')
                 </h2>
             </div>
             <div class="ld-fancy-heading">
-                <p class="ld-fh-element mb-2/5em">We're here to answer any question you may have.
+                <p class="ld-fh-element mb-2/5em">@lang('home.contact_desc')
                 </p>
             </div>
         </div>
@@ -20,40 +20,37 @@ style="background-image: url(assets/images/common/modal-bg.jpeg);">
                     <div class="screen-reader-response">
                         <p role="status" aria-live="polite" aria-atomic="true"></p>
                     </div>
-                    Updated Contact Form
-
                     <form action="{{ route('contact.submit') }}" method="post" class="lqd-cf-form" novalidate="novalidate" data-status="init">
                         @csrf
                         <div class="row">
                             <div class="col col-md-6 col-12">
-                                <p class="m-0 text-black-30 text-12">Full Name</p>
-                                <p class=""><span class="lqd-form-control-wrap text"><input class="text-13 text-black border-black-10 font-bold bg-transparent" type="text" name="name" value="{{ old('name') }}" size="40" aria-required="true" aria-invalid="false" placeholder="Full Name"></span></p>
+                                <p class="m-0 text-black-30 text-12">@lang('home.contact_fullname')</p>
+                                <p><span class="lqd-form-control-wrap text"><input class="text-13 text-black border-black-10 font-bold bg-transparent" type="text" name="name" value="{{ old('name') }}" size="40" aria-required="true" aria-invalid="false" placeholder="@lang('home.contact_fullname')"></span></p>
                             </div>
                             <div class="col col-md-6 col-12">
-                                <p class="m-0 text-black-30 text-12">Email Address</p>
-                                <p><span class="lqd-form-control-wrap email"><input class="text-13 text-black border-black-10 font-bold bg-transparent" type="email" name="email" value="{{ old('email') }}" size="40" aria-required="true" aria-invalid="false" placeholder="Email Address"></span></p>
+                                <p class="m-0 text-black-30 text-12">@lang('home.contact_email')</p>
+                                <p><span class="lqd-form-control-wrap email"><input class="text-13 text-black border-black-10 font-bold bg-transparent" type="email" name="email" value="{{ old('email') }}" size="40" aria-required="true" aria-invalid="false" placeholder="@lang('home.contact_email')"></span></p>
                             </div>
                             <div class="col col-md-6 col-12">
-                                <p class="m-0 text-black-30 text-12">Mobile number</p>
-                                <p class=""><span class="lqd-form-control-wrap tel"><input class="text-13 text-black border-black-10 font-bold bg-transparent" type="tel" name="tel" value="{{ old('tel') }}" size="40" aria-invalid="false" placeholder="Mobile number"></span>
+                                <p class="m-0 text-black-30 text-12">@lang('home.contact_mobile')</p>
+                                <p><span class="lqd-form-control-wrap tel"><input class="text-13 text-black border-black-10 font-bold bg-transparent" type="phone" name="tel" value="{{ old('tel') }}" size="40" aria-invalid="true" placeholder="@lang('home.contact_mobile')"></span>
                                 </p>
                             </div>
                             <div class="col col-md-6 col-12">
-                                <p class="m-0 text-black-30 text-12">Linkedin Link</p>
-                                <p><span class="lqd-form-control-wrap text"><input class="text-13 text-black border-black-10 font-bold bg-transparent" type="text" name="project-name" value="{{ old('project-name') }}" size="40" aria-required="true" aria-invalid="false" placeholder="Linkedin Link"></span>
+                                <p class="m-0 text-black-30 text-12">@lang('home.contact_linkedin')</p>
+                                <p><span class="lqd-form-control-wrap text"><input class="text-13 text-black border-black-10 font-bold bg-transparent" type="text" name="project-name" value="{{ old('project-name') }}" size="40" aria-required="true" aria-invalid="false" placeholder="@lang('home.contact_linkedin')"></span>
                                 </p>
                             </div>
                             <div class="col col-12">
-                                <p class="m-0 text-black-30 text-12">Tell Us Why</p>
+                                <p class="m-0 text-black-30 text-12">@lang('home.contact_why')</p>
                                 <p class=""><span class="lqd-form-control-wrap textarea">
-                                        <textarea class="text-13 text-black border-black-10 font-bold bg-transparent" name="message" cols="10" rows="4" aria-required="true" aria-invalid="false" placeholder="Write here..">{{ old('message') }}</textarea>
+                                        <textarea class="text-13 text-black border-black-10 font-bold bg-transparent" name="message" cols="10" rows="4" aria-required="true" aria-invalid="false" placeholder="@lang('home.contact_write')">{{ old('message') }}</textarea>
                                     </span></p>
                             </div>
-                            <div class="col col-12"><span class="lqd-form-control-wrap acceptance"><span class="lqd-cf-form-control lqd-cf-acceptance"><span class="lqd-cf-list-item"><label><input type="checkbox" name="acceptance" value="1" aria-invalid="false"> <span class="lqd-cf-list-item-label">I am bound by
-                                                    the
-                                                    terms of the Service I accept Privacy
-                                                    Policy</span></label></span></span></span></div>
-                            <div class="col col-12"><input type="submit" value="Send message" class="lqd-cf-form-control bg-primary text-white text-17 leading-1/5em font-medium">
+                            <div class="col col-12"><span class="lqd-form-control-wrap acceptance"><span class="lqd-cf-form-control lqd-cf-acceptance"><span class="lqd-cf-list-item"><label><input type="checkbox" name="acceptance" value="1" aria-invalid="false"> <span class="lqd-cf-list-item-label">
+                                @lang('home.contact_select')
+                            </span></label></span></span></span></div>
+                            <div class="col col-12"><input type="submit" value="@lang('home.contact_Send')" class="lqd-cf-form-control bg-primary text-white text-17 leading-1/5em font-medium">
                             </div>
                         </div>
                     </form>
@@ -65,12 +62,12 @@ style="background-image: url(assets/images/common/modal-bg.jpeg);">
             <div class="ld-fancy-heading relative">
                 <h6
                     class="ld-fh-element text-14 font-bold mb-1/25em tracking-0 inline-block relative">
-                    careers</h6>
+                    @lang('home.careers')</h6>
             </div>
             <div class="ld-fancy-heading relative">
                 <p
                     class="ld-fh-element text-16 leading-1/2em mb-0/75em inline-block relative text-black">
-                    Would you like to join our growing team?</p>
+                    @lang('home.careers_desc')</p>
             </div>
             <div class="ld-fancy-heading relative">
                 <p
@@ -84,12 +81,12 @@ style="background-image: url(assets/images/common/modal-bg.jpeg);">
             <div class="ld-fancy-heading relative">
                 <h6
                     class="ld-fh-element text-14 font-bold mb-1/25em tracking-0 inline-block relative">
-                    Feedbacks</h6>
+                    @lang('home.feedbacks')</h6>
             </div>
             <div class="ld-fancy-heading relative">
                 <p
                     class="ld-fh-element text-16 leading-1/2em mb-0/75em inline-block relative text-black">
-                    Have a project in mind? Send a message.</p>
+                    @lang('home.feedbacks_desc')</p>
             </div>
             <div class="ld-fancy-heading relative">
                 <p

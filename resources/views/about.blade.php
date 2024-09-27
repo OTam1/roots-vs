@@ -52,7 +52,7 @@
 
         <main class="content bg-center-top bg-repeat z-2" id="lqd-site-content">
 
-            <div id="lqd-contents-wrap">
+            <div id="lqd-contents-wrap" dir="{{ app()->getLocale() == 'ar' ? 'rtl' : 'ltr' }}">
                 <div id="loader" class="loader">
                     <div class="spinner"></div>
                 </div>

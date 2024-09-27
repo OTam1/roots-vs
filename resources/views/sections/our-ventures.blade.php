@@ -1,5 +1,5 @@
 <div class="carousel-wrapper1">
-    <h1 class="our_ventures_text">Our Ventures</h1>
+    <h1 class="our_ventures_text">@lang('home.our_v_title')</h1>
     <div class="owl-carousel ourventures owl-theme owl-custom-1">
 
         <div class="item carousel-item-1" onclick="openModal('Coz')">
@@ -35,7 +35,7 @@
 
 
     <!-- Modal Structure -->
-    <div id="modal" class="modal">
+    <div id="modal" class="modal" dir="{{ app()->getLocale() == 'ar' ? 'rtl' : 'ltr' }}">
         <div class="modal-content">
             <span class="close-button" onclick="closeModal()">&times;</span>
             <div id="modal-body"></div>
@@ -46,30 +46,30 @@
 document.addEventListener("DOMContentLoaded", () => {
     const modalContentMap = {
         'Coz': {
-            title: "Coz",
-            description: "Saudi’s first carbon credits origination and offsetting platform",
-            content:"We created COZ to address the critical need for carbon management solutions in industries that are essential yet significant contributors to the reduction of emissions. COZ is Saudi Arabia’s first carbon credits origination and offsetting platform, designed to transform the way businesses engage with carbon markets. By simplifying the process of carbon credit issuance for key clients in Renewable Energy, Waste Management, and Nature-Based Solutions, COZ supports projects that significantly reduce carbon footprints. In its first year of operation, COZ successfully engaged with these sectors to help them generate and manage carbon credits, aligning with Saudi Arabia’s ambitious environmental goals.",
+            title: "{{ __('home.our_v_1') }}",
+            description: "{{ __('home.our_v_title_1') }}", // Inject translation
+            content:"{{ __('home.our_v_desc_1') }}",
             founded:"2023",
-            stage:"Pre-seed",
-            investors:"ROOTS Angel Network",
+            stage:"{{ __('home.our_v_stage_1') }}",
+            investors:"{{ __('home.our_v_investors_1') }}",
             url:"Coz.com",
             width:"18%"
 
         },
         'Eyotic': {
-            title: "Eyotic",
-            description: "Fit-for-purpose, and affordable industrial intelligence solution for sustainable excellence",
-            content:"We established Eyotic in response to the inefficiencies and environmental challenges within the industrial sector. Eyotic is a tech-enabled platform that leverages Industry 4.0 technologies to enhance sustainability and operational efficiency in industries. By optimizing processes, reducing waste, and lowering energy consumption, Eyotic directly contributes to the National Industrial Strategy. During its inaugural year, Eyotic formed strategic partnerships with the Ministry of Industry and the Saudi Industrial Development Fund (SIDF), securing crucial support and alignment with government initiatives aimed at boosting industrial sustainability and innovation.",
+            title: "{{ __('home.our_v_2') }}",
+            description: "{{ __('home.our_v_title_2') }}", // Inject translation
+            content:"{{ __('home.our_v_desc_2') }}",
             founded:"2023",
-            stage:"Pre-seed",
-            investors:"ROOTS Angel Network",
+            stage:"{{ __('home.our_v_stage_2') }}",
+            investors:"{{ __('home.our_v_investors_2') }}",
             url:"Eyotic.com",
             width:"24%"
 
         },
         'Rai': {
-            title: "Rai",
-            description: "Description for Rai. Customize this content as needed.",
+            title: "{{ __('home.our_v_3') }}",
+            description: "",
             content:"",
             founded:"",
             stage:"",
@@ -79,8 +79,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         },
         'Rootlytics': {
-            title: "Rootlytics",
-            description: "Description for Rootlytics. Customize this content as needed.",
+            title: "{{ __('home.our_v_4') }}",
+            description: "",
             content:"",
             founded:"",
             stage:"",
@@ -102,15 +102,15 @@ document.addEventListener("DOMContentLoaded", () => {
             <p style='font-size: 22px;line-height: 36px;margin-bottom: 3rem;color: black;'>${content.content}</p>
             <div class='flex-container'>
                 <div class='modal-flex'>
-                    <h6 class="text-title-flex">Founded</h6>
+                    <h6 class="text-title-flex">{{ __('home.founded') }}</h6>
                     <p class='text-desc-flex'>${content.founded}</p>
                 </div>  
                 <div class='modal-flex'>
-                    <h6 class="text-title-flex">Stage</h6>
+                    <h6 class="text-title-flex">{{ __('home.stage') }}</h6>
                     <p class='text-desc-flex'>${content.stage}</p>
                 </div>    
                 <div class='modal-flex'>
-                    <h6 class="text-title-flex">Investors</h6>
+                    <h6 class="text-title-flex">{{ __('home.investors') }}</h6>
                     <p class='text-desc-flex'>${content.investors}</p>
                 </div>
             </div>

@@ -101,7 +101,7 @@
     </div> --}}
 
     <div class="carousel-wrapper">
-        <h1 class="partners_text">Our Ecosystem</h1>
+        <h1 class="partners_text">@lang('home.eco_title')</h1>
         <div class="owl-carousel partners owl-theme owl-custom">
             <div class="item carousel-item"><img src="{{ '/assets/img/ecosystem/logo-aqua.png' }}"
                     alt="Partner 1"></div>

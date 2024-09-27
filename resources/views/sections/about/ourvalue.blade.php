@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row items-center">
             <div class="col col-12 col-md-6 lqd-unit-animation-done" style="">
-                <h1 class="class=" ld-fh-element="" mb-0=""> Our Values</h1>
+                <h1 class="class=" ld-fh-element="" mb-0=""> @lang('gettoknowus.values')</h1>
             </div>
             <div class="col col-12 col-md-5 offset-md-1 lqd-unit-animation-done" style=""></div>
             <div class="col col-12 lqd-unit-animation-done" style="">
@@ -13,8 +13,8 @@
                     <div class="iconbox relative flex-col items-start justify-center text-start" data-animate-icon="true" data-plugin-options="{&quot;color&quot; : &quot;rgb(255, 255, 255)&quot;}">
                         <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-55 text-52 text-primary"><i class="lqd-icn-ess icon-ion-ios-add"></i></span></div>
                         <div class="contents">
-                            <h3 class="font-semibold uppercase mb-10 text-14 text-black">Impact</h3>
-                            <p><span class="text-16 leading-20 text-gray-400">We aim for meaningful contributions that benefit the economy and the community.
+                            <h3 class="font-semibold uppercase mb-10 text-14 text-black">@lang('gettoknowus.impact')</h3>
+                            <p><span class="text-16 leading-20 text-gray-400">@lang('gettoknowus.impact_desc')
                             </span></p>
                         </div>
                     </div>
@@ -25,8 +25,8 @@
                     <div class="iconbox relative flex-col items-start justify-center text-start" data-animate-icon="true" data-plugin-options="{&quot;color&quot; : &quot;rgb(255, 255, 255)&quot;}">
                         <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-55 text-52 text-primary"><i class="lqd-icn-ess icon-lqd-mobile"></i></span></div>
                         <div class="contents">
-                            <h3 class="font-semibold uppercase mb-10 text-14 text-black">Innovation</h3>
-                            <p><span class="text-16 leading-20 text-gray-400">We embrace new ideas and continuously seek inventive solutions that enable the pursuit of our mission.
+                            <h3 class="font-semibold uppercase mb-10 text-14 text-black">@lang('gettoknowus.innovation')</h3>
+                            <p><span class="text-16 leading-20 text-gray-400">@lang('gettoknowus.innovation_desc')
                             </span></p>
                         </div>
                     </div>
@@ -37,8 +37,8 @@
                     <div class="iconbox relative flex-col items-start justify-center text-start" data-animate-icon="true" data-plugin-options="{&quot;color&quot; : &quot;rgb(255, 255, 255)&quot;}">
                         <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-55 text-52 text-primary"><i class="lqd-icn-ess icon-lqd-cogs"></i></span></div>
                         <div class="contents">
-                            <h3 class="font-semibold uppercase mb-10 text-14 text-black">Accountability</h3>
-                            <p><span class="text-16 leading-20 text-gray-400">We own our actions, celebrate successes,  and embrace our failures as learning opportunities
+                            <h3 class="font-semibold uppercase mb-10 text-14 text-black">@lang('gettoknowus.accountability')</h3>
+                            <p><span class="text-16 leading-20 text-gray-400">@lang('gettoknowus.accountability_desc')
                             </span></p>
                         </div>
                     </div>
@@ -59,8 +59,8 @@
                     <div class="iconbox relative flex-col items-start justify-center text-start" data-animate-icon="true" data-plugin-options="{&quot;color&quot; : &quot;rgb(255, 255, 255)&quot;}">
                         <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-55 text-52 text-primary"><i class="lqd-icn-ess icon-lqd-target"></i></span></div>
                         <div class="contents">
-                            <h3 class="font-semibold uppercase mb-10 text-14 text-black">Enablement</h3>
-                            <p><span class="text-16 leading-20 text-gray-400">We equip our people with the necessary tools and knowledge &amp; foster informed decision-making among partners.
+                            <h3 class="font-semibold uppercase mb-10 text-14 text-black">@lang('gettoknowus.enablement')</h3>
+                            <p><span class="text-16 leading-20 text-gray-400">@lang('gettoknowus.enablement_desc')
                             </span></p>
                         </div>
                     </div>
@@ -71,8 +71,8 @@
                     <div class="iconbox relative flex-col items-start justify-center text-start" data-animate-icon="true" data-plugin-options="{&quot;color&quot; : &quot;rgb(255, 255, 255)&quot;}">
                         <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-55 text-52 text-primary"><i class="lqd-icn-ess icon-lqd-presentation"></i></span></div>
                         <div class="contents">
-                            <h3 class="font-semibold uppercase mb-10 text-14 text-black">Transparency</h3>
-                            <p><span class="text-16 leading-20 text-gray-400">We maintain open and honest communication to build trust with team members, investors, and stakeholders.
+                            <h3 class="font-semibold uppercase mb-10 text-14 text-black">@lang('gettoknowus.transparency')</h3>
+                            <p><span class="text-16 leading-20 text-gray-400">@lang('gettoknowus.transparency_desc')
                             </span></p>
                         </div>
                     </div>

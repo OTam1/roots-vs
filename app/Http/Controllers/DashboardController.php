@@ -66,10 +66,13 @@ class DashboardController extends Controller
         $news->description = $request->input('description');
         $news->description_ar = $request->input('description_ar');
         $news->date = $request->input('date');
+        $news->date_ar = $request->input('date_ar');
         $news->writer = $request->input('writer');
         $news->writer_ar = $request->input('writer_ar');
         $news->link = $request->input('link');
+        $news->link_ar = $request->input('link_ar');
         $news->visibility = $request->input('visibility'); 
+        $news->visibility_ar = $request->input('visibility_ar'); 
 
         // Handle image upload
         if ($request->hasFile('image')) {
@@ -78,6 +81,14 @@ class DashboardController extends Controller
             $image->move(public_path('images'), $imageName);
             $news->image = $imageName;
         }
+
+        // Handle image upload
+        if ($request->hasFile('image_ar')) {
+            $image_ar = $request->file('image_ar');
+            $imageName_ar = time() . '.' . $image_ar->extension();
+            $image_ar->move(public_path('image_ar'), $imageName_ar);
+            $news->image_ar = $imageName_ar;
+        }        
 
     // Save the News object
     $news->save();
@@ -102,10 +113,13 @@ class DashboardController extends Controller
             'description' => 'nullable|string',
             'description_ar' => 'nullable|string',
             'date' => 'required|date',
+            'date_ar' => 'required|date',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'image_ar' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
             'writer' => 'nullable|string|max:255',
             'writer_ar' => 'nullable|string|max:255',
             'link' => 'nullable|string|max:255',
+            'link_ar' => 'nullable|string|max:255',
         ]);
 
         $news = News::findOrFail($id);
@@ -117,9 +131,11 @@ class DashboardController extends Controller
         $news->description = $request->input('description');
         $news->description_ar = $request->input('description_ar');
         $news->date = $request->input('date');
+        $news->date_ar = $request->input('date_ar');
         $news->writer = $request->input('writer');
         $news->writer_ar = $request->input('writer_ar');
         $news->link = $request->input('link');
+        $news->link_ar = $request->input('link_ar');
 
         
         if ($request->hasFile('image')) {
@@ -129,6 +145,15 @@ class DashboardController extends Controller
             $news->image = $imageName;
         }
 
+        // Handle image upload
+        if ($request->hasFile('image_ar')) {
+            $image = $request->file('image_ar');
+            $imageName = time() . '.' . $image->extension();
+            $image->move(public_path('image_ar'), $imageName);
+            $news->image = $imageName;
+        }        
+        
+        
         $news->save();
         
         return redirect()->route('dashboard.news.index')->with('success', 'News updated successfully.');

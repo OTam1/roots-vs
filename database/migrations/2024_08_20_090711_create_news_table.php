@@ -22,11 +22,15 @@ return new class extends Migration
             $table->text('description');
             $table->text('description_ar');
             $table->date('date');
+            $table->date('date_ar');
             $table->string('image');
+            $table->string('image_ar');
             $table->string('writer')->nullable();
             $table->string('writer_ar')->nullable();
             $table->string('link')->nullable();
+            $table->string('link_ar')->nullable();
             $table->boolean('visibility')->default(true); 
+            $table->boolean('visibility_ar')->default(true); 
             $table->timestamps();
         });
     }

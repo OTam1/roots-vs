@@ -17,11 +17,14 @@ class News extends Model
         'description',
         'description_ar',
         'date',
+        'date_ar',
         'image',
         'writer',
         'writer_ar',
         'link',
+        'link_ar',
         'visibility',
+        'visibility_ar',
     ];
 
 }

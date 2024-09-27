@@ -3,10 +3,11 @@
         <div class="row">
             <div class="col col-12 col-md-12">
                 <div class="ld-fancy-heading">
-                    <h1 class="ld-fh-element mb-0/75em text-50 -tracking-0/5">About ROOTS</h1>
+                    <h1 class="ld-fh-element mb-0/75em text-50 -tracking-0/5">@lang('gettoknowus.about')</h1>
                 </div>
                 <div class="ld-fancy-heading">
-                    <p class="ld-fh-element mb-0/5em leading-1/5em text-20 pr-10percent md:pr-0">ROOTS is the first venture studio in Saudi Arabia that focuses on climate tech and sustainability. ROOTS aims to open investment opportunities, localize advanced technologies, provide job opportunities for promising Saudi talents, and attract global investments. This contributes to achieving environmental sustainability goals in the Kingdom and worldwide.
+                    <p class="ld-fh-element mb-0/5em leading-1/5em text-20 md:pr-0">
+                        @lang('gettoknowus.about_desc')
                     </p>
                 </div>
             </div>
@@ -20,9 +21,8 @@
                 <div class="iconbox mb-30 flex flex-col relative justify-center items-start text-start animation-element lqd-unit-animation-done" style="">
                     <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-30 text-50 leading-1em text-primary transition-all"><i class="lqd-icn-ess icon-lqd-eye"></i></span></div>
                     <div class="contents">
-                        <h3 class="text-18 mb-20 leading-1/5em">Vision</h3>
-                        <p class="text-16 text-gray-400 font-medium"><span>To become the key enabler for sustainability
-                            innovation in the country and in the region.</span></p>
+                        <h3 class="text-18 mb-20 leading-1/5em"> @lang('gettoknowus.vision')</h3>
+                        <p class="text-16 text-gray-400 font-medium"><span>@lang('gettoknowus.vision_desc')</span></p>
                     </div>
                 </div>
             </div>
@@ -30,11 +30,8 @@
                 <div class="iconbox mb-30 flex flex-col relative justify-center items-start text-start animation-element lqd-unit-animation-done" style="">
                     <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-30 text-50 leading-1em text-primary transition-all"><i class="lqd-icn-ess icon-lqd-path"></i></span></div>
                     <div class="contents">
-                        <h3 class="text-18 mb-20 leading-1/5em">Mission</h3>
-                        <p class="text-16 text-gray-400 font-medium"><span>To Build impact driven ventures that address
-                            climate change challenges, unlock untapped
-                            opportunities, and contribute to achieving
-                            sustainability, local and global, ambitions.</span></p>
+                        <h3 class="text-18 mb-20 leading-1/5em">@lang('gettoknowus.mission')</h3>
+                        <p class="text-16 text-gray-400 font-medium"><span>@lang('gettoknowus.mission_desc')</span></p>
                     </div>
                 </div>
             </div>

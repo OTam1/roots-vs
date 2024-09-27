@@ -117,8 +117,23 @@
 
                         <div class="col-md-6">
                             <div class="input-group input-group-outline my-3 is-filled">
+                                <label class="form-label">Date (Arabic)</label>
+                                <input type="date" class="form-control" name="date_ar" value="" dir="ltr">
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <div class="input-group input-group-outline my-3 is-filled">
                                 <label class="form-label">Link</label>
                                 <input type="text" class="form-control" name="link" value="" dir="ltr" required>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="input-group input-group-outline my-3 is-filled">
+                                <label class="form-label">Link (Arabic)</label>
+                                <input type="text" class="form-control" name="link_ar" value="" dir="ltr" required>
                             </div>
                         </div>
 
@@ -131,8 +146,23 @@
 
                         <div class="col-md-6">
                             <div class="form-group">
+                                <label for="image-upload">Upload New Image (Arabic)</label>
+                                <input type="file" class="form-control-file" id="image-upload" name="image_ar" accept="image/jpeg, image/png, image/jpg, image/gif" required>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <div class="form-group">
                                 <label for="visibility">Publish News? (show)</label>
                                 <input type="checkbox" name="visibility" id="visibility" value="1">
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="visibility">Publish News? (show Arabic)</label>
+                                <input type="checkbox" name="visibility_ar" id="visibility" value="1">
                             </div>
                         </div>
 

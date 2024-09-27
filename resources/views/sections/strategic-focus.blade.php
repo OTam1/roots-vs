@@ -177,50 +177,50 @@
 
 <div class="container-sf" id="scrollto">
   <div class="center-title">
-      <h1>STRATEGIC FOCUS</h1>
+      <h1>@lang('home.sf_title')</h1>
   </div>
   <div class="item-sf item1-sf">
       <div class="content-sf">
-          <h2>EMISSIONS MANAGEMENT AND CARBON MARKETS</h2>
+          <h2>@lang('home.sf_title_1')</h2>
       </div>
-      <p class="desc-sf">The kingdom aims to achieve net-zero by 2060, reduce 278mtpa of emissions, and build a regional carbon market.</p>
+      <p class="desc-sf">@lang('home.sf_desc_1')</p>
 
   </div>
   <div class="item-sf item2-sf">
       <div class="content-sf">
-          <h2>ENERGY TRANSITION</h2>
+          <h2>@lang('home.sf_title_2')</h2>
       </div>
-      <p class="desc-sf">The Kingdom aims to achieve an optimal energy mix for electricity production by having gas and renewable energy at approximately 50% each by 2030.
+      <p class="desc-sf">@lang('home.sf_desc_2')
       </p>
 
   </div>
   <div class="item-sf item3-sf">
       <div class="content-sf">
-          <h2>CIRCULAR ECONOMY</h2>
+          <h2>@lang('home.sf_title_3')</h2>
       </div>
-      <p class="desc-sf">The Kingdom aims to recycle 95% of its waste, including an 81% recycling rate for municipal waste, a 60% recovery rate for construction waste, and an 85% recycling or treatment rate for hazardous industrial waste.
+      <p class="desc-sf">@lang('home.sf_desc_3')
       </p>
   </div>
   <div class="item-sf item4-sf">
       <div class="content-sf">
-          <h2>FOOD AND SMART AGRICULTURE</h2>
+          <h2>@lang('home.sf_title_4')</h2>
       </div>
-      <p class="desc-sf">Saudi Arabia aims to localize 85% of its food industry, particularly food manufacturing.
+      <p class="desc-sf">@lang('home.sf_desc_4')
       </p>
 
   </div>
   <div class="item-sf item5-sf">
       <div class="content-sf">
-          <h2>WATER EFFICIENCY</h2>
+          <h2>@lang('home.sf_title_5')</h2>
       </div>
-      <p class="desc-sf">KSA aims to Increase coverage of Wastewater Treatment from 50% to 100%, to meet 90% of water demand by desalinated water, and to reuse over 70% of reclaimed water for Irrigation.
+      <p class="desc-sf">@lang('home.sf_desc_5')
       </p>
   </div>
   <div class="item-sf item6-sf">
     <div class="content-sf">
-        <h2>DATA AND INTELlIGENCE SOLUTIONS</h2>
+        <h2>@lang('home.sf_title_6')</h2>
     </div>
-    <p class="desc-sf">Saudi Arabia To raise the contribution of the digital economy to GDP to 19% by 2030.
+    <p class="desc-sf">@lang('home.sf_desc_6')
     </p>
 </div>
 

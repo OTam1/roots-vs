@@ -1,19 +1,19 @@
-<section class="intro-section ">
+<section class="intro-section " dir="{{ app()->getLocale() == 'ar' ? 'rtl' : 'ltr' }}">
     <video class="bg-video" autoplay muted loop playsinline>
         <source src="{{('/assets/video/intro_video.mp4')}}" type="video/mp4">
         Your browser does not support the video tag.
     </video>
     <div class="intro-content">
-        <h1 class="intro_text">We Build Saudi Ventures For A <span class="intro_highlight">
+        <h1 class="intro_text">@lang('home.intro_title_p1') <span class="intro_highlight">
             <h2 class="ld-fh-element intro_highlight"
-                data-text-rotator="true"><span
+                data-text-rotator="true"><span  
                     class="txt-rotate-keywords"><span
-                        class="txt-rotate-keyword"><span class="intro_highlight">Sustainable</span> </span><span
-                        class="txt-rotate-keyword"><span class="intro_highlight">Greener</span> </span><span
-                        class="txt-rotate-keyword"><span class="intro_highlight">Better</span></span><span
-                        class="txt-rotate-keyword"><span class="intro_highlight">Brighter</span> </span></span></h2>
-        </span> Future</h1>
-        <p class="w-70percent ld-fh-element text-22 leading-1/5em mb-0/5em">ROOTS is on a mission to address the most pressing sustainability challenges in Saudi Arabia and the world through utilizing its resources of capital, knowledge, and network of partners and enablers to create impactful ventures.</p>
+                        class="txt-rotate-keyword"><span class="intro_highlight">@lang('home.intro_title_changable_1')</span> </span><span
+                        class="txt-rotate-keyword"><span class="intro_highlight">@lang('home.intro_title_changable_2')</span> </span><span
+                        class="txt-rotate-keyword"><span class="intro_highlight">@lang('home.intro_title_changable_3')</span></span><span
+                        class="txt-rotate-keyword"><span class="intro_highlight">@lang('home.intro_title_changable_4')</span> </span></span></h2>
+        </span> @lang('home.intro_title_p2')</h1>
+        <p class="w-70percent ld-fh-element text-22 leading-1/5em mb-0/5em">@lang('home.intro_desc')</p>
     </div>
     <div class="scroll-mouse">
         <a href="#scrollto">

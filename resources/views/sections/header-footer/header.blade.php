@@ -1,6 +1,6 @@
 <header id="site-header" class="main-header sticky-header-noshadow" data-sticky-header="true"
 data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&quot; :true}">
-<div class="lqd-head-sec-wrap lqd-hide-onstuck relative pr-40 pl-125 lg:pl-0 lg:pr-0 md:hidden">
+<div class="lqd-head-sec-wrap lqd-hide-onstuck relative pr-40 pl-125 lg:pl-0 lg:pr-0 md:hidden" dir="{{ app()->getLocale() == 'ar' ? 'rtl' : 'ltr' }}" >
     <div class="lqd-head-sec w-full flex items-stretch justify-between">
         <div class="col-auto lqd-head-col justify-start">
             <div class="module-logo navbar-brand-plain py-20"><a class="navbar-brand"
@@ -26,14 +26,14 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                             @if (!request()->routeIs('home')) 
                             href="{{ route('home') }}" 
                         @endif
-                        >Home 
+                        >@lang('header.home') 
                         {{-- <sup class="link-sup">01</sup> --}}
                     </a></li>
                         <li><a 
                             @if (!request()->routeIs('about')) 
                             href="{{ route('about') }}" 
                         @endif
-                            >Get To Know Us 
+                            >@lang('header.gtku')  
                             {{-- <sup class="link-sup">02</sup> --}}
                         </a></li>
 
@@ -45,7 +45,7 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                         @if (!request()->routeIs('news')) 
                             href="{{ route('news') }}" 
                         @endif
-                        >News 
+                        >@lang('header.news')  
                         {{-- <sup class="link-sup">04</sup> --}}
                         </a></li>
 
@@ -65,8 +65,7 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
             <div class="header-module module-button ml-25 module-button"><a
                     href="#co-contactus"
                     class="btn btn-solid btn-sm round border-thin leading-1/6em tracking-0 text-15 rounded-4 bg-black border-black text-white hover:bg-primary"
-                    data-lity="#contact-modal"><span class="btn-txt" data-text="Send message">Send
-                        message</span></a></div>
+                    data-lity="#contact-modal"><span class="btn-txt" data-text="Send message">@lang('header.send_msg') </span></a></div>
         </div>
     </div>
 </div>
@@ -107,13 +106,13 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                                             @if (!request()->routeIs('home')) 
                                             href="{{ route('home') }}" 
                                         @endif
-                                        >Home</a></li>
+                                        >@lang('header.home') </a></li>
                                         <li class="mb-15"><a class="flex hover:text-primary"
                                         @if (!request()->routeIs('about')) 
                                         href="{{ route('about') }}" 
                                         @endif
 
-                                        >Get To Know Us</a></li>
+                                        >@lang('header.gtku') </a></li>
 
                                               {{-- hidden --}}
                                         {{-- <li class="mb-15"><a class="flex hover:text-primary"
@@ -123,7 +122,7 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                                         @if (!request()->routeIs('news')) 
                                             href="{{ route('news') }}" 
                                         @endif
-                                        >News</a></li>
+                                        >@lang('header.news') </a></li>
 
                                             {{-- hidden --}}
                                         {{-- <li class="mb-15"><a class="flex hover:text-primary"
@@ -145,8 +144,7 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                                 </div>
                                 <div class="ld-fancy-heading">
                                     <p class="ld-fh-element mb-2em leading-1/5em text-14 text-black">
-                                        Looking for collaboration for your next project? Do not hesitate to
-                                        contact us to say hello.</p>
+                                        @lang('header.lfc') </p>
                                 </div>
                                 <ul class="social-icon social-icon-lg">
                                     <li><a href="https://twitter.com/roots_ventures" target="_blank"><svg class="w-20" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.64"><rect width="512" height="509.64" rx="115.61" ry="115.61"/><path fill="#fff" fill-rule="nonzero" d="M323.74 148.35h36.12l-78.91 90.2 92.83 122.73h-72.69l-56.93-74.43-65.15 74.43h-36.14l84.4-96.47-89.05-116.46h74.53l51.46 68.04 59.53-68.04zm-12.68 191.31h20.02l-129.2-170.82H180.4l130.66 170.82z"/></svg>
@@ -165,21 +163,19 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                 <div class="lqd-module-backdrop"></div>
             </div>
         </div>
-        {{-- <div class="flex flex-grow-1 items-center justify-center rotate-180">
+        <div class="flex flex-grow-1 items-center justify-center rotate-180">
             <div class="header-module-rotate py-10">
                 <div class="lqd-fancy-menu lqd-menu-td-none">
                     <ul class="reset-ul inline-nav flex -mr-10 -ml-10">
-                        <li class="my-10"><a href="#" target="_blank"
+                        <li class="my-10"><a href="{{ route('locale', 'en') }}"
                                 data-lqd-interactive-color="true">En.</a></li>
-                        <li class="my-10"><a href="#" target="_blank"
-                                data-lqd-interactive-color="true">fr.</a></li>
-                        <li class="my-10"><a href="#" target="_blank"
-                                data-lqd-interactive-color="true">Ge.</a></li>
+                        <li class="my-10"><a href="{{ route('locale', 'ar') }}"
+                                data-lqd-interactive-color="true">Ar.</a></li>
                     </ul>
                 </div>
             </div>
-        </div> --}}
-        <div class="flex flex-grow-1 items-center justify-end">
+        </div>
+        <div class="flex flex-grow-1 items-center justify-center">
             <div class="header-module-rotate py-10">
                 <p class="font-medium" data-lqd-interactive-color="true">
                     {{-- <a
@@ -242,13 +238,13 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                 @if (!request()->routeIs('home')) 
                     href="{{ route('home') }}" 
                 @endif
-                >Home <sup
+                >@lang('header.home')  <sup
                             class="link-sup">01</sup></a></li>
                 <li><a class="mt-0/75em" 
                 @if (!request()->routeIs('about')) 
                     href="{{ route('about') }}" 
                 @endif
-                >Get To Know Us <sup
+                >@lang('header.gtku')  <sup
                             class="link-sup">02</sup></a></li>
                             
                                     {{-- hidden --}}
@@ -260,7 +256,7 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                 @if (!request()->routeIs('news')) 
                     href="{{ route('news') }}" 
                 @endif
-                >News <sup class="link-sup">04</sup></a></li>
+                >@lang('header.news')  <sup class="link-sup">04</sup></a></li>
 
                            {{-- hidden --}}
                 {{-- <li><a class="mt-0/75em" 

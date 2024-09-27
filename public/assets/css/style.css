@@ -2053,3 +2053,49 @@ width: 800px;
 	margin:0 1em;
 }
 }
+
+.h6,h6:dir(rtl) {
+    letter-spacing: unset
+}
+
+.lqd-cf-acceptance .lqd-cf-list-item-label:after,.lqd-cf-acceptance .lqd-cf-list-item-label:dir(rtl):before {
+    content: "";
+    display: inline-flex;
+    width: 1.7em;
+    height: 1.7em;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    margin-top: -.85em;
+    align-items: center;
+    justify-content: center
+}
+
+.lqd-contact-form .ui-button.ui-selectmenu-button,.lqd-contact-form input,.lqd-contact-form select,.lqd-contact-form textarea:dir(rtl) {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    align-items: center;
+    transition: all .3s;
+    text-align: right;
+}
+
+.flex-container:dir(rtl) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+    justify-content: center;
+}
+
+.mbs-para:dir(rtl)::before {
+    content: "";
+    position: absolute;
+    height: 0.5em;
+    border-top: 2px solid black;
+    width: 75%;
+    place-self: start;
+    margin-top: -1vh;
+    right: 2%; /* Aligns the line from the right side */
+	left:unset !important;
+}
