@@ -27,8 +27,8 @@ return new class extends Migration
             $table->string('image_ar');
             $table->string('writer')->nullable();
             $table->string('writer_ar')->nullable();
-            $table->string('link')->nullable();
-            $table->string('link_ar')->nullable();
+            $table->string('link', 500);
+            $table->string('link_ar', 500);
             $table->boolean('visibility')->default(true); 
             $table->boolean('visibility_ar')->default(true); 
             $table->timestamps();
