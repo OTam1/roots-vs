@@ -11,8 +11,14 @@ class FrontController extends Controller
         // Display the list of news items
         public function newsIndex()
         {
-            $news = News::where('visibility', true)->get();
-            return view('news', ['news' => $news]);
+            $locale = app()->getLocale();
+    
+            if ($locale === 'ar') {
+                $news = News::where('visibility_ar', true)->get();
+            } else {
+                $news = News::where('visibility', true)->get();
+            }
+                    return view('news', ['news' => $news]);
         }
     
         // Display the detailed view of a specific news item
