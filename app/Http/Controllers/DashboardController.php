@@ -147,10 +147,10 @@ class DashboardController extends Controller
 
         // Handle image upload
         if ($request->hasFile('image_ar')) {
-            $image = $request->file('image_ar');
-            $imageName = time() . '.' . $image->extension();
-            $image->move(public_path('image_ar'), $imageName);
-            $news->image = $imageName;
+            $image_ar = $request->file('image_ar');
+            $imageName_ar = time() . '.' . $image_ar->extension();
+            $image_ar->move(public_path('image_ar'), $imageName_ar);
+            $news->image_ar = $imageName_ar;
         }        
         
         

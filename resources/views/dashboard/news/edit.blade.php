@@ -154,7 +154,7 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label for="current-image">Current Image</label>
-                                <img src="{{ asset('images/' . $news->image_ar) }}" alt="Current Image" id="current-image" class="img-fluid" style="max-width: 100%; height: auto;">
+                                <img src="{{ asset('image_ar/' . $news->image_ar) }}" alt="Current Image" id="current-image" class="img-fluid" style="max-width: 100%; height: auto;">
                             </div>
                         </div>
 
