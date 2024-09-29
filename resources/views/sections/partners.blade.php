@@ -178,6 +178,9 @@
             </div>
             <div class="item carousel-item"><img src="{{ '/assets/img/ecosystem/logo-wefs.png' }}" alt="Partner 4">
             </div>
+            <div class="item carousel-item"><img src="{{ '/assets/img/ecosystem/logo-north_star.png' }}" alt="Partner 4">
+            </div>
 
+            
         </div>
     </div>
