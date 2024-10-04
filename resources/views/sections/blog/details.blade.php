@@ -163,7 +163,7 @@
         }
     }
 </style>
-<div id="lqd-contents-wrap">
+<div id="lqd-contents-wrap" >
     <div class="lqd-post-cover overflow-hidden">
         <figure class="lqd-post-media loaded" style="transition: none; will-change: transform;"> <img width="560"
                 height="auto" src="{{ asset('images/' . $blogItem->image) }}"
@@ -174,7 +174,7 @@
     </div>
     <article
         class="lqd-post-content pos-rel post-3440 post type-post status-publish format-standard has-post-thumbnail hentry category-modern"
-        id="post-3440" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+        id="post-3440" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" dir="{{ app()->getLocale() == 'ar' ? 'rtl' : 'ltr' }}">
         <div class="entry-content lqd-single-post-content clearfix">
 
             <section class="vc_row liquid-row-shadowbox-634d026ec0902">
