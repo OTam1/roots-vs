@@ -188,7 +188,13 @@
                                         <div class="wpb_wrapper">
                                             <div class="lqd-post-header entry-header"
                                                 style="opacity: 1; transform: translate(0px, 0px); transition: none; will-change: transform, opacity;">
-                                                <h1 class="entry-title">{{ $blogItem->title }}</h1>
+                                                <h1 class="entry-title">
+                                                    @if(app()->getLocale() == 'ar')
+                                                    {{ $blogItem->title_ar }}
+                                                    @else
+                                                    {{ $blogItem->title }}
+                                                    @endif
+                                                </h1>
                                                 <div
                                                     class="entry-meta d-flex flex-wrap align-items-center text-center text-md-left">
                                                     <div class="byline">
@@ -196,7 +202,13 @@
                                                                 class="entry-author" itemscope="itemscope"
                                                                 itemtype="http://schema.org/Person"> <span
                                                                     itemprop="name"> <a
-                                                                        class="url fn">{{ $blogItem->writer ?? null }}</a>
+                                                                        class="url fn">
+                                                                        @if(app()->getLocale() == 'ar')
+                                                                        {{ $blogItem->writer_ar ?? null }}
+                                                                        @else
+                                                                        {{ $blogItem->writer ?? null }}
+                                                                        @endif
+                                                                    </a>
                                                                 </span> </span>
                                                         </span>
                                                     </div>
@@ -204,12 +216,18 @@
                                                                 class="entry-date published"
                                                                 datetime="2018-08-16T11:32:32+00:00">{{ $blogItem->date }}</time>
                                                         </a> </div>
-                                                    <div class="cat-links"> <span>Published in:</span> <a>Blog</a>
+                                                    <div class="cat-links"> <span>Published in:</span> <a>@lang('blog.blog')</a>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <p>{{ $blogItem->description }}</p>
+                                            <p>
+                                                @if(app()->getLocale() == 'ar')
+                                                {{ $blogItem->description_ar }}
+                                                @else
+                                                {{ $blogItem->description }}
+                                                @endif
+                                            </p>
                                         </div>
                                     </div>
                                     <style>
@@ -246,7 +264,13 @@
                                     <polyline stroke-linecap="square" stroke-miterlimit="10" points="9,19 2,12 9,5 "
                                         stroke-linejoin="miter"></polyline>
                                 </g>
-                            </svg> Previous Article </span> <span class="nav-title">{{ $randomBlog1->title }}</span>
+                            </svg> Previous Article </span> <span class="nav-title">
+                                @if(app()->getLocale() == 'ar')
+                                {{ $randomBlog1->title_ar }}
+                                @else
+                                {{ $randomBlog1->title }}
+                                @endif
+                            </span>
                     </a>
                 </div>
                 @endif
@@ -263,7 +287,14 @@
                                     <polyline stroke-linecap="square" stroke-miterlimit="10" points="9,19 2,12 9,5 "
                                         stroke-linejoin="miter"></polyline>
                                 </g>
-                            </svg> Next Article </span> <span class="nav-title">{{ $randomBlog2->title }}</span> </a>
+                            </svg> Next Article </span> <span class="nav-title">
+                                @if(app()->getLocale() == 'ar')
+                                {{ $randomBlog2->title_ar }}
+                                @else
+                                {{ $randomBlog2->title }}
+                                @endif
+
+                            </span> </a>
                 </div>
                 @endif
 

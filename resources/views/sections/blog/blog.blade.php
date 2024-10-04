@@ -1,7 +1,7 @@
 <section id="blog" class="lqd-section blog py-60" data-section-luminosity="light" dir="{{ app()->getLocale() == 'ar' ? 'rtl' : 'ltr' }}">
     <div class="container">
         <div class="row">
-            <div class="col col-12 col-lg-6 offset-lg-3">
+            <div class="col col-12 col-lg-12">
                 <div class="flex flex-col mb-40 text-center md:text-start">
                     <div class="ld-fancy-heading">
                         <h2 class="ld-fh-element mb-0/5em">@lang('blog.blog_title')</h2>
