@@ -223,10 +223,11 @@
 
                                             <p>
                                                 @if(app()->getLocale() == 'ar')
-                                                {{ $blogItem->description_ar }}
-                                                @else
-                                                {{ $blogItem->description }}
-                                                @endif
+                                                {!! $blogItem->description_ar !!}
+                                            @else
+                                                {!! $blogItem->description !!}
+                                            @endif
+                                            
                                             </p>
                                         </div>
                                     </div>
