@@ -63,9 +63,17 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                 </div>
             </div>
             <div class="header-module module-button ml-25 module-button"><a
-                    href="#co-contactus"
+                @if (!request()->routeIs('home'))
+                href="{{route('home')}}#co-contactus"
+                @else
+                href="#co-contactus"
+                @endif
                     class="btn btn-solid btn-sm round border-thin leading-1/6em tracking-0 text-15 rounded-4 bg-black border-black text-white hover:bg-primary"
-                    data-lity="#contact-modal"><span class="btn-txt" data-text="Send message">@lang('header.send_msg') </span></a></div>
+                @if (!request()->routeIs('home'))
+                @else
+                data-lity="#contact-modal"
+                @endif
+                    ><span class="btn-txt" data-text="Send message">@lang('header.send_msg') </span></a></div>
         </div>
     </div>
 </div>
