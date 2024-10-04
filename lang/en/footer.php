@@ -10,7 +10,8 @@ return [
     'menu' => 'menu',
     'home' => 'Home',
     'gtku' => 'Get To Know Us',
-    'news' => 'news',
+    'news' => 'News',
+    'blog' => 'Blog',
 
     'find_us' => 'Find us',
     'malqa' => 'Al-Malqa',

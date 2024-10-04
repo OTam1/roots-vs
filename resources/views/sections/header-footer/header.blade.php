@@ -51,13 +51,13 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
 
 
                                {{-- hidden --}}
-                        {{-- <li><a 
+                        <li><a 
                             @if (!request()->routeIs('blog')) 
                             href="{{ route('blog') }}" 
                             @endif
-                            >Blog 
-                            <sup class="link-sup">05</sup>
-                        </a></li> --}}
+                            >@lang('header.blog')  
+                            {{-- <sup class="link-sup">05</sup> --}}
+                        </a></li>
     
                     </ul>
                 </div>
@@ -125,12 +125,12 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                                         >@lang('header.news') </a></li>
 
                                             {{-- hidden --}}
-                                        {{-- <li class="mb-15"><a class="flex hover:text-primary"
+                                        <li class="mb-15"><a class="flex hover:text-primary"
                                             @if (!request()->routeIs('blog')) 
                                             href="{{ route('blog') }}" 
                                             @endif
-                                            >Blog</a>
-                                        </li> --}}
+                                            >@lang('header.blog')  </a>
+                                        </li>
 
                                     </ul>
                                 </div>
@@ -259,12 +259,12 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                 >@lang('header.news')  <sup class="link-sup">04</sup></a></li>
 
                            {{-- hidden --}}
-                {{-- <li><a class="mt-0/75em" 
+                <li><a class="mt-0/75em" 
                     @if (!request()->routeIs('blog')) 
                     href="{{ route('blog') }}" 
                     @endif>
-                    Blog <sup
-                    class="link-sup">05</sup></a></li> --}}
+                    @lang('header.blog')   <sup
+                    class="link-sup">05</sup></a></li>
     
             </ul>
         </div>

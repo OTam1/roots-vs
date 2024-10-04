@@ -70,7 +70,11 @@
                                 href="{{ route('news') }}" 
                             @endif    
                                 >@lang('footer.news')</a></li>
-
+                                <li class="mb-10"><a class="leading-1/8em"
+                                    @if (!request()->routeIs('blog')) 
+                                    href="{{ route('blog') }}" 
+                                @endif    
+                                    >@lang('footer.blog')</a></li>
                         </ul>
                     </div>
                 </div>
