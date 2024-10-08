@@ -98,8 +98,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         document.getElementById('modal-body').innerHTML = `
             <h2 style='font-weight: bold;margin-bottom: 1rem;'>${content.title}</h2>
-            <p style='color: #23074E;font-size: 32px;line-height: 36px;margin-bottom: 3rem;'>${content.description}</p>
-            <p style='font-size: 22px;line-height: 36px;margin-bottom: 3rem;color: black;'>${content.content}</p>
+            <p style='color: #23074E;font-size: 24px;line-height: 36px;margin-bottom: 3rem;'>${content.description}</p>
+            <p style='font-size: 16px;line-height: 36px;margin-bottom: 3rem;color: black;'>${content.content}</p>
             <div class='flex-container'>
                 <div class='modal-flex'>
                     <h6 class="text-title-flex">{{ __('home.founded') }}</h6>
@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class='flex-container'>
                 <div class='modal-flex'>
                     <h6 style='border-bottom: 2px solid;width: ${content.width};margin-top: 3rem;' class="text-title-flex">
-                        <a style="background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTkuOTggNC44MzZsOS45NzEuNC41MDMgMTAuMjgzIiBzdHJva2U9IiMwMDAiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUuMDAxIDE5LjI5N0wxOS4wNDEgNS41M2wuNi42MUw1LjYgMTkuOTA4bC0uNi0uNjF6IiBmaWxsPSIjMDAwIi8+PC9zdmc+) no-repeat 100% 0;padding: 0 34px 8px 0;">
+                        <a href="${content.url}" style="color: black; background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTkuOTggNC44MzZsOS45NzEuNC41MDMgMTAuMjgzIiBzdHJva2U9IiMwMDAiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUuMDAxIDE5LjI5N0wxOS4wNDEgNS41M2wuNi42MUw1LjYgMTkuOTA4bC0uNi0uNjF6IiBmaWxsPSIjMDAwIi8+PC9zdmc+) no-repeat 100% 0;padding: 0 34px 8px 0;">
                         ${content.url}
                         </a>
                     </h6>

@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col col-12 col-md-12">
                 <div class="ld-fancy-heading">
-                    <h1 class="ld-fh-element mb-0/75em text-50 -tracking-0/5">@lang('gettoknowus.about')</h1>
+                    <h1 class="ld-fh-element mb-0/75em text-48 -tracking-0/5">@lang('gettoknowus.about')</h1>
                 </div>
                 <div class="ld-fancy-heading">
                     <p class="ld-fh-element mb-0/5em leading-1/5em text-20 md:pr-0">

@@ -22,14 +22,14 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                         data-submenu-options="{&quot;toggleType&quot;: &quot;fade&quot;, &quot;handler&quot;: &quot;mouse-in-out&quot;}"
                         data-localscroll="true"
                         data-localscroll-options="{&quot;itemsSelector&quot;:&quot;> li > a&quot;, &quot;trackWindowScroll&quot;: true }">
-                        <li><a
+                        <li><a class="flex hover:text-primary"
                             @if (!request()->routeIs('home')) 
                             href="{{ route('home') }}" 
                         @endif
                         >@lang('header.home') 
                         {{-- <sup class="link-sup">01</sup> --}}
                     </a></li>
-                        <li><a 
+                        <li><a class="flex hover:text-primary"
                             @if (!request()->routeIs('about')) 
                             href="{{ route('about') }}" 
                         @endif
@@ -41,7 +41,7 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                         {{-- <li><a href="#">Why The Venutre Studio?
                          <sup class="link-sup">03</sup>
                         </a></li> --}}
-                        <li><a
+                        <li><a class="flex hover:text-primary"
                         @if (!request()->routeIs('news')) 
                             href="{{ route('news') }}" 
                         @endif
@@ -51,14 +51,23 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
 
 
                                {{-- hidden --}}
-                        <li><a 
+                        <li><a  class="flex hover:text-primary"
                             @if (!request()->routeIs('blog')) 
                             href="{{ route('blog') }}" 
                             @endif
                             >@lang('header.blog')  
                             {{-- <sup class="link-sup">05</sup> --}}
                         </a></li>
-    
+                        @if (App::getLocale() === 'en')
+                        <li>
+                            <a class="flex hover:text-primary" href="{{ route('locale', 'ar') }}">العربية</a>
+                        </li>
+                    @else
+                        <li>
+                            <a class="flex hover:text-primary" href="{{ route('locale', 'en') }}">English</a>
+                        </li>
+                    @endif
+
                     </ul>
                 </div>
             </div>
@@ -140,6 +149,16 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                                             >@lang('header.blog')  </a>
                                         </li>
 
+                                        @if (App::getLocale() === 'en')
+                                        <li class="mb-15">
+                                            <a class="flex hover:text-primary" href="{{ route('locale', 'ar') }}">Arabic</a>
+                                        </li>
+                                    @else
+                                        <li class="mb-15">
+                                            <a class="flex hover:text-primary" href="{{ route('locale', 'en') }}">English</a>
+                                        </li>
+                                    @endif
+                                    
                                     </ul>
                                 </div>
                             </div>
@@ -174,12 +193,12 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
         <div class="flex flex-grow-1 items-center justify-center rotate-180">
             <div class="header-module-rotate py-10">
                 <div class="lqd-fancy-menu lqd-menu-td-none">
-                    <ul class="reset-ul inline-nav flex -mr-10 -ml-10">
+                    {{-- <ul class="reset-ul inline-nav flex -mr-10 -ml-10">
                         <li class="my-10"><a href="{{ route('locale', 'en') }}"
                                 data-lqd-interactive-color="true">En.</a></li>
                         <li class="my-10"><a href="{{ route('locale', 'ar') }}"
                                 data-lqd-interactive-color="true">Ar.</a></li>
-                    </ul>
+                    </ul> --}}
                 </div>
             </div>
         </div>
@@ -189,13 +208,13 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                     {{-- <a
                         href="#" class="__cf_email__"
                         data-cfemail="6704080913060413270f12054904080a">Engage@roots.ventures</a> --}}
-                        <ul class="social-icon social-icon-lg">
-                            <li><a href="https://twitter.com/roots_ventures" target="_blank"><svg class="w-20" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.64"><rect width="512" height="509.64" rx="115.61" ry="115.61"></rect><path fill="#fff" fill-rule="nonzero" d="M323.74 148.35h36.12l-78.91 90.2 92.83 122.73h-72.69l-56.93-74.43-65.15 74.43h-36.14l84.4-96.47-89.05-116.46h74.53l51.46 68.04 59.53-68.04zm-12.68 191.31h20.02l-129.2-170.82H180.4l130.66 170.82z"></path></svg>
+                        <ul class="social-icon social-icon-lg social-icon-main">
+                            <li><a href="https://twitter.com/roots_ventures" target="_blank"><svg class="w-20" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.64"><rect fill="white" width="512" height="509.64" rx="115.61" ry="115.61"></rect><path fill="black" fill-rule="nonzero" d="M323.74 148.35h36.12l-78.91 90.2 92.83 122.73h-72.69l-56.93-74.43-65.15 74.43h-36.14l84.4-96.47-89.05-116.46h74.53l51.46 68.04 59.53-68.04zm-12.68 191.31h20.02l-129.2-170.82H180.4l130.66 170.82z"></path></svg>
                             </a></li>
-                            <li><a href="https://www.linkedin.com/company/roots-ventures-sa/?viewAsMember=true" target="_blank"><svg class="w-20" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+                            <li><a href="https://www.linkedin.com/company/roots-ventures-sa/?viewAsMember=true" target="_blank"><svg class="w-20" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="white" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
                             </a></li>
                             <li><a href="https://wa.me/0554660495" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 30 30">
-    <path d="M 15 3 C 8.373 3 3 8.373 3 15 C 3 17.251208 3.6323415 19.350068 4.7109375 21.150391 L 3.1074219 27 L 9.0820312 25.431641 C 10.829354 26.425062 12.84649 27 15 27 C 21.627 27 27 21.627 27 15 C 27 8.373 21.627 3 15 3 z M 10.892578 9.4023438 C 11.087578 9.4023438 11.287937 9.4011562 11.460938 9.4101562 C 11.674938 9.4151563 11.907859 9.4308281 12.130859 9.9238281 C 12.395859 10.509828 12.972875 11.979906 13.046875 12.128906 C 13.120875 12.277906 13.173313 12.453437 13.070312 12.648438 C 12.972312 12.848437 12.921344 12.969484 12.777344 13.146484 C 12.628344 13.318484 12.465078 13.532109 12.330078 13.662109 C 12.181078 13.811109 12.027219 13.974484 12.199219 14.271484 C 12.371219 14.568484 12.968563 15.542125 13.851562 16.328125 C 14.986562 17.342125 15.944188 17.653734 16.242188 17.802734 C 16.540187 17.951734 16.712766 17.928516 16.884766 17.728516 C 17.061766 17.533516 17.628125 16.864406 17.828125 16.566406 C 18.023125 16.268406 18.222188 16.319969 18.492188 16.417969 C 18.766188 16.515969 20.227391 17.235766 20.525391 17.384766 C 20.823391 17.533766 21.01875 17.607516 21.09375 17.728516 C 21.17075 17.853516 21.170828 18.448578 20.923828 19.142578 C 20.676828 19.835578 19.463922 20.505734 18.919922 20.552734 C 18.370922 20.603734 17.858562 20.7995 15.351562 19.8125 C 12.327563 18.6215 10.420484 15.524219 10.271484 15.324219 C 10.122484 15.129219 9.0605469 13.713906 9.0605469 12.253906 C 9.0605469 10.788906 9.8286563 10.071437 10.097656 9.7734375 C 10.371656 9.4754375 10.692578 9.4023438 10.892578 9.4023438 z"></path>
+    <path fill="white" d="M 15 3 C 8.373 3 3 8.373 3 15 C 3 17.251208 3.6323415 19.350068 4.7109375 21.150391 L 3.1074219 27 L 9.0820312 25.431641 C 10.829354 26.425062 12.84649 27 15 27 C 21.627 27 27 21.627 27 15 C 27 8.373 21.627 3 15 3 z M 10.892578 9.4023438 C 11.087578 9.4023438 11.287937 9.4011562 11.460938 9.4101562 C 11.674938 9.4151563 11.907859 9.4308281 12.130859 9.9238281 C 12.395859 10.509828 12.972875 11.979906 13.046875 12.128906 C 13.120875 12.277906 13.173313 12.453437 13.070312 12.648438 C 12.972312 12.848437 12.921344 12.969484 12.777344 13.146484 C 12.628344 13.318484 12.465078 13.532109 12.330078 13.662109 C 12.181078 13.811109 12.027219 13.974484 12.199219 14.271484 C 12.371219 14.568484 12.968563 15.542125 13.851562 16.328125 C 14.986562 17.342125 15.944188 17.653734 16.242188 17.802734 C 16.540187 17.951734 16.712766 17.928516 16.884766 17.728516 C 17.061766 17.533516 17.628125 16.864406 17.828125 16.566406 C 18.023125 16.268406 18.222188 16.319969 18.492188 16.417969 C 18.766188 16.515969 20.227391 17.235766 20.525391 17.384766 C 20.823391 17.533766 21.01875 17.607516 21.09375 17.728516 C 21.17075 17.853516 21.170828 18.448578 20.923828 19.142578 C 20.676828 19.835578 19.463922 20.505734 18.919922 20.552734 C 18.370922 20.603734 17.858562 20.7995 15.351562 19.8125 C 12.327563 18.6215 10.420484 15.524219 10.271484 15.324219 C 10.122484 15.129219 9.0605469 13.713906 9.0605469 12.253906 C 9.0605469 10.788906 9.8286563 10.071437 10.097656 9.7734375 C 10.371656 9.4754375 10.692578 9.4023438 10.892578 9.4023438 z"></path>
 </svg>
                             </a></li>
                         </ul>
@@ -273,7 +292,17 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                     @endif>
                     @lang('header.blog')   <sup
                     class="link-sup">05</sup></a></li>
-    
+
+                    @if (App::getLocale() === 'en')
+                    <li>
+                        <a class="mt-0/75em" href="{{ route('locale', 'ar') }}">العربية</a>
+                    </li>
+                @else
+                    <li>
+                        <a class="mt-0/75em" href="{{ route('locale', 'en') }}">English</a>
+                    </li>
+                @endif
+
             </ul>
         </div>
     </div>

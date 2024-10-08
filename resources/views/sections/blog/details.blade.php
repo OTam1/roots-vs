@@ -6,10 +6,15 @@
     @media screen and (min-width: 992px) {
 
         .lqd-post-media img {
-            width: 60%;
+            /* width: 60%;
             left: 20%;
             position: relative;
-            margin-bottom: 3em;
+            margin-bottom: 3em; */
+            width: 100%;
+        max-height: 45vh;
+        object-fit: cover;
+        position: relative;
+        margin-bottom: 3em;
         }
     }
 
@@ -184,7 +189,11 @@
                             class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-2 vc_col-md-8 liquid-column-634d026ecc17a">
                             <div class="vc_column-inner  ">
                                 <div class="wpb_wrapper">
-                                    <div class="wpb_text_column wpb_content_element ">
+                                    <div class="wpb_text_column wpb_content_element " style="
+                                    border-right: 1px solid;
+                                    padding: 1%;
+                                    width: 80%;
+                                ">
                                         <div class="wpb_wrapper">
                                             <div class="lqd-post-header entry-header"
                                                 style="opacity: 1; transform: translate(0px, 0px); transition: none; will-change: transform, opacity;">

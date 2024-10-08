@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row items-center">
             <div class="col col-12 col-md-6 lqd-unit-animation-done" style="">
-                <h1 class="class=" ld-fh-element="" mb-0=""> @lang('gettoknowus.values')</h1>
+                <h1 class="ld-fh-element mb-0 text-48"> @lang('gettoknowus.values')</h1>
             </div>
             <div class="col col-12 col-md-5 offset-md-1 lqd-unit-animation-done" style=""></div>
             <div class="col col-12 lqd-unit-animation-done" style="">

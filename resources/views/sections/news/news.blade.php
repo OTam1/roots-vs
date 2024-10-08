@@ -29,7 +29,15 @@
                     </div>
                     <div class="lqd-lp-meta mb-1/5em">
                         <ul class="lqd-lp-cat reset-ul inline-nav lqd-lp-cat-solid">
-                            <li class="mb-0/5em"><a href="#">@lang('news.news')</a></li>
+                            <li class="mb-0/5em">
+                                <a href="#">
+                                    @if(app()->getLocale() == 'ar')
+                                    {{ $item->writer_ar }}
+                                @else
+                                    {{ $item->writer }}
+                                @endif    
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <header class="lqd-lp-header mb-0/85em">
@@ -49,7 +57,7 @@
                         @endif
                     </div>
                     <!-- <a href="{{ route('detailed-news', $item->id) }}" class="lqd-lp-overlay-link lqd-overlay z-index-2"></a> -->
-                    <a 
+                    <a target="_blank"
                     @if(app()->getLocale() == 'ar')
                     href="{{ $item->link_ar }}"
                     @else

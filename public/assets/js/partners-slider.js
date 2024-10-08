@@ -7,7 +7,7 @@ jQuery(document).ready(function($){
         margin: 5,
         dots:false,
         nav: true,
-        navText: ["<img src='assets/img/left-arrow-b.png'>","<img src='assets/img/right-arrow-b.png'>"],        
+        navText: ["<img style='width:10px' src='assets/img/left-arrow-b.png'>","<img style='width:10px' src='assets/img/right-arrow-b.png'>"],        
         responsive: {
             0: {
                 nav: false,

@@ -8,7 +8,6 @@
             <h2 class="ld-fh-element intro_highlight"
                 data-text-rotator="true"><span  
                     class="txt-rotate-keywords"><span
-                        class="txt-rotate-keyword"><span class="intro_highlight">@lang('home.intro_title_changable_1')</span> </span><span
                         class="txt-rotate-keyword"><span class="intro_highlight">@lang('home.intro_title_changable_2')</span> </span><span
                         class="txt-rotate-keyword"><span class="intro_highlight">@lang('home.intro_title_changable_3')</span></span><span
                         class="txt-rotate-keyword"><span class="intro_highlight">@lang('home.intro_title_changable_4')</span> </span></span></h2>
