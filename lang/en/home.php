@@ -68,21 +68,21 @@ return [
 
 
     //skitch to growth
-    'skitch_title' => 'From a Skitch To Growth',
+    'skitch_title' => 'From a Sketch To Growth',
 
     'step' => 'STEP',
 
     'skitch_title_1' => 'Ideation',
-    'skitch_desc_1' => 'We ensure a strategic-fit that align to the National ambitious targets for sustainability, the Sustainable Development Goals, and a significant economical growth.',
+    'skitch_desc_1' => 'We ensure a strategic-fit that aligns to the National ambitious targets for sustainability, the Sustainable Development Goals, and a significant economical growth.',
 
     'skitch_title_2' => 'Validation',
     'skitch_desc_2' => 'We actively engage the relevant stakeholders and early-adopters to ensure a Product-Market-Fit, and achieve an accelerated Go-to-Market through piloting.',
 
     'skitch_title_3' => 'Creation',
-    'skitch_desc_3' => 'Every venutre is co-founded alongside impact driven entrepreneurs, our role Involves technical development, administrative setup, funding and fundraising, and capability building.',
+    'skitch_desc_3' => 'Every venture is co-founded alongside impact driven entrepreneurs, our role Involves technical development, administrative setup, funding and fundraising, and capability building.',
 
     'skitch_title_4' => 'Growth',
-    'skitch_desc_4' => 'Filling the blanks in securing growth funding and achieve strategic milestones, provide support ecosystem and access to markets opportunities, while while support impact measurement and improvement.',
+    'skitch_desc_4' => 'Filling the blanks in securing growth funding and achieving strategic milestones, provide support ecosystem and access to market opportunities, while supporting impact measurement and improvement.',
 
     
     //our ecosystem
