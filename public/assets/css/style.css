@@ -2246,3 +2246,11 @@ background-image: linear-gradient(45deg, #12bfbd 0%, #13c0c0 25%, #2d7bb5 100%);
 .module-icon-box {
     min-height: 33vh;
 }
+
+:lang(ar) .wpb_text_column.wpb_content_element {
+	border-left: 1px solid;
+}
+
+:lang(en) .wpb_text_column.wpb_content_element {
+	border-right: 1px solid;
+}

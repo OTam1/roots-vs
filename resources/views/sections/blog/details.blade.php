@@ -190,7 +190,6 @@
                             <div class="vc_column-inner  ">
                                 <div class="wpb_wrapper">
                                     <div class="wpb_text_column wpb_content_element " style="
-                                    border-right: 1px solid;
                                     padding: 1%;
                                     width: 80%;
                                 ">
