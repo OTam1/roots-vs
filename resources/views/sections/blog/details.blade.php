@@ -169,7 +169,7 @@
     }
 </style>
 <div id="lqd-contents-wrap" >
-    <div class="lqd-post-cover overflow-hidden">
+    <div class="lqd-post-cover overflow-hidden pt-100">
         <figure class="lqd-post-media loaded" style="transition: none; will-change: transform;"> <img width="560"
                 height="auto" src="{{ asset('images/' . $blogItem->image) }}"
                 class="attachment-full size-full ld-lazyload wp-post-image entered loaded" alt="" loading="lazy"

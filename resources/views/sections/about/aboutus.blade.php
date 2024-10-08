@@ -1,4 +1,4 @@
-<section class="lqd-section text-box-single mt-90" data-section-luminosity="light">
+<section class="lqd-section text-box-single pt-90" data-section-luminosity="light">
     <div class="container px-15">
         <div class="row">
             <div class="col col-12 col-md-12">

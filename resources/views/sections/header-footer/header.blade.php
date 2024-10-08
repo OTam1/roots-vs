@@ -7,11 +7,15 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                 @if (!request()->routeIs('home')) 
                 href="{{ route('home') }}" 
             @endif
-            ><span class="navbar-brand-inner"><img
-                            class="logo-light" width="52" height="23"
-                            src="{{ asset('assets/img/Roots_Logo_White.png') }}" alt="Roots Ventures"> <img
-                            class="logo-default" width="52" height="23"
-                            src="{{ asset('assets/img/Roots_Logo_White.png') }}" alt="Roots Ventures"></span></a>
+            ><span class="navbar-brand-inner">
+                @if (!request()->routeIs('home')) 
+                <img class="logo-light" width="52" height="23" src="{{ asset('assets/img/Roots-Logo-Original.png') }}" alt="Roots Ventures">
+                <img class="logo-default" width="52" height="23" src="{{ asset('assets/img/Roots-Logo-Original.png') }}" alt="Roots Ventures">
+                @else
+                <img class="logo-light" width="52" height="23" src="{{ asset('assets/img/Roots_Logo_White.png') }}" alt="Roots Ventures">
+                <img class="logo-default" width="52" height="23" src="{{ asset('assets/img/Roots_Logo_White.png') }}" alt="Roots Ventures">
+                @endif
+            </span></a>
             </div>
         </div>
         <div class="col lqd-head-col justify-end">
