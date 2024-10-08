@@ -9,9 +9,9 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
             @endif
             ><span class="navbar-brand-inner"><img
                             class="logo-light" width="52" height="23"
-                            src="{{ asset('assets/img/Roots-Logo-Original.png') }}" alt="Roots Ventures"> <img
+                            src="{{ asset('assets/img/Roots_Logo_White.png') }}" alt="Roots Ventures"> <img
                             class="logo-default" width="52" height="23"
-                            src="{{ asset('assets/img/Roots-Logo-Original.png') }}" alt="Roots Ventures"></span></a>
+                            src="{{ asset('assets/img/Roots_Logo_White.png') }}" alt="Roots Ventures"></span></a>
             </div>
         </div>
         <div class="col lqd-head-col justify-end">
