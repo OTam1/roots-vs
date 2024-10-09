@@ -23,6 +23,7 @@ return new class extends Migration
             $table->text('description_ar');
             $table->date('date');
             $table->string('image');
+            $table->string('image_ar');
             $table->string('writer')->nullable();
             $table->string('writer_ar')->nullable();
             $table->boolean('visibility')->default(true); 

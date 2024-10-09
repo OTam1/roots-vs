@@ -20,7 +20,7 @@ return [
     'accountability_desc' => 'We own our actions, celebrate successes,  and embrace our failures as learning opportunities.',
     'enablement' => 'Enablement',
     'enablement_desc' => 'We equip our people with the necessary tools and knowledge & foster informed decision-making among partners.',
-    'transparency' => 'Accountability',
+    'transparency' => 'Transparency',
     'transparency_desc' => 'We maintain open and honest communication to build trust with team members, investors, and stakeholders.',
 
 ];

@@ -20,6 +20,7 @@ class Blog extends Model
         'description_ar',
         'date',
         'image',
+        'image_ar',
         'writer',
         'writer_ar',
         'visibility',

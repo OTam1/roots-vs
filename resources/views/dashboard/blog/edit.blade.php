@@ -121,6 +121,21 @@
                             </div>
                         </div>
 
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="image-upload">Upload New Image (Arabic)</label>
+                                <input type="file" class="form-control-file" id="image-upload" name="image_ar" accept="image/jpeg, image/png, image/jpg, image/gif">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="current-image">Current Image</label>
+                                <img src="{{ asset('image_ar/' . $blog->image_ar) }}" alt="Current Image" id="current-image" class="img-fluid" style="max-width: 100%; height: auto;">
+                            </div>
+                        </div>
+
+
                     </div>
                     <button type="submit" class="btn btn-primary mt-4">Update Blog</button>
                 </form>

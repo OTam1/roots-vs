@@ -1,3 +1,11 @@
+@if (request()->routeIs('home'))
+    <style>
+        .main-nav > li > a {
+            color: white !important;
+        }
+    </style>
+@endif
+
 <header id="site-header" class="main-header sticky-header-noshadow" data-sticky-header="true"
 data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&quot; :true}">
 <div class="lqd-head-sec-wrap lqd-hide-onstuck relative pr-40 pl-125 lg:pl-0 lg:pr-0 md:hidden" dir="{{ app()->getLocale() == 'ar' ? 'rtl' : 'ltr' }}" >

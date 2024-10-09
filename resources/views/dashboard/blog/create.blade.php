@@ -124,6 +124,14 @@
 
                         <div class="col-md-6">
                             <div class="form-group">
+                                <label for="image-upload">Upload New Image (Arabic)</label>
+                                <input type="file" class="form-control-file" id="image-upload" name="image_ar" accept="image/jpeg, image/png, image/jpg, image/gif" required>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <div class="form-group">
                                 <label for="visibility">Publish blog? (show)</label>
                                 <input type="checkbox" name="visibility" id="visibility" value="1">
                             </div>

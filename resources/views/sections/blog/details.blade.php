@@ -171,7 +171,12 @@
 <div id="lqd-contents-wrap" >
     <div class="lqd-post-cover overflow-hidden pt-100">
         <figure class="lqd-post-media loaded" style="transition: none; will-change: transform;"> <img width="560"
-                height="auto" src="{{ asset('images/' . $blogItem->image) }}"
+                height="auto"
+                @if(app()->getLocale() == 'ar')
+                src="{{ asset('image_ar/' .  $blogItem->image_ar) }}" 
+                @else
+                src="{{ asset('images/' .  $blogItem->image) }}" 
+                @endif
                 class="attachment-full size-full ld-lazyload wp-post-image entered loaded" alt="" loading="lazy"
                 itemprop="url" data-src="./assets/images/demo/asymmetric-agency/blog-1.jpg 300w">
         </figure> <span class="lqd-overlay lqd-post-cover-overlay z-index-2"></span>

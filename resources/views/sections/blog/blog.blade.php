@@ -18,7 +18,12 @@
                 <article id="post-3441" class="lqd-lp lqd-lp lqd-lp-style-20 lqd-lp-hover-img-zoom relative">
                     <div class="lqd-lp-img relative mb-1em overflow-hidden">
                         <figure class="mb-0 relative"><img width="700" height="450"
-                                src="{{ asset('images/' .  $item->image) }}" class="w-full"
+                            @if(app()->getLocale() == 'ar')
+                            src="{{ asset('image_ar/' .  $item->image_ar) }}" 
+                            @else
+                            src="{{ asset('images/' .  $item->image) }}" 
+                            @endif
+                                class="w-full"
                                 alt="Latest blog in the office"></figure>
                     </div>
                     <div class="lqd-lp-meta mb-1/5em">

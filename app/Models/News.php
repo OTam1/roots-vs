@@ -19,6 +19,7 @@ class News extends Model
         'date',
         'date_ar',
         'image',
+        'image_ar',
         'writer',
         'writer_ar',
         'link',

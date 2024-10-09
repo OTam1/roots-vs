@@ -225,6 +225,13 @@ class DashboardController extends Controller
             $image->move(public_path('images'), $imageName);
             $blog->image = $imageName;
         }
+        // Handle image upload
+        if ($request->hasFile('image_ar')) {
+            $image_ar = $request->file('image_ar');
+            $imageName_ar = time() . '.' . $image_ar->extension();
+            $image_ar->move(public_path('image_ar'), $imageName_ar);
+            $blog->image_ar = $imageName_ar;
+        }        
 
         // Save the News object
         $blog->save();
@@ -250,6 +257,7 @@ class DashboardController extends Controller
             'description_ar' => 'nullable|string',
             'date' => 'required|date',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'image_ar' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
             'writer' => 'nullable|string|max:255',
             'writer_ar' => 'nullable|string|max:255',
         ]);
@@ -273,6 +281,15 @@ class DashboardController extends Controller
             $image->move(public_path('images'), $imageName);
             $blog->image = $imageName;
         }
+
+        // Handle image upload
+        if ($request->hasFile('image_ar')) {
+            $image_ar = $request->file('image_ar');
+            $imageName_ar = time() . '.' . $image_ar->extension();
+            $image_ar->move(public_path('image_ar'), $imageName_ar);
+            $blog->image_ar = $imageName_ar;
+        }        
+        
 
         $blog->save();
 
