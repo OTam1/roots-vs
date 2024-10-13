@@ -11,10 +11,13 @@
             <div class="col col-12 col-lg-4 lqd-unit-animation-done" style="">
                 <div class="w-full relative flex flex-col justify-center border-1 border-black-20 pt-65 pb-50 px-55 mb-30 module-icon-box">
                     <div class="iconbox relative flex-col items-start justify-center text-start" data-animate-icon="true" data-plugin-options="{&quot;color&quot; : &quot;rgb(255, 255, 255)&quot;}">
-                        <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-55 text-52 text-primary"><i class="lqd-icn-ess icon-ion-ios-add"></i></span></div>
+                        <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-55 text-52 text-primary">
+                            {{-- <i class="lqd-icn-ess icon-ion-ios-add"></i> --}}
+                            <img class="lqd-icn-ess icon-lqd-eye aboutusicons" src="assets/img/aboutus-icons/impact.png" width="20"/>
+                        </span></div>
                         <div class="contents">
                             <h3 class="font-semibold uppercase mb-10 text-14 text-black">@lang('gettoknowus.impact')</h3>
-                            <p><span class="text-16 leading-20 text-gray-400">@lang('gettoknowus.impact_desc')
+                            <p><span class="text-16 leading-20 text-black">@lang('gettoknowus.impact_desc')
                             </span></p>
                         </div>
                     </div>
@@ -23,10 +26,13 @@
             <div class="col col-12 col-lg-4 lqd-unit-animation-done" style="">
                 <div class="w-full relative flex flex-col justify-center border-1 border-black-20 pt-65 pb-50 px-55 mb-30 module-icon-box module-icon-box-2">
                     <div class="iconbox relative flex-col items-start justify-center text-start" data-animate-icon="true" data-plugin-options="{&quot;color&quot; : &quot;rgb(255, 255, 255)&quot;}">
-                        <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-55 text-52 text-primary"><i class="lqd-icn-ess icon-lqd-mobile"></i></span></div>
+                        <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-55 text-52 text-primary">
+                            {{-- <i class="lqd-icn-ess icon-lqd-mobile"></i> --}}
+                            <img class="lqd-icn-ess icon-lqd-eye aboutusicons" src="assets/img/aboutus-icons/innovation.png" width="20"/>
+                        </span></div>
                         <div class="contents">
                             <h3 class="font-semibold uppercase mb-10 text-14 text-black">@lang('gettoknowus.innovation')</h3>
-                            <p><span class="text-16 leading-20 text-gray-400">@lang('gettoknowus.innovation_desc')
+                            <p><span class="text-16 leading-20 text-black">@lang('gettoknowus.innovation_desc')
                             </span></p>
                         </div>
                     </div>
@@ -35,10 +41,13 @@
             <div class="col col-12 col-lg-4 lqd-unit-animation-done" style="">
                 <div class="w-full relative flex flex-col justify-center border-1 border-black-20 pt-65 pb-50 px-55 mb-30 module-icon-box module-icon-box-3">
                     <div class="iconbox relative flex-col items-start justify-center text-start" data-animate-icon="true" data-plugin-options="{&quot;color&quot; : &quot;rgb(255, 255, 255)&quot;}">
-                        <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-55 text-52 text-primary"><i class="lqd-icn-ess icon-lqd-cogs"></i></span></div>
+                        <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-55 text-52 text-primary">
+                            {{-- <i class="lqd-icn-ess icon-lqd-cogs"></i> --}}
+                            <img class="lqd-icn-ess icon-lqd-eye aboutusicons" src="assets/img/aboutus-icons/accountability.png" width="20"/>
+                        </span></div>
                         <div class="contents">
                             <h3 class="font-semibold uppercase mb-10 text-14 text-black">@lang('gettoknowus.accountability')</h3>
-                            <p><span class="text-16 leading-20 text-gray-400">@lang('gettoknowus.accountability_desc')
+                            <p><span class="text-16 leading-20 text-black">@lang('gettoknowus.accountability_desc')
                             </span></p>
                         </div>
                     </div>
@@ -57,10 +66,13 @@
 <div class="col col-12 col-lg-4 lqd-unit-animation-done" style="">
                 <div class="w-full relative flex flex-col justify-center border-1 border-black-20 pt-65 pb-50 px-55 mb-30 module-icon-box">
                     <div class="iconbox relative flex-col items-start justify-center text-start" data-animate-icon="true" data-plugin-options="{&quot;color&quot; : &quot;rgb(255, 255, 255)&quot;}">
-                        <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-55 text-52 text-primary"><i class="lqd-icn-ess icon-lqd-target"></i></span></div>
+                        <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-55 text-52 text-primary">
+                            {{-- <i class="lqd-icn-ess icon-lqd-target"></i> --}}
+                            <img class="lqd-icn-ess icon-lqd-eye aboutusicons" src="assets/img/aboutus-icons/enablement.png" width="20"/>
+                        </span></div>
                         <div class="contents">
                             <h3 class="font-semibold uppercase mb-10 text-14 text-black">@lang('gettoknowus.enablement')</h3>
-                            <p><span class="text-16 leading-20 text-gray-400">@lang('gettoknowus.enablement_desc')
+                            <p><span class="text-16 leading-20 text-black">@lang('gettoknowus.enablement_desc')
                             </span></p>
                         </div>
                     </div>
@@ -69,10 +81,13 @@
     <div class="col col-12 col-lg-4 lqd-unit-animation-done" style="">
                 <div class="w-full relative flex flex-col justify-center border-1 border-black-20 pt-65 pb-50 px-55 mb-30 module-icon-box">
                     <div class="iconbox relative flex-col items-start justify-center text-start" data-animate-icon="true" data-plugin-options="{&quot;color&quot; : &quot;rgb(255, 255, 255)&quot;}">
-                        <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-55 text-52 text-primary"><i class="lqd-icn-ess icon-lqd-presentation"></i></span></div>
+                        <div class="iconbox-icon-wrap"><span class="iconbox-icon-container mb-55 text-52 text-primary">
+                            {{-- <i class="lqd-icn-ess icon-lqd-presentation"></i> --}}
+                            <img class="lqd-icn-ess icon-lqd-eye aboutusicons" src="assets/img/aboutus-icons/transparency.png" width="20"/>
+                        </span></div>
                         <div class="contents">
                             <h3 class="font-semibold uppercase mb-10 text-14 text-black">@lang('gettoknowus.transparency')</h3>
-                            <p><span class="text-16 leading-20 text-gray-400">@lang('gettoknowus.transparency_desc')
+                            <p><span class="text-16 leading-20 text-black">@lang('gettoknowus.transparency_desc')
                             </span></p>
                         </div>
                     </div>
