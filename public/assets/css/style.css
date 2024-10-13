@@ -11,7 +11,7 @@ body, html {
 }
 @media (max-width: 450px) {
     .intro-section {
-        height: 120vh !important;
+        height: 130vh !important;
     }
 }
 
