@@ -4,13 +4,13 @@
         Your browser does not support the video tag.
     </video>
     <div class="intro-content">
-        <h1 class="intro_text">@lang('home.intro_title_p1') <span class="intro_highlight">
+        <h1 class="intro_text text-40">@lang('home.intro_title_p1') <span class="intro_highlight">
             <h2 class="ld-fh-element intro_highlight"
                 data-text-rotator="true"><span  
                     class="txt-rotate-keywords"><span
-                        class="txt-rotate-keyword"><span class="intro_highlight">@lang('home.intro_title_changable_2')</span> </span><span
-                        class="txt-rotate-keyword"><span class="intro_highlight">@lang('home.intro_title_changable_3')</span></span><span
-                        class="txt-rotate-keyword"><span class="intro_highlight">@lang('home.intro_title_changable_4')</span> </span></span></h2>
+                        class="txt-rotate-keyword"><span class="intro_highlight text-40">@lang('home.intro_title_changable_2')</span> </span><span
+                        class="txt-rotate-keyword"><span class="intro_highlight text-40">@lang('home.intro_title_changable_3')</span></span><span
+                        class="txt-rotate-keyword"><span class="intro_highlight text-40">@lang('home.intro_title_changable_4')</span> </span></span></h2>
         </span> @lang('home.intro_title_p2')</h1>
         <p class="w-70percent ld-fh-element text-22 leading-1/5em mb-0/5em">@lang('home.intro_desc')</p>
     </div>
