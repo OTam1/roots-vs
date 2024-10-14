@@ -83,7 +83,8 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                     </ul>
                 </div>
             </div>
-            <div class="header-module module-button ml-25 module-button"><a
+            {{-- Hidden send messgae in header --}}
+            {{-- <div class="header-module module-button ml-25 module-button"><a
                 @if (!request()->routeIs('home'))
                 href="{{route('home')}}#co-contactus"
                 @else
@@ -94,7 +95,8 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
                 @else
                 data-lity="#contact-modal"
                 @endif
-                    ><span class="btn-txt" data-text="Send message">@lang('header.send_msg') </span></a></div>
+                    ><span class="btn-txt" data-text="Send message">@lang('header.send_msg') </span></a></div> --}}
+
         </div>
     </div>
 </div>

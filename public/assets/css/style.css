@@ -2274,3 +2274,7 @@ width: 800px;
 	.aboutusicons{
 		width:55px;
 	}
+
+	.responsive_text_40{
+		font-size: calc(16px + 20*((100vw - 300px) /(1200 - 300)));
+	}
