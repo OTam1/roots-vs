@@ -77,7 +77,7 @@ style="background-image: url();" dir="{{ app()->getLocale() == 'ar' ? 'rtl' : 'l
                 </p>
             </div>
         </div> --}}
-        <div class="col col-12 col-md-3">
+        {{-- <div class="col col-12 col-md-3">
             <div class="ld-fancy-heading relative">
                 <h6
                     class="ld-fh-element text-14 font-bold mb-1/25em tracking-0 inline-block relative">
@@ -95,7 +95,7 @@ style="background-image: url();" dir="{{ app()->getLocale() == 'ar' ? 'rtl' : 'l
                         data-cfemail="cda4a3aba28da5b8afe3aea2a0">Engage@roots.ventures</a>
                 </p>
             </div>
-        </div>
+        </div> --}}
     </div>
 </div>
 </section>
