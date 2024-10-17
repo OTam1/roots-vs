@@ -1920,7 +1920,8 @@ width: 800px;
 		margin: 0 0 2rem 0;
 		padding-left: 10px;
 		border-left: 5px solid #522bb8;
-		font-size: 25px;
+		/* font-size: 25px; */
+		font-size: calc(16px + 8*((100vw - 300px) /(1200 - 300)));
 		color: white;
 		position: absolute;
 		top: 22px;
