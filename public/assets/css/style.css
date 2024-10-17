@@ -2278,7 +2278,7 @@ width: 800px;
 	}
 
 	.responsive_text_40{
-		font-size: calc(16px + 20*((140vw - 100px) /(1200 - 300)));
+		font-size: calc(16px + 18*((140vw - 100px) /(1200 - 300)))
 	}
 
 	@media only screen and (min-device-pixel-ratio: 1.3) and (max-device-pixel-ratio: 2),
