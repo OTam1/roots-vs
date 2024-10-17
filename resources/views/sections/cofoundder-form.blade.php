@@ -13,7 +13,7 @@ style="background-image: url();" dir="{{ app()->getLocale() == 'ar' ? 'rtl' : 'l
                 </p>
             </div>
         </div>
-        <div class="col col-12 col-md-6 -mb-100 module-col">
+        <div class="col col-12 col-md-6 module-col">
             <div
                 class="lqd-contact-form lqd-contact-form-inputs-underlined lqd-contact-form-button-lg lqd-contact-form-button-block py-45 px-65 -mb-50 md:p-0">
                 <div role="form">

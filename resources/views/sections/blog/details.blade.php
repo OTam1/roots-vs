@@ -1,4 +1,11 @@
 <style>
+	@media only screen and (min-device-pixel-ratio: 1.3) and (max-device-pixel-ratio: 2),
+	only screen and (-webkit-min-device-pixel-ratio: 1.3) and (-webkit-max-device-pixel-ratio: 2) {
+
+    #site-footer{
+		zoom: 0.67;
+    }
+    }
     .lqd-post-media img {
         margin-bottom: 3em;
     }
@@ -194,7 +201,7 @@
                             class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-2 vc_col-md-8 liquid-column-634d026ecc17a">
                             <div class="vc_column-inner  ">
                                 <div class="wpb_wrapper">
-                                    <div class="wpb_text_column wpb_content_element ">
+                                    <div class="wpb_text_column wpb_content_element" style="text-align: justify;">
                                         <div class="wpb_wrapper">
                                             <div class="lqd-post-header entry-header"
                                                 style="opacity: 1; transform: translate(0px, 0px); transition: none; will-change: transform, opacity;">

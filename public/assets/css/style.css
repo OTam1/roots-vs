@@ -476,6 +476,7 @@ font-weight: 500;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+	margin: 2%;
 }
 
 .flex-item {
@@ -2277,4 +2278,41 @@ width: 800px;
 
 	.responsive_text_40{
 		font-size: calc(16px + 20*((100vw - 300px) /(1200 - 300)));
+	}
+
+	@media only screen and (min-device-pixel-ratio: 1.3) and (max-device-pixel-ratio: 2),
+	only screen and (-webkit-min-device-pixel-ratio: 1.3) and (-webkit-max-device-pixel-ratio: 2) {
+	 header {
+		  max-width: unset !important;
+		}
+	  
+		#wrap {
+			zoom: 0.67;
+		}
+		.lqd-stickybar-wrap{
+			height: 100% !important;
+		}
+		.lqd-module-backdrop{
+			width: 100% !important;
+			height: 100% !important;
+
+		}
+		.txt-rotate-keywords{
+			min-width:max-content;
+			  }
+	  }
+
+	  .iconbox{
+		min-height: 17em;
+	  }
+ 
+	@media (max-width: 991px) and (min-width: 768px) {
+		#co-contactus{
+			height: unset;
+			padding-bottom: 6em !important;
+		}
+	}
+	#co-contactus{
+		height: unset;
+		padding-bottom: 6em;
 	}

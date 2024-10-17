@@ -5,5 +5,5 @@
 @section('title', 'Blog - Roots Ventures')
 
 @section('content')
-    @include('sections.blog.details')
+@include('sections.blog.details')
 @endsection
