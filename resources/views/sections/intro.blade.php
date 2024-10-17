@@ -12,7 +12,7 @@
                         class="txt-rotate-keyword"><span class="intro_highlight responsive_text_40">@lang('home.intro_title_changable_3')</span></span><span
                         class="txt-rotate-keyword"><span class="intro_highlight responsive_text_40">@lang('home.intro_title_changable_4')</span> </span></span></h2>
         </span> @lang('home.intro_title_p2')</h1>
-        <p class="w-70percent ld-fh-element text-22 leading-1/5em mb-0/5em">@lang('home.intro_desc')</p>
+        <p class="w-70percent ld-fh-element text-22 leading-1/5em mb-0/5em" style="font-size: calc(16px + 3*((100vw - 300px) /(1200 - 300)));">@lang('home.intro_desc')</p>
     </div>
     <div class="scroll-mouse">
         <a href="#scrollto">
