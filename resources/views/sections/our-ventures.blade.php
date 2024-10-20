@@ -3,28 +3,28 @@
     <div class="owl-carousel ourventures owl-theme owl-custom-1">
 
         <div class="item carousel-item-1 grayscale" onclick="openModal('Coz')">
-            <img class="slider-img" src="{{ '/assets/img/our-ventures/Coz.png' }}"alt="Partner 1">
+            <img class="slider-img" src="{{ '/assets/img/our-ventures/coz-bg.png' }}"alt="Partner 1">
             <div class="slider-logo">
                 <img src="{{ '/assets/img/our-ventures/Coz-logo.png' }}"alt="Partner 1">
             </div>
         </div>
 
         <div class="item carousel-item-1 grayscale" onclick="openModal('Eyotic')">
-            <img class="slider-img" src="{{ '/assets/img/our-ventures/Eyotic.png' }}" alt="Partner 2">
+            <img class="slider-img" src="{{ '/assets/img/our-ventures/Eyotic-bg.png' }}" alt="Partner 2">
             <div class="slider-logo">
                 <img src="{{ '/assets/img/our-ventures/Eyotic-logo.png' }}"alt="Partner 1">
             </div>
         </div>
 
         <div class="item carousel-item-1 grayscale" onclick="openModal('Rai')">
-            <img class="slider-img" src="{{ '/assets/img/our-ventures/Rai.png' }}"alt="Partner 3">
+            <img class="slider-img" src="{{ '/assets/img/our-ventures/Rai-bg.png' }}"alt="Partner 3">
             <div class="slider-logo">
                 <img src="{{ '/assets/img/our-ventures/Rai-logo.png' }}"alt="Partner 1">
             </div>
         </div>
         
         <div class="item carousel-item-1 grayscale" onclick="openModal('Rootlytics')">
-            <img class="slider-img" src="{{ '/assets/img/our-ventures/Rootlytics.png' }}" alt="Partner 4">
+            <img class="slider-img" src="{{ '/assets/img/our-ventures/Rootlytics-bg.png' }}" alt="Partner 4">
             <div class="slider-logo">
                 <img src="{{ '/assets/img/our-ventures/Rootlytics-logo.png' }}"alt="Partner 1">
             </div>

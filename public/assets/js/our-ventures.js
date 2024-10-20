@@ -13,7 +13,9 @@ jQuery(document).ready(function($){
             600: { items: 3, margin: 20 },
             1000: { items: 5 },
             1600: { items: 5 },
-            2000: { items: 5 }
+            2000: { items: 5 },
+            3000: { items: 7 }
+
         }
     });
     

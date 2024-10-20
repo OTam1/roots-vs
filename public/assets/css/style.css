@@ -285,8 +285,7 @@ width: 2em !important;
 }
  .slider-img {
     max-width: 100%;
-    /* max-height: 745px; Fixed height for consistency */
-	max-height: 570px;
+	max-height: 100%;
     object-fit: contain; /* Ensure image fits without distortion */
     margin: 0 auto;
     display: block;
