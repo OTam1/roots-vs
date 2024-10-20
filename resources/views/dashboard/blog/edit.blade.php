@@ -30,7 +30,25 @@
     <!-- CSS Files -->
     <link id="pagestyle" href="{{ asset('./assets/dashboard-assets/css/material-dashboard.css?v=3.1.0') }}"
         rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css" rel="stylesheet" />
+        <style>
+    .ql-toolbar {
+    z-index: 5; /* Ensure toolbar is on top */
+}
 
+.ql-editor {
+    min-height: 200px;
+    background-color: white;
+}
+
+.ql-container.ql-snow {
+    border: 1px solid #ccc; /* Ensure editor boundary is visible */
+}
+.quill-editor{
+    width: 100%;
+}
+
+</style>
 </head>
 
 <body class="g-sidenav-show  bg-gray-100">
@@ -79,16 +97,18 @@
                         <div class="col-md-6">
                             <div class="input-group input-group-outline my-3 is-filled">
                                 <label class="form-label">Description</label>
-                                <textarea class="form-control" name="description" dir="ltr">{{ old('description', $blog->description) }}</textarea>
+                                <div id="descriptionEditor" class="quill-editor"></div>
+                                <input type="hidden" name="description" id="description" value="{{ old('description', $blog->description) }}">
                             </div>
                         </div>
+                        
                         <div class="col-md-6">
                             <div class="input-group input-group-outline my-3 is-filled">
                                 <label class="form-label">Description (Arabic)</label>
-                                <textarea class="form-control" name="description_ar" dir="ltr">{{ old('description_ar', $blog->description_ar) }}</textarea>
+                                <div id="descriptionArEditor" class="quill-editor"></div>
+                                <input type="hidden" name="description_ar" id="description_ar" value="{{ old('description_ar', $blog->description_ar) }}">
                             </div>
-                        </div>
-                        <div class="col-md-6">
+                        </div>                                                <div class="col-md-6">
                             <div class="input-group input-group-outline my-3 is-filled">
                                 <label class="form-label">Date</label>
                                 <input type="date" class="form-control" name="date" value="{{ old('date', $blog->date) }}" dir="ltr">
@@ -168,6 +188,118 @@
 
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="{{ asset('./assets/dashboard-assets/js/material-dashboard.min.js?v=3.1.0') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
+
+    <script>
+                // Register color and background formats
+                Quill.register({
+            'formats/color': Quill.import('formats/color'),
+            'formats/background': Quill.import('formats/background'),
+        });
+
+// Function to handle image uploads
+function imageHandler(editor) {
+    const input = document.createElement('input');
+    input.setAttribute('type', 'file');
+    input.setAttribute('accept', 'image/*');
+    input.click();
+
+    input.onchange = async () => {
+        const file = input.files[0];
+        if (!file) {
+            console.error('No file selected');
+            return;
+        }
+
+        const formData = new FormData();
+        formData.append('image', file);
+
+        try {
+            const response = await fetch('{{ route("dashboard.blog.uploadImage") }}', {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'X-CSRF-TOKEN': '{{ csrf_token() }}' // Make sure this is properly echoed
+                }
+            });
+
+            if (!response.ok) {
+                const errorText = await response.text(); // Log response text if error
+                console.error('Upload error:', errorText);
+                throw new Error('Image upload failed');
+            }
+
+            const data = await response.json();
+            const imageUrl = data.url;
+
+            const range = editor.getSelection();
+            const index = range ? range.index : editor.getLength(); // Use the end of the editor if no selection
+            editor.insertEmbed(index, 'image', imageUrl);
+        } catch (error) {
+            console.error('Image upload error:', error);
+            alert('Failed to upload image: ' + error.message);
+        }
+    };
+}
+
+// Initialize Quill editors
+var descriptionEditor = new Quill('#descriptionEditor', {
+    theme: 'snow',
+    modules: {
+        toolbar: {
+            container: [
+                [{ 'header': [1, 2, false] }],
+                    [{ 'size': ['small', false, 'large', 'huge'] }],
+                    ['bold', 'italic', 'underline', 'strike'],
+                    ['clean'], // Clear formatting
+                    [{ 'color': [] }, { 'background': [] }], // Color and background options
+                    [{ 'list': 'ordered' }, { 'list': 'bullet' }],
+                    ['blockquote', 'link', 'image']
+            ],
+            handlers: {
+                image: function() {
+                    imageHandler(descriptionEditor); // Pass the specific editor instance
+                }
+            }
+        }
+    }
+});
+
+// Set the content from the hidden input
+descriptionEditor.root.innerHTML = document.querySelector('#description').value;
+
+var descriptionArEditor = new Quill('#descriptionArEditor', {
+    theme: 'snow',
+    modules: {
+        toolbar: {
+            container: [
+                [{ 'header': [1, 2, false] }],
+                    [{ 'size': ['small', false, 'large', 'huge'] }],
+                    ['bold', 'italic', 'underline', 'strike'],
+                    ['clean'], // Clear formatting
+                    [{ 'color': [] }, { 'background': [] }], // Color and background options
+                    [{ 'list': 'ordered' }, { 'list': 'bullet' }],
+                    ['blockquote', 'link', 'image']
+            ],
+            handlers: {
+                image: function() {
+                    imageHandler(descriptionArEditor); // Pass the specific editor instance
+                }
+            }
+        }
+    }
+});
+
+// Set the content from the hidden input
+descriptionArEditor.root.innerHTML = document.querySelector('#description_ar').value;
+
+// Form submission logic to set hidden fields
+document.querySelector('form').onsubmit = function () {
+    document.querySelector('input[name=description]').value = descriptionEditor.root.innerHTML;
+    document.querySelector('input[name=description_ar]').value = descriptionArEditor.root.innerHTML;
+};
+
+    </script>
 </body>
 
 </html>

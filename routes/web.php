@@ -72,5 +72,6 @@ Route::middleware('auth')->prefix('dashboard')->group(function () {
     Route::delete('blog/{id}', [DashboardController::class, 'destroyBlog'])->name('dashboard.blog.destroy');
     Route::post('blog/{id}/toggle-visibility', [DashboardController::class, 'toggleVisibilityBlog'])
     ->name('dashboard.blog.toggleVisibility');
+    Route::post('blog/upload-image', [DashboardController::class, 'uploadImage'])->name('dashboard.blog.uploadImage');
 
 });

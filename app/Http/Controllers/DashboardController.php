@@ -314,4 +314,22 @@ class DashboardController extends Controller
         return redirect()->route('dashboard.blog.index')->with('status', 'Visibility updated successfully.');
     }
 
+    public function uploadImage(Request $request)
+    {
+        $request->validate([
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif',
+        ]);
+
+        if ($request->hasFile('image')) {
+            $image = $request->file('image');
+            $imageName = time() . '.' . $image->extension();
+            $image->move(public_path('images/blog'), $imageName);
+
+            $url = asset('images/blog/' . $imageName);
+            return response()->json(['url' => $url], 200);
+        }
+
+        return response()->json(['error' => 'Invalid Image'], 400);
+    }
+
 }
