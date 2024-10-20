@@ -30,7 +30,7 @@ return [
 
 
     //mbs
-    'mbs_desc' => 'The first set of initiatives under SGI represents investments worth more than SAR 700Bn. Which contribute to creating quality job opportunities, providing significant investment opportunities for the private sector, and developing the green economy, in accordance with the kingdom 2030 Vision.',
+    'mbs_desc' => 'The first set of initiatives under SGI represents investments worth more than SAR 700Bn. Which contribute to creating quality job opportunities, providing significant investment opportunities for the private sector, and developing the green economy, in accordance with the kingdom <br> 2030 Vision.',
     'mbs_name' => 'HRH Prince Mohammed bin Salman bin Abdulaziz',
 
 
