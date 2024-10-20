@@ -182,7 +182,7 @@ width: 2em !important;
 }
 .mbs-text{
     font-size: calc(0.8rem + 1vw);
-    text-align: justify;
+    text-align: start;
     font-weight: 500;
     line-height: 1.2;
 }
