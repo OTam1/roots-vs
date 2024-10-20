@@ -2,7 +2,7 @@
     <div class="content-wrapper">
         {{-- <div class="overlay"></div> --}}
         <div class="image-section">
-            <img src="/assets/img/MBS-img.png" alt="Prince Mohammed bin Salman">
+            <img src="/assets/img/HRH_MOHAMED_BIN_SALMAN.png" alt="Prince Mohammed bin Salman">
         </div>
         <div class="text-section" dir="{{ app()->getLocale() == 'ar' ? 'rtl' : 'ltr' }}">
             <div class="text-content">
