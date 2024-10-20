@@ -1,45 +1,39 @@
 jQuery(document).ready(function($){
     var owl = $('.ourventures').owlCarousel({
         autoplay: true,
+        autoplayTimeout: 3000, // Adjust the autoplay interval
+        autoplaySpeed: 1000,   // Animation speed during autoplay
         loop: true,
-        center: true,  // Add this line
+        center: true,
         margin: 10,
         dots: false,
         drag: true,
         responsive: {
-            0: {
-                nav: false,
-                items: 1
-            },
-            600: {
-                items: 3,
-                margin: 20,
-            },
-            1000: {
-                items: 5,
-            },
-            1600: {
-                items: 5,
-            },
-            2000: {
-                items: 5,
-            }
+            0: { nav: false, items: 1 },
+            600: { items: 3, margin: 20 },
+            1000: { items: 5 },
+            1600: { items: 5 },
+            2000: { items: 5 }
         }
     });
-
-    // Add these event listeners
+    
+    // Listen to 'changed' event and apply styles with animation
     owl.on('changed.owl.carousel', function(event) {
         updateItemStyles(event.item.index);
     });
-
+    
     function updateItemStyles(centerIndex) {
         $('.ourventures .owl-item').removeClass('colored').addClass('grayscale');
+        
+        // Smoothly add 'colored' class to the new center item
         $('.ourventures .owl-item').eq(centerIndex).addClass('colored').removeClass('grayscale');
     }
-
-    // Initial call to set styles
-    updateItemStyles($('.ourventures .owl-item.active.center').index());
-
+    
+    // Initial call to set styles on page load
+    $(document).ready(function() {
+        updateItemStyles($('.ourventures .owl-item.active.center').index());
+    });
+    
 
 
 // document.querySelectorAll('.item-sf').forEach(item => {
