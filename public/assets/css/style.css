@@ -2351,3 +2351,15 @@ width: 800px;
 		height: unset;
 		padding-bottom: 6em;
 	}
+	.ql-size-small {
+		font-size: 17px;
+		}	
+	.ql-size-large {
+		font-size: 22px;
+	}
+	.ql-size-huge{
+		font-size: 30px;
+	}
+	.wpb_wrapper > p > img {
+		width: 80% !important;
+	}

@@ -239,47 +239,127 @@ function imageHandler() {
         
         // Initialize Quill with custom image handler
         var descriptionEditor = new Quill('#descriptionEditor', {
-          theme: 'snow',
-          modules: {
-            toolbar: {
-              container: [
-                [{ 'header': [1, 2, 3, 4, false] }],
-                    [{ 'size': ['small', false, 'large', 'huge'] }],
-                    ['bold', 'italic', 'underline', 'strike'],
-                    ['clean'], // Clear formatting
-                    [{ 'color': [] }, { 'background': [] }], // Color and background options
-                    [{ 'align': [] }],
-                    [{ 'list': 'ordered' }, { 'list': 'bullet' }],
-                    ['blockquote', 'link', 'image']
-              ],
-              handlers: {
+            theme: 'snow',
+    modules: {
+        toolbar: {
+            container: [
+                // Header Levels
+                [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
+
+                // Font Sizes
+                [{ 'size': ['small', false, 'large', 'huge'] }],
+
+                // Bold, Italic, Underline, Strike
+                ['bold', 'italic', 'underline', 'strike'], 
+
+                // Subscript / Superscript
+                [{ 'script': 'sub' }, { 'script': 'super' }],
+
+                // Color & Background Formatting
+                [{ 'color': [] }, { 'background': [] }],
+
+                // Lists (Ordered, Unordered)
+                [{ 'list': 'ordered' }, { 'list': 'bullet' }],
+
+                // Indentation
+                [{ 'indent': '-1' }, { 'indent': '+1' }],
+
+                // Text Alignment
+                [{ 'align': [] }], 
+
+                // Directionality (RTL/LTR)
+                [{ 'direction': 'ltr' }], 
+
+                // Block Elements: Blockquote, Code Block, Header
+                ['blockquote', 'code-block'],
+
+                // Inline Elements: Link, Image, Video
+                ['link', 'image'], 
+
+                // Clear Formatting
+                ['clean'] 
+            ],
+            handlers: {
                 image: imageHandler
-              }
             }
-          }
+        },
+        // Enable Clipboard module (optional)
+        clipboard: {
+            matchVisual: false // Controls pasting style (keep or strip formatting)
+        }
+    },
+    placeholder: 'Enter Description...',
+    readOnly: false, // Set to true if the editor should be read-only
+    bounds: document.body, // Limits the editor to the body
+    formats: [
+        'header', 'font', 'size', 'bold', 'italic', 'underline', 
+        'strike', 'script', 'blockquote', 'code-block', 'list', 
+        'bullet', 'indent', 'link', 'image', 'align', 
+        'color', 'background', 'direction'
+    ]
         });
         
         // Arabic Editor
         var descriptionArEditor = new Quill('#descriptionArEditor', {
-          theme: 'snow',
-          modules: {
-            toolbar: {
-              container: [
-                [{ 'header': [1, 2, 3, 4, false] }],
-                    [{ 'size': ['small', false, 'large', 'huge'] }],
-                    ['bold', 'italic', 'underline', 'strike'],
-                    ['clean'], // Clear formatting
-                    [{ 'color': [] }, { 'background': [] }], // Color and background options
-                    [{ 'align': [] }],
-                    [{ 'list': 'ordered' }, { 'list': 'bullet' }],
-                    ['blockquote', 'link', 'image']
-              ],
-              handlers: {
+            theme: 'snow',
+    modules: {
+        toolbar: {
+            container: [
+                // Header Levels
+                [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
+
+                // Font Sizes
+                [{ 'size': ['small', false, 'large', 'huge'] }],
+
+                // Bold, Italic, Underline, Strike
+                ['bold', 'italic', 'underline', 'strike'], 
+
+                // Subscript / Superscript
+                [{ 'script': 'sub' }, { 'script': 'super' }],
+
+                // Color & Background Formatting
+                [{ 'color': [] }, { 'background': [] }],
+
+                // Lists (Ordered, Unordered)
+                [{ 'list': 'ordered' }, { 'list': 'bullet' }],
+
+                // Indentation
+                [{ 'indent': '-1' }, { 'indent': '+1' }],
+
+                // Text Alignment
+                [{ 'align': [] }], 
+
+                // Directionality (RTL/LTR)
+                [{ 'direction': 'rtl' }], 
+
+                // Block Elements: Blockquote, Code Block, Header
+                ['blockquote', 'code-block'],
+
+                // Inline Elements: Link, Image, Video
+                ['link', 'image'], 
+
+                // Clear Formatting
+                ['clean'] 
+            ],
+            handlers: {
                 image: imageHandler
-              }
             }
-          }
-        });
+        },
+        // Enable Clipboard module (optional)
+        clipboard: {
+            matchVisual: false // Controls pasting style (keep or strip formatting)
+        }
+    },
+    placeholder: 'Enter Arabic Description...',
+    readOnly: false, // Set to true if the editor should be read-only
+    bounds: document.body, // Limits the editor to the body
+    formats: [
+        'header', 'font', 'size', 'bold', 'italic', 'underline', 
+        'strike', 'script', 'blockquote', 'code-block', 'list', 
+        'bullet', 'indent', 'link', 'image', 'align', 
+        'color', 'background', 'direction'
+    ]
+    });
         document.querySelector('form').onsubmit = function () {
     document.querySelector('input[name=description]').value = descriptionEditor.root.innerHTML;
     document.querySelector('input[name=description_ar]').value = descriptionArEditor.root.innerHTML;
