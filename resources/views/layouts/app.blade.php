@@ -19,7 +19,7 @@
     <link rel="manifest" href="{{ asset('assets/favicon/site.webmanifest') }}">
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css?v=18') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css?v=19') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/owl.theme.default.min.css') }}">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">

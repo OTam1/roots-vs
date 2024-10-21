@@ -1,7 +1,7 @@
 <section class="lqd-section text-box-single pt-120" data-section-luminosity="light">
     <div class="container px-15">
         <div class="row">
-            <div class="col col-12 col-md-12">
+            <div class="col col-8 col-md-8">
                 <div class="ld-fancy-heading">
                     <h1 class="ld-fh-element mb-0/75em text-48 -tracking-0/5">@lang('gettoknowus.about')</h1>
                 </div>
@@ -9,6 +9,11 @@
                     <p class="ld-fh-element mb-0/5em leading-1/5em text-20 md:pr-0">
                         @lang('gettoknowus.about_desc')
                     </p>
+                </div>
+            </div>
+            <div class="col col-4 col-md-4">
+                <div class="ld-fancy-heading">
+                    <img class="w-90percent rounded-20" src="assets/img/Roots.png">
                 </div>
             </div>
         </div>
