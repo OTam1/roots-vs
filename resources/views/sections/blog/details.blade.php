@@ -27,6 +27,9 @@
 	.ql-align-center {
 		text-align: -webkit-center;
 	}
+    p {
+    color: black;
+    }
     .lqd-lp-img {
         margin-bottom: 1em;
     }
