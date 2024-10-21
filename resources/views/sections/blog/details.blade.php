@@ -30,6 +30,9 @@
     p {
     color: black;
     }
+    .wpb_wrapper {
+    color: black;
+    }
     .lqd-lp-img {
         margin-bottom: 1em;
     }
