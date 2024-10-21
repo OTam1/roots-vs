@@ -243,7 +243,7 @@ function imageHandler() {
           modules: {
             toolbar: {
               container: [
-                [{ 'header': [1, 2, false] }],
+                [{ 'header': [1, 2, 3, 4, false] }],
                     [{ 'size': ['small', false, 'large', 'huge'] }],
                     ['bold', 'italic', 'underline', 'strike'],
                     ['clean'], // Clear formatting
@@ -265,7 +265,7 @@ function imageHandler() {
           modules: {
             toolbar: {
               container: [
-                [{ 'header': [1, 2, false] }],
+                [{ 'header': [1, 2, 3, 4, false] }],
                     [{ 'size': ['small', false, 'large', 'huge'] }],
                     ['bold', 'italic', 'underline', 'strike'],
                     ['clean'], // Clear formatting
