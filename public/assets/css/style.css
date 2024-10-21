@@ -2360,7 +2360,10 @@ width: 800px;
 	.ql-size-huge{
 		font-size: 30px;
 	}
-	p > img {
+	.wpb_wrapper > p > span > img {
+		width: 80%;
+	}
+	.wpb_wrapper > p > img {
 		width: 80%;
 	}
 
