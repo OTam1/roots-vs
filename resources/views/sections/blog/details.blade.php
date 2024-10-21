@@ -24,7 +24,9 @@
         margin-bottom: 3em;
         }
     }
-
+	.ql-align-center {
+		text-align: -webkit-center;
+	}
     .lqd-lp-img {
         margin-bottom: 1em;
     }
