@@ -248,6 +248,7 @@ function imageHandler() {
                     ['bold', 'italic', 'underline', 'strike'],
                     ['clean'], // Clear formatting
                     [{ 'color': [] }, { 'background': [] }], // Color and background options
+                    [{ 'align': [] }],
                     [{ 'list': 'ordered' }, { 'list': 'bullet' }],
                     ['blockquote', 'link', 'image']
               ],
@@ -269,6 +270,7 @@ function imageHandler() {
                     ['bold', 'italic', 'underline', 'strike'],
                     ['clean'], // Clear formatting
                     [{ 'color': [] }, { 'background': [] }], // Color and background options
+                    [{ 'align': [] }],
                     [{ 'list': 'ordered' }, { 'list': 'bullet' }],
                     ['blockquote', 'link', 'image']
               ],

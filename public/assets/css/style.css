@@ -2288,14 +2288,16 @@ width: 800px;
 
 :lang(ar) .wpb_text_column.wpb_content_element {
 	border-left: 1px solid;
+	border-right: 1px solid;
 	padding: 1%;
-	width: 80%;
+	width: 100%;
 }
 
 :lang(en) .wpb_text_column.wpb_content_element {
 	border-right: 1px solid;
+	border-left: 1px solid;
 	padding: 1%;
-	width: 80%;
+	width: 100%;
 }
 
 @media (max-width: 1001px) {
@@ -2348,4 +2350,7 @@ width: 800px;
 	#co-contactus{
 		height: unset;
 		padding-bottom: 6em;
+	}
+	.ql-align-center {
+		text-align: -webkit-center;
 	}

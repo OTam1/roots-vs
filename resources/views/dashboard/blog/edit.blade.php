@@ -253,6 +253,7 @@ var descriptionEditor = new Quill('#descriptionEditor', {
                     ['bold', 'italic', 'underline', 'strike'],
                     ['clean'], // Clear formatting
                     [{ 'color': [] }, { 'background': [] }], // Color and background options
+                    [{ 'align': [] }],
                     [{ 'list': 'ordered' }, { 'list': 'bullet' }],
                     ['blockquote', 'link', 'image']
             ],
@@ -278,6 +279,7 @@ var descriptionArEditor = new Quill('#descriptionArEditor', {
                     ['bold', 'italic', 'underline', 'strike'],
                     ['clean'], // Clear formatting
                     [{ 'color': [] }, { 'background': [] }], // Color and background options
+                    [{ 'align': [] }],
                     [{ 'list': 'ordered' }, { 'list': 'bullet' }],
                     ['blockquote', 'link', 'image']
             ],
