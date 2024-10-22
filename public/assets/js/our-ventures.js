@@ -15,10 +15,9 @@ jQuery(document).ready(function($){
             1600: { items: 5 },
             2000: { items: 5 },
             3000: { items: 7 }
-
         }
     });
-    
+
     // Listen to 'changed' event and apply styles with animation
     owl.on('changed.owl.carousel', function(event) {
         updateItemStyles(event.item.index);
@@ -35,7 +34,22 @@ jQuery(document).ready(function($){
     $(document).ready(function() {
         updateItemStyles($('.ourventures .owl-item.active.center').index());
     });
-    
+
+    // Function to center clicked item
+    window.centerClickedItem = function(index) {
+        owl.trigger('to.owl.carousel', [index, 300]);
+        owl.trigger('play.owl.autoplay'); // Reset autoplay
+    }
+
+    // Stop autoplay on mouse enter
+    $('.ourventures').on('mouseenter', '.item', function() {
+        owl.trigger('stop.owl.autoplay');
+    });
+
+    // Restart autoplay on mouse leave
+    $('.ourventures').on('mouseleave', '.item', function() {
+        owl.trigger('play.owl.autoplay');
+    });
 
 
 // document.querySelectorAll('.item-sf').forEach(item => {
