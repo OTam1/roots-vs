@@ -37,14 +37,16 @@
             <div class="row">
                 <div class="col col-12 col-md-6">
                     <div class="ld-fancy-heading">
-                        <p class="ld-fh-element text-22 leading-1/5em mb-0/5em"><span>@lang('footer.looking')<br> @lang('footer.send')</span> <span class="text-white"><span
+                        <p class="ld-fh-element text-22 leading-1/5em mb-0/5em"><span>@lang('footer.looking')<br> @lang('footer.send') @lang('footer.for') <br></span> <span class="text-white"><span
                                     class="text-white underline"><a href="mailto:Engage@roots.ventures"
                                         class="__cf_email__"
                                         data-cfemail="157c7b737a55797c64607c7138617d707870663b767a78" style="
                                         text-decoration: underline;
                                         font-weight: bold;
                                     ">Engage@roots.ventures</a></span>
-                            </span><br>@lang('footer.for')</p>
+                            </span>
+                            {{-- <br>@lang('footer.for') --}}
+                        </p>
                     </div>
                 </div>
                 <div class="col col-6 col-sm-6 col-md-3 col-lg-3">

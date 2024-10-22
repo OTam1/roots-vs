@@ -212,7 +212,7 @@
                                     <div class="wpb_text_column wpb_content_element" style="text-align: justify;">
                                         <div class="wpb_wrapper">
                                             <div class="lqd-post-header entry-header"
-                                                style="opacity: 1; transform: translate(0px, 0px); transition: none; will-change: transform, opacity;">
+                                                style="opacity: 1; transform: translate(0px, 0px); transition: none; will-change: transform, opacity;text-align: start;">
                                                 <h1 class="entry-title">
                                                     @if(app()->getLocale() == 'ar')
                                                     {{ $blogItem->title_ar }}

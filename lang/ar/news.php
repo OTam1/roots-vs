@@ -2,6 +2,6 @@
 
 return [
 
-    'news_title' => 'اخر الاخبار',
+    'news_title' => 'آخر الأخبار',
     'news' => 'خبر',
 ];

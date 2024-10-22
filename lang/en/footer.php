@@ -17,7 +17,9 @@ return [
     'malqa' => 'Al-Malqa',
     'saudi' => 'Saudi Arabia, Riyadh',
 
-    'looking' => 'Looking for collaboration?',
-    'send' => 'Send an email to',
+    // 'looking' => 'Looking for collaboration?',
+    // 'send' => 'Send an email to',
+    'looking' => '',
+    'send' => '',
     'for' => 'for vailable for enquires and collaborations.'
 ];

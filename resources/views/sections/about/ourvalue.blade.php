@@ -16,8 +16,8 @@
                             <img class="lqd-icn-ess icon-lqd-eye aboutusicons" src="assets/img/aboutus-icons/impact.png" width="20"/>
                         </span></div>
                         <div class="contents">
-                            <h3 class="font-semibold uppercase mb-10 text-14 text-black">@lang('gettoknowus.impact')</h3>
-                            <p><span class="text-16 leading-20 text-black">@lang('gettoknowus.impact_desc')
+                            <h3 class="font-semibold uppercase mb-10 text-20 text-black">@lang('gettoknowus.impact')</h3>
+                            <p><span class="text-18 leading-20 text-black">@lang('gettoknowus.impact_desc')
                             </span></p>
                         </div>
                     </div>
@@ -31,8 +31,8 @@
                             <img class="lqd-icn-ess icon-lqd-eye aboutusicons" src="assets/img/aboutus-icons/innovation.png" width="20"/>
                         </span></div>
                         <div class="contents">
-                            <h3 class="font-semibold uppercase mb-10 text-14 text-black">@lang('gettoknowus.innovation')</h3>
-                            <p><span class="text-16 leading-20 text-black">@lang('gettoknowus.innovation_desc')
+                            <h3 class="font-semibold uppercase mb-10 text-20 text-black">@lang('gettoknowus.innovation')</h3>
+                            <p><span class="text-18 leading-20 text-black">@lang('gettoknowus.innovation_desc')
                             </span></p>
                         </div>
                     </div>
@@ -46,8 +46,8 @@
                             <img class="lqd-icn-ess icon-lqd-eye aboutusicons" src="assets/img/aboutus-icons/accountability.png" width="20"/>
                         </span></div>
                         <div class="contents">
-                            <h3 class="font-semibold uppercase mb-10 text-14 text-black">@lang('gettoknowus.accountability')</h3>
-                            <p><span class="text-16 leading-20 text-black">@lang('gettoknowus.accountability_desc')
+                            <h3 class="font-semibold uppercase mb-10 text-20 text-black">@lang('gettoknowus.accountability')</h3>
+                            <p><span class="text-18 leading-20 text-black">@lang('gettoknowus.accountability_desc')
                             </span></p>
                         </div>
                     </div>
@@ -71,8 +71,8 @@
                             <img class="lqd-icn-ess icon-lqd-eye aboutusicons" src="assets/img/aboutus-icons/enablement.png" width="20"/>
                         </span></div>
                         <div class="contents">
-                            <h3 class="font-semibold uppercase mb-10 text-14 text-black">@lang('gettoknowus.enablement')</h3>
-                            <p><span class="text-16 leading-20 text-black">@lang('gettoknowus.enablement_desc')
+                            <h3 class="font-semibold uppercase mb-10 text-20 text-black">@lang('gettoknowus.enablement')</h3>
+                            <p><span class="text-18 leading-20 text-black">@lang('gettoknowus.enablement_desc')
                             </span></p>
                         </div>
                     </div>
@@ -86,8 +86,8 @@
                             <img class="lqd-icn-ess icon-lqd-eye aboutusicons" src="assets/img/aboutus-icons/transparency.png" width="20"/>
                         </span></div>
                         <div class="contents">
-                            <h3 class="font-semibold uppercase mb-10 text-14 text-black">@lang('gettoknowus.transparency')</h3>
-                            <p><span class="text-16 leading-20 text-black">@lang('gettoknowus.transparency_desc')
+                            <h3 class="font-semibold uppercase mb-10 text-20 text-black">@lang('gettoknowus.transparency')</h3>
+                            <p><span class="text-18 leading-20 text-black">@lang('gettoknowus.transparency_desc')
                             </span></p>
                         </div>
                     </div>
