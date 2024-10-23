@@ -130,7 +130,7 @@ width: 2em !important;
     flex-wrap: wrap;
     width: 100%;
     height: 110vh;
-    background: url('/assets/img/MBS-BG.png') no-repeat center center/cover;
+    background: url('/assets/img/MBS_BG.png') no-repeat center center/cover;
     /* position: relative; */
 }
 .overlay {
