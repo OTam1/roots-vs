@@ -13,7 +13,7 @@
 
                 <div class="col col-12 col-md-5 col-lg-6 sm:hidden">
                     <div class="lqd-imggrp-single pt-160 md:pt-0">
-                        <div class="mr-60 ml-130 lqd-imggrp-img-container mb-0">
+                        <div class="mr-60 ml-60 lqd-imggrp-img-container mb-0">
                             <figure><img src="{{ asset('assets/img/Roots-Logo-White.png') }}"
                                     alt="hub logo"></figure>
                         </div>
