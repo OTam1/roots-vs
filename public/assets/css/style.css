@@ -520,7 +520,7 @@ font-weight: 500;
 	padding-inline-start: 0%;
 
 }
-@media screen and (max-width: 1751px) {
+@media screen and (max-width: 526px) {
 
 .flex-item {
     flex: 1 1 calc(34% - 20px);
