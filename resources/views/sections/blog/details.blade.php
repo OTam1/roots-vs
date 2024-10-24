@@ -26,6 +26,7 @@
     }
 	.ql-align-center {
 		text-align: -webkit-center;
+        place-self: center;
 	}
     .wpb_wrapper {
     color: black;
@@ -33,7 +34,6 @@
     .lqd-lp-img {
         margin-bottom: 1em;
     }
-
     .vc_col-lg-1,
     .vc_col-lg-10,
     .vc_col-lg-11,
@@ -209,7 +209,7 @@
                                     <div class="wpb_text_column wpb_content_element" style="text-align: justify;">
                                         <div class="wpb_wrapper">
                                             <div class="lqd-post-header entry-header"
-                                                style="opacity: 1; transform: translate(0px, 0px); transition: none; will-change: transform, opacity;text-align: start;">
+                                                style="opacity: 1; transform: translate(0px, 0px); transition: none; will-change: transform, opacity;text-align: center;">
                                                 <h1 class="entry-title">
                                                     @if(app()->getLocale() == 'ar')
                                                     {{ $blogItem->title_ar }}
