@@ -27,9 +27,6 @@
 	.ql-align-center {
 		text-align: -webkit-center;
 	}
-    p {
-    color: black;
-    }
     .wpb_wrapper {
     color: black;
     }
