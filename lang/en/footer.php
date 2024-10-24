@@ -21,5 +21,5 @@ return [
     // 'send' => 'Send an email to',
     'looking' => '',
     'send' => '',
-    'for' => 'for vailable for enquires and collaborations.'
+    'for' => 'for enquires and collaborations'
 ];
