@@ -29,7 +29,7 @@
                         <img class="lqd-icn-ess icon-lqd-eye aboutusicons" src="assets/img/aboutus-icons/vision.png" width="20"/>
                     </span></div>
                     <div class="contents">
-                        <h3 class="text-20 mb-20 leading-1/5em"> @lang('gettoknowus.vision')</h3>
+                        <h3 class="font-semibold uppercase mb-10 text-20 text-black"> @lang('gettoknowus.vision')</h3>
                         <p class="text-18 text-gray-400 font-medium"><span>@lang('gettoknowus.vision_desc')</span></p>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                         <img class="lqd-icn-ess icon-lqd-eye aboutusicons" src="assets/img/aboutus-icons/mission.png" width="20"/>
                     </span></div>
                     <div class="contents">
-                        <h3 class="text-20 mb-20 leading-1/5em">@lang('gettoknowus.mission')</h3>
+                        <h3 class="font-semibold uppercase mb-10 text-20 text-black">@lang('gettoknowus.mission')</h3>
                         <p class="text-18 text-gray-400 font-medium"><span>@lang('gettoknowus.mission_desc')</span></p>
                     </div>
                 </div>

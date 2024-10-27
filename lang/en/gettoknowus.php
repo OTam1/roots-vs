@@ -3,7 +3,7 @@
 return [
     //about
     'about' => 'About ROOTS',
-    'about_desc' => 'ROOTS is the first venture studio in Saudi Arabia that focuses on climate tech and sustainability. ROOTS aims to open investment opportunities, localize advanced technologies, provide job opportunities for promising Saudi talents, and attract global investments. This contributes to achieving environmental sustainability goals in the Kingdom and worldwide.',
+    'about_desc' => 'ROOTS is the first venture studio in Saudi Arabia that focuses on climate tech and sustainability.<br> ROOTS aims to open investment opportunities, localize advanced technologies, provide job opportunities for promising Saudi talents, and attract global investments. This contributes to achieving environmental sustainability goals in the Kingdom and worldwide.',
     'vision' => 'Vision',
     'vision_desc' => 'To become the key enabler for sustainability innovation in the country and in the region.',
     'mission' => 'Mission',

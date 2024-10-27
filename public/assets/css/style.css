@@ -1,5 +1,16 @@
-body, html {
+:lang(en) body, html {
     font-family: "Montserrat", sans-serif !important;
+}
+
+@font-face {
+    font-family: 'Montserrat Arabic';
+    src: url('/assets/fonts/Montserrat-Arabic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:lang(ar) body, html {
+	font-family: 'Montserrat Arabic', sans-serif !important;
 }
 /* Intro Section Strarts */
 .intro-section {
@@ -2379,3 +2390,4 @@ width: 800px;
 	.ql-size-huge > img {
 		width: 100%;
 	}
+	
