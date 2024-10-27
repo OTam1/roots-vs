@@ -17,7 +17,7 @@ jQuery(document).ready(function($){
             3000: { items: 7 }
         }
     });
-
+    
     // Listen to 'changed' event and apply styles with animation
     owl.on('changed.owl.carousel', function(event) {
         updateItemStyles(event.item.index);
@@ -34,18 +34,44 @@ jQuery(document).ready(function($){
     $(document).ready(function() {
         updateItemStyles($('.ourventures .owl-item.active.center').index());
     });
-
-    // Function to center clicked item
-    window.centerClickedItem = function(index) {
-        owl.trigger('to.owl.carousel', [index, 300]);
-        owl.trigger('play.owl.autoplay'); // Reset autoplay
+    
+    // Flag to track centered item
+    let centeredIndex = -1; // Track the currently centered index
+    let centeredOnce = false; // Flag to indicate if the item has moved to the center once
+    
+    window.centerClickedItem = function(index, modalKey) {
+        if (centeredIndex === index && centeredOnce) {
+            // If the item is centered and previously centered, open the modal
+            openModal(modalKey);
+            centeredOnce = false; // Reset for future clicks
+        } else {
+            // Center the clicked item
+            owl.trigger('to.owl.carousel', [index, 300]);
+            owl.trigger('play.owl.autoplay');
+    
+            // Set centeredOnce only after the item is fully centered
+            centeredIndex = index;
+            centeredOnce = true;
+        }
     }
-
+    
+    // Detect when a new item is centered by autoplay or user action
+    owl.on('changed.owl.carousel', function(event) {
+        const newCenteredIndex = event.item.index;
+    
+        // Update centeredIndex to the new center item and allow the modal to open on click
+        if (newCenteredIndex !== centeredIndex) {
+            centeredIndex = newCenteredIndex;
+            centeredOnce = true; // Allow modal opening on first click for newly centered item
+        }
+    });
+        
+    
     // Stop autoplay on mouse enter
     $('.ourventures').on('mouseenter', '.item', function() {
         owl.trigger('stop.owl.autoplay');
     });
-
+    
     // Restart autoplay on mouse leave
     $('.ourventures').on('mouseleave', '.item', function() {
         owl.trigger('play.owl.autoplay');

@@ -85,7 +85,7 @@
     <script src="{{ asset('assets/js/liquid-ajax-contact-form.min.js') }}"></script>
     <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('assets/js/partners-slider.js') }}"></script>
-    <script src="{{ asset('assets/js/our-ventures.js?v=21') }}"></script>
+    <script src="{{ asset('assets/js/our-ventures.js?v=22') }}"></script>
     <script src="{{ asset('assets/js/loader.js') }}"></script>
 </body>
 </html>
