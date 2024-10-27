@@ -2,35 +2,35 @@
     <h1 class="our_ventures_text">@lang('home.our_v_title')</h1>
     <div class="owl-carousel ourventures owl-theme owl-custom-1">
 
-        <div class="item carousel-item-1 grayscale" onclick="centerClickedItem(0, 'Coz')">
+        <div class="item carousel-item-1 grayscale" data-modal-key="Coz" onclick="centerClickedItem(0, 'Coz')">
             <img class="slider-img" src="{{ '/assets/img/our-ventures/coz-bg.png' }}"alt="Partner 1">
             <div class="slider-logo">
                 <img src="{{ '/assets/img/our-ventures/Coz-logo.png' }}"alt="Partner 1">
             </div>
         </div>
 
-        <div class="item carousel-item-1 grayscale" onclick="centerClickedItem(1, 'Eyotic')">
+        <div class="item carousel-item-1 grayscale" data-modal-key="Eyotic" onclick="centerClickedItem(1, 'Eyotic')">
             <img class="slider-img" src="{{ '/assets/img/our-ventures/Eyotic-bg.png' }}" alt="Partner 2">
             <div class="slider-logo">
                 <img src="{{ '/assets/img/our-ventures/Eyotic-logo.png' }}"alt="Partner 1">
             </div>
         </div>
 
-        <div class="item carousel-item-1 grayscale" onclick="centerClickedItem(2, 'Rai')">
+        <div class="item carousel-item-1 grayscale" data-modal-key="Rai" onclick="centerClickedItem(2, 'Rai')">
             <img class="slider-img" src="{{ '/assets/img/our-ventures/Rai-bg.png' }}"alt="Partner 3">
             <div class="slider-logo">
                 <img src="{{ '/assets/img/our-ventures/Rai-logo.png' }}"alt="Partner 1">
             </div>
         </div>
         
-        <div class="item carousel-item-1 grayscale" onclick="centerClickedItem(3, 'Rootlytics')">
+        <div class="item carousel-item-1 grayscale" data-modal-key="Rootlytics" onclick="centerClickedItem(3, 'Rootlytics')">
             <img class="slider-img" src="{{ '/assets/img/our-ventures/Rootlytics-bg.png' }}" alt="Partner 4">
             <div class="slider-logo">
                 <img src="{{ '/assets/img/our-ventures/Rootlytics-logo.png' }}"alt="Partner 1">
             </div>
         </div>
 
-        <div class="item carousel-item-1 grayscale" onclick="centerClickedItem(4, 'Rai')">
+        <div class="item carousel-item-1 grayscale" data-modal-key="Rai" onclick="centerClickedItem(4, 'Rai')">
             <img class="slider-img" src="{{ '/assets/img/our-ventures/Rai-bg.png' }}"alt="Partner 3">
             <div class="slider-logo">
                 <img src="{{ '/assets/img/our-ventures/Rai-logo.png' }}"alt="Partner 1">

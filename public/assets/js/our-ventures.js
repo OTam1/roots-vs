@@ -35,36 +35,36 @@ jQuery(document).ready(function($){
         updateItemStyles($('.ourventures .owl-item.active.center').index());
     });
     
-    // Flag to track centered item
-    let centeredIndex = -1; // Track the currently centered index
-    let centeredOnce = false; // Flag to indicate if the item has moved to the center once
-    
+    let centeredModalKey = null;  // Track the modalKey of the currently centered item
+
+    // Function to handle item clicks
     window.centerClickedItem = function(index, modalKey) {
-        if (centeredIndex === index && centeredOnce) {
-            // If the item is centered and previously centered, open the modal
+        console.log("Clicked Item Index:", index, "| Current Centered Modal Key:", centeredModalKey, "| Clicked Modal Key:", modalKey);
+
+        if (centeredModalKey === modalKey) {
+            // Open modal if the item with the same modalKey is already centered
+            console.log("Opening modal for centered item:", modalKey);
             openModal(modalKey);
-            centeredOnce = false; // Reset for future clicks
         } else {
-            // Center the clicked item
+            // Center the clicked item if it doesn't match the currently centered modalKey
+            console.log("Centering Item with Modal Key:", modalKey);
             owl.trigger('to.owl.carousel', [index, 300]);
-            owl.trigger('play.owl.autoplay');
-    
-            // Set centeredOnce only after the item is fully centered
-            centeredIndex = index;
-            centeredOnce = true;
         }
-    }
-    
-    // Detect when a new item is centered by autoplay or user action
-    owl.on('changed.owl.carousel', function(event) {
-        const newCenteredIndex = event.item.index;
-    
-        // Update centeredIndex to the new center item and allow the modal to open on click
-        if (newCenteredIndex !== centeredIndex) {
-            centeredIndex = newCenteredIndex;
-            centeredOnce = true; // Allow modal opening on first click for newly centered item
-        }
+    };
+
+    // Update the centeredModalKey whenever the carousel changes
+    owl.on('translated.owl.carousel', function(event) {
+        const $centeredItem = $('.ourventures .owl-item.active.center .item');
+        centeredModalKey = $centeredItem.attr('data-modal-key'); // Use data-modal-key attribute to track centered item
+        console.log("New Centered Modal Key:", centeredModalKey);
     });
+
+    // Initial setup to detect the starting centered item on page load
+    setTimeout(() => {
+        const $initialCenteredItem = $('.ourventures .owl-item.active.center .item');
+        centeredModalKey = $initialCenteredItem.attr('data-modal-key');
+        console.log("Initial Centered Modal Key on Load:", centeredModalKey);
+    }, 500);
         
     
     // Stop autoplay on mouse enter
