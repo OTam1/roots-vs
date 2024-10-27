@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        <div class="item carousel-item-1 grayscale" onclick="centerClickedItem(2); openModal('Rai')">
+        <div class="item carousel-item-1 grayscale" onclick="centerClickedItem(4); openModal('Rai2')">
             <img class="slider-img" src="{{ '/assets/img/our-ventures/Rai-bg.png' }}"alt="Partner 3">
             <div class="slider-logo">
                 <img src="{{ '/assets/img/our-ventures/Rai-logo.png' }}"alt="Partner 1">
@@ -94,7 +94,19 @@ document.addEventListener("DOMContentLoaded", () => {
             url:"Rootlytics.com",
             width:"32%"
 
+        },
+        'Rai2': {
+            title: "{{ __('home.our_v_3') }}",
+            description: "",
+            content:"",
+            founded:"",
+            stage:"",
+            investors:"",
+            url:"Rai.com",
+            width:"18%"
+
         }
+
     };
 
     function openModal(contentKey) {
