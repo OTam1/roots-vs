@@ -19,7 +19,7 @@
     <link rel="manifest" href="{{ asset('assets/favicon/site.webmanifest') }}">
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css?v=22') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css?v=23') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/owl.theme.default.min.css') }}">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="{{ asset('assets/vendors/liquid-icon/lqd-essentials/lqd-essentials.min.css?v=1') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/theme.min.css?v=1') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/utility.min.css?v=1') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/demo/asymmetric-agency/base.css?v=1') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/demo/asymmetric-agency/base.css?v=2') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/demo/asymmetric-agency/asymmetric-agency.css?v=1') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
