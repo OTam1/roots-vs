@@ -24,7 +24,7 @@
                             </div>
                             <div class="contents">
                                 <h3 class="font-semibold uppercase mb-10 text-20 text-black">@lang('gettoknowus.vision')</h3>
-                                <p class="text-15 text-gray-400 font-medium">@lang('gettoknowus.vision_desc')</p>
+                                <p class="text-14 text-gray-400 font-medium">@lang('gettoknowus.vision_desc')</p>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                             </div>
                             <div class="contents">
                                 <h3 class="font-semibold uppercase mb-10 text-20 text-black">@lang('gettoknowus.mission')</h3>
-                                <p class="text-15 text-gray-400 font-medium">@lang('gettoknowus.mission_desc')</p>
+                                <p class="text-14 text-gray-400 font-medium">@lang('gettoknowus.mission_desc')</p>
                             </div>
                         </div>
                     </div>
