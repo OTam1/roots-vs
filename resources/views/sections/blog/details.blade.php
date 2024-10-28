@@ -34,6 +34,9 @@
     .lqd-lp-img {
         margin-bottom: 1em;
     }
+    ol {
+    display: block;
+}
     .vc_col-lg-1,
     .vc_col-lg-10,
     .vc_col-lg-11,
