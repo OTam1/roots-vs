@@ -48,7 +48,11 @@
 
             <!-- Image Section (right side) -->
             <div class="col col-6 col-md-6" style="display: flex;align-items: start;justify-content: start;">
+                @if (App::getLocale() === 'ar')
                 <img class="w-70percent rounded-20" src="assets/img/Roots-about.png" style="max-width: 100%; height: auto; border-radius: 20px;">
+                @else
+                <img class="w-80percent rounded-20" src="assets/img/Roots-about.png" style="max-width: 100%; height: auto; border-radius: 20px;">
+                @endif
             </div>
         </div>
     </div>
