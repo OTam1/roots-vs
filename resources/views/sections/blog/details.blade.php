@@ -182,6 +182,10 @@
             float: left;
         }
     }
+    ol {
+  list-style-position: inside; /* Keeps the marker inline */
+}
+
 </style>
 <div id="lqd-contents-wrap" >
     <div class="lqd-post-cover overflow-hidden pt-100">
