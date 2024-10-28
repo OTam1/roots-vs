@@ -48,7 +48,7 @@
 
             <!-- Image Section (right side) -->
             <div class="col col-6 col-md-6" style="display: flex; align-items: center; justify-content: center;">
-                <img class="w-80percent rounded-20" src="assets/img/Roots.png" style="max-width: 100%; height: auto; border-radius: 20px;">
+                <img class="w-80percent rounded-20" src="assets/img/Roots-about.png" style="max-width: 100%; height: auto; border-radius: 20px;">
             </div>
         </div>
     </div>
