@@ -7,7 +7,7 @@
                     <h1 class="ld-fh-element mb-0/75em text-38 -tracking-0/5 text-primary">@lang('gettoknowus.about')</h1>
                 </div>
                 <div class="ld-fancy-heading">
-                    <p class="ld-fh-element mb-0/5em leading-1/5em text-17 md:pr-0">
+                    <p class="ld-fh-element mb-0/5em leading-1/5em text-16 md:pr-0">
                         @lang('gettoknowus.about_desc')
                     </p>
                 </div>
