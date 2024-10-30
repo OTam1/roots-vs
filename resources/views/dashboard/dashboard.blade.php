@@ -10,7 +10,7 @@
     <link rel="icon" type="image/png" href="./assets/dashboard-assets/img/favicon.png">
 
     <title>
-        Material Dashboard 2 by Creative Tim
+        ROOTS Venture Dashboard
     </title>
 
     <!--     Fonts and icons     -->

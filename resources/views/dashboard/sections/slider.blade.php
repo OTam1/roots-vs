@@ -7,7 +7,7 @@
             aria-hidden="true" id="iconSidenav"></i>
         <a class="navbar-brand m-0" href="#">
             <img src="{{ asset('./assets/img/roots-icon.png') }}" class="navbar-brand-img h-100" alt="main_logo">
-            <span class="ms-1 font-weight-bold text-white">Roots Ventures Dashboard</span>
+            <span class="ms-1 font-weight-bold text-white">ROOTS Venture Dashboard</span>
         </a>
     </div>
 
