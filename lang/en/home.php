@@ -37,29 +37,35 @@ return [
     //Our Ventures
     'our_v_title' => 'Our Ventures',
 
-    'our_v_1' => 'Coz',
-    'our_v_title_1' => 'Saudi’s first carbon credits origination and offsetting platform',
-    'our_v_desc_1' => 'We created COZ to address the critical need for carbon management solutions in industries that are essential yet significant contributors to the reduction of emissions. COZ is Saudi Arabia’s first carbon credits origination and offsetting platform, designed to transform the way businesses engage with carbon markets. By simplifying the process of carbon credit issuance for key clients in Renewable Energy, Waste Management, and Nature-Based Solutions, COZ supports projects that significantly reduce carbon footprints. In its first year of operation, COZ successfully engaged with these sectors to help them generate and manage carbon credits, aligning with Saudi Arabia’s ambitious environmental goals.',
+    'our_v_1' => 'COZ',
+    'our_v_title_1' => 'The first Saudi company in carbon emission reduction solutions and technology.',
+    'our_v_desc_1' => 'We created COZ to meet the urgent need for carbon management solutions in key industries that play a significant role in reducing carbon emissions. By streamlining the process of issuing carbon credits to project developers in the fields of renewable energy, waste management, and natural solutions, COZ supports projects that significantly reduce carbon footprints in monetizing their carbon reduction efforts through the issuance of carbon credits. In its first year of operation, COZ successfully collaborated with key national players in these sectors to help generate and manage carbon credits in line with the ambitious environmental goals of the Kingdom of Saudi Arabia.',
     'our_v_stage_1' => 'Pre-seed',
     'our_v_investors_1' => 'ROOTS Angel Network',
 
-    'our_v_2' => 'Eyotic',
-    'our_v_title_2' => 'Fit-for-purpose, and affordable industrial intelligence solution for sustainable excellence',
-    'our_v_desc_2' => 'We established Eyotic in response to the inefficiencies and environmental challenges within the industrial sector. Eyotic is a tech-enabled platform that leverages Industry 4.0 technologies to enhance sustainability and operational efficiency in industries. By optimizing processes, reducing waste, and lowering energy consumption, Eyotic directly contributes to the National Industrial Strategy. During its inaugural year, Eyotic formed strategic partnerships with the Ministry of Industry and the Saudi Industrial Development Fund (SIDF), securing crucial support and alignment with government initiatives aimed at boosting industrial sustainability and innovation.',
+    'our_v_2' => 'EYOTIC',
+    'our_v_title_2' => 'A fit-for-purpose industrial intelligence solution to support the decarbonization of the industrial sector.',
+    'our_v_desc_2' => 'We created Eyotic in response to environmental challenges and limited efficiency in the industrial sector. Eyotic is a company that relies on modern technologies of the Fourth Industrial Revolution to enhance sustainability and operational efficiency in industries by optimizing processes, reducing waste, and lowering energy consumption. Eyotic directly contributes to achieving the national industrial strategy. In its first year, Eyotic formed strategic partnerships with the Ministry of Industry and the Saudi Industrial Development Fund (SIDF), enabling it to gain vital support and align with government initiatives aimed at promoting sustainability and innovation in the industrial sector.',
     'our_v_stage_2' => 'Pre-seed',
     'our_v_investors_2' => 'ROOTS Angel Network',
 
-    'our_v_3' => 'Rai',
-    'our_v_title_3' => '',
-    'our_v_desc_3' => '',
+    'our_v_3' => 'RAI',
+    'our_v_title_3' => 'An innovative company specializing in AI-based irrigation systems to enhance water efficiency in agriculture.',
+    'our_v_desc_3' => 'We created RAI in response to water scarcity and agricultural challenges facing the Kingdom, aiming to provide sustainable solutions that contribute to increasing agricultural productivity and achieving food security. Through advanced sensing technologies and data analysis applications, RAI improves water resource management and reduces waste, thereby enhancing sustainable agricultural practices and benefiting from modern innovations in the agricultural sector.',
     'our_v_stage_3' => 'Pre-seed',
     'our_v_investors_3' => 'ROOTS Angel Network',
 
-    'our_v_4' => 'Rootlytics',
-    'our_v_title_4' => '',
-    'our_v_desc_4' => '',
+    'our_v_4' => 'ROOTLYTICS',
+    'our_v_title_4' => 'A leading platform that helps organizations in adopting Environmental, Social, and Governance (ESG) practices effectively and systematically.',
+    'our_v_desc_4' => 'We created ROOTLYTICS to support sustainable business practices and address challenges in implementing and adopting ESG in organizations. ROOTLYTICS focuses on providing accurate and reliable reporting and data to enhance transparency in organizational performance and guide efforts toward sustainability. The platform helps simplify the process of data collection and analysis, enabling companies to make fact-based decisions and move towards more sustainable practices.',
     'our_v_stage_4' => 'Pre-seed',
     'our_v_investors_4' => 'ROOTS Angel Network',
+
+    'our_v_5' => 'SPARA',
+    'our_v_title_5' => 'An intelligent technology solution that support sustainability and reduce food waste.',
+    'our_v_desc_5' => 'We created SPARA to address the urgent need for improving efficiency in the food supply chain and applying advanced technology that enhances inventory management and reduces waste. By providing integrated services that include smart data analysis and advanced technologies, SPARA transforms food waste challenges into sustainable opportunities, contributing to the achievement of the food security strategy goals in the Kingdom of Saudi Arabia and enhancing environmental sustainability.',
+    'our_v_stage_5' => 'Pre-seed',
+    'our_v_investors_5' => 'ROOTS Angel Network',
 
 
     'founded' => 'Founded',

@@ -30,10 +30,10 @@
             </div>
         </div>
 
-        <div class="item carousel-item-1 grayscale" data-modal-key="Rai" onclick="centerClickedItem(4, 'Rai')">
-            <img class="slider-img" src="{{ '/assets/img/our-ventures/Rai-bg.png' }}"alt="Partner 3">
+        <div class="item carousel-item-1 grayscale" data-modal-key="Spara" onclick="centerClickedItem(4, 'Spara')">
+            <img class="slider-img" src="{{ '/assets/img/our-ventures/Spara-bg.png' }}"alt="Partner 3">
             <div class="slider-logo">
-                <img src="{{ '/assets/img/our-ventures/Rai-logo.png' }}"alt="Partner 1">
+                <img src="{{ '/assets/img/our-ventures/Spara-logo.png' }}"alt="Partner 1">
             </div>
         </div>
 
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
             founded:"2023",
             stage:"{{ __('home.our_v_stage_1') }}",
             investors:"{{ __('home.our_v_investors_1') }}",
-            url:"Coz.com",
+            url:"Coz.sa",
             width:"18%"
 
         },
@@ -76,35 +76,35 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         'Rai': {
             title: "{{ __('home.our_v_3') }}",
-            description: "",
-            content:"",
-            founded:"",
-            stage:"",
-            investors:"",
+            description: "{{ __('home.our_v_title_3') }}",
+            content:"{{ __('home.our_v_desc_3') }}",
+            founded:"2024",
+            stage:"{{ __('home.our_v_stage_3') }}",
+            investors:"{{ __('home.our_v_investors_3') }}",
             url:"Rai.com",
             width:"18%"
 
         },
         'Rootlytics': {
             title: "{{ __('home.our_v_4') }}",
-            description: "",
-            content:"",
-            founded:"",
-            stage:"",
-            investors:"",
+            description: "{{ __('home.our_v_title_4') }}",
+            content:"{{ __('home.our_v_desc_4') }}",
+            founded:"2024",
+            stage:"{{ __('home.our_v_stage_4') }}",
+            investors:"{{ __('home.our_v_investors_4') }}",
             url:"Rootlytics.com",
             width:"32%"
 
         },
-        'Rai2': {
-            title: "{{ __('home.our_v_3') }}",
-            description: "",
-            content:"",
-            founded:"",
-            stage:"",
-            investors:"",
-            url:"Rai.com",
-            width:"18%"
+        'Spara': {
+            title: "{{ __('home.our_v_5') }}",
+            description: "{{ __('home.our_v_title_5') }}",
+            content:"{{ __('home.our_v_desc_5') }}",
+            founded:"2024",
+            stage:"{{ __('home.our_v_stage_5') }}",
+            investors:"{{ __('home.our_v_investors_5') }}",
+            url:"Spara.com",
+            width:"23%"
 
         }
 
@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class='flex-container'>
                 <div class='modal-flex'>
                     <h6 style='border-bottom: 2px solid;width: ${content.width};margin-top: 3rem;' class="text-title-flex">
-                        <a href="${content.url}" style="color: black; background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTkuOTggNC44MzZsOS45NzEuNC41MDMgMTAuMjgzIiBzdHJva2U9IiMwMDAiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUuMDAxIDE5LjI5N0wxOS4wNDEgNS41M2wuNi42MUw1LjYgMTkuOTA4bC0uNi0uNjF6IiBmaWxsPSIjMDAwIi8+PC9zdmc+) no-repeat 100% 0;padding: 0 34px 8px 0;">
+                        <a target="_blank" href="https://${content.url}" style="color: black; background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTkuOTggNC44MzZsOS45NzEuNC41MDMgMTAuMjgzIiBzdHJva2U9IiMwMDAiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUuMDAxIDE5LjI5N0wxOS4wNDEgNS41M2wuNi42MUw1LjYgMTkuOTA4bC0uNi0uNjF6IiBmaWxsPSIjMDAwIi8+PC9zdmc+) no-repeat 100% 0;padding: 0 34px 8px 0;">
                         ${content.url}
                         </a>
                     </h6>
