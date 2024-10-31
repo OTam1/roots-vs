@@ -1,7 +1,7 @@
 <!-- resources/views/home.blade.php -->
 @extends('layouts.app')
 
-@section('title', 'Home - Roots Ventures')
+@section('title', 'Home - ROOTS venture studio')
 
 @section('content')
     @include('sections.intro')

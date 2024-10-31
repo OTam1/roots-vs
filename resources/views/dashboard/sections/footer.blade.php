@@ -8,7 +8,7 @@
                         document.write(new Date().getFullYear())
                     </script>,
                     made with <i class="fa fa-heart"></i> by
-                    <a href="https://roots-vs.sa" class="font-weight-bold" target="_blank">Roots Ventures</a>
+                    <a href="https://roots-vs.sa" class="font-weight-bold" target="_blank">ROOTS venture studio</a>
                     for a better web.
                 </div>
             </div>

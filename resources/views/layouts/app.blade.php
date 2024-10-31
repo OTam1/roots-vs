@@ -5,12 +5,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="Roots Ventures">
-    <meta name="author" content="Roots Ventures">
-    <meta name="description" content="Roots Ventures.">
-    <meta property="og:title" content="Roots Ventures">
-    <meta property="og:description" content="Roots Ventures.">
-    <meta property="og:type" content="Roots Ventures">
+    <meta name="keywords" content="ROOTS venture studio">
+    <meta name="author" content="ROOTS venture studio">
+    <meta name="description" content="ROOTS venture studio.">
+    <meta property="og:title" content="ROOTS venture studio">
+    <meta property="og:description" content="ROOTS venture studio.">
+    <meta property="og:type" content="ROOTS venture studio">
     <meta property="og:image" content="{{ asset('assets/images/common/og-image.jpg') }}">
 
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/favicon/apple-touch-icon.png') }}">
@@ -33,7 +33,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
 
-    <title>@yield('title', 'Roots Ventures | رووتز فنتشرز')</title>
+    <title>@yield('title', 'ROOTS venture studio | رووتز فنتشر')</title>
 </head>
 
 <body class="lqd-cc-outer-hidden scroll-content" data-lqd-cc="true" data-mobile-nav-style="modern" data-mobile-nav-breakpoint="1199"
