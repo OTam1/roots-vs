@@ -17,7 +17,7 @@
                         </span></div>
                         <div class="contents">
                             <h3 class="font-semibold uppercase mb-10 text-20 text-black">@lang('gettoknowus.impact')</h3>
-                            <p><span class="text-14 leading-20 text-gray-400">@lang('gettoknowus.impact_desc')
+                            <p><span class="text-16 leading-20 text-gray-400">@lang('gettoknowus.impact_desc')
                             </span></p>
                         </div>
                     </div>
@@ -32,7 +32,7 @@
                         </span></div>
                         <div class="contents">
                             <h3 class="font-semibold uppercase mb-10 text-20 text-black">@lang('gettoknowus.innovation')</h3>
-                            <p><span class="text-14 leading-20 text-gray-400">@lang('gettoknowus.innovation_desc')
+                            <p><span class="text-16 leading-20 text-gray-400">@lang('gettoknowus.innovation_desc')
                             </span></p>
                         </div>
                     </div>
@@ -47,7 +47,7 @@
                         </span></div>
                         <div class="contents">
                             <h3 class="font-semibold uppercase mb-10 text-20 text-black">@lang('gettoknowus.accountability')</h3>
-                            <p><span class="text-14 leading-20 text-gray-400">@lang('gettoknowus.accountability_desc')
+                            <p><span class="text-16 leading-20 text-gray-400">@lang('gettoknowus.accountability_desc')
                             </span></p>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                         </span></div>
                         <div class="contents">
                             <h3 class="font-semibold uppercase mb-10 text-20 text-black">@lang('gettoknowus.enablement')</h3>
-                            <p><span class="text-14 leading-20 text-gray-400">@lang('gettoknowus.enablement_desc')
+                            <p><span class="text-16 leading-20 text-gray-400">@lang('gettoknowus.enablement_desc')
                             </span></p>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                         </span></div>
                         <div class="contents">
                             <h3 class="font-semibold uppercase mb-10 text-20 text-black">@lang('gettoknowus.transparency')</h3>
-                            <p><span class="text-14 leading-20 text-gray-400">@lang('gettoknowus.transparency_desc')
+                            <p><span class="text-16 leading-20 text-gray-400">@lang('gettoknowus.transparency_desc')
                             </span></p>
                         </div>
                     </div>
