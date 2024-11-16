@@ -7,7 +7,7 @@
                     <h1 class="ld-fh-element mb-0/75em text-38 -tracking-0/5 text-primary">@lang('gettoknowus.about')</h1>
                 </div>
                 <div class="ld-fancy-heading">
-                    <p class="ld-fh-element mb-0/5em leading-1/5em text-16 md:pr-0">
+                    <p class="ld-fh-element mb-0/5em leading-1/5em text-20 md:pr-0">
                         @lang('gettoknowus.about_desc')
                     </p>
                 </div>
@@ -15,7 +15,7 @@
                 <!-- Vision and Mission Sections Side-by-Side -->
                 <div class="row" style="margin-top: 2rem;">
                     <!-- Vision Section -->
-                    <div class="col col-5 col-md-5">
+                    <div class="col col-6 col-md-6">
                         <div class="iconbox mt-30 flex flex-col relative items-start text-start animation-element lqd-unit-animation-done">
                             <div class="iconbox-icon-wrap">
                                 <span class="iconbox-icon-container mb-20 text-50 leading-1em text-primary transition-all">
@@ -24,7 +24,7 @@
                             </div>
                             <div class="contents">
                                 <h3 class="font-semibold uppercase mb-10 text-20 text-black">@lang('gettoknowus.vision')</h3>
-                                <p class="text-14 text-gray-400 font-medium">@lang('gettoknowus.vision_desc')</p>
+                                <p class="text-16 text-gray-400 font-medium">@lang('gettoknowus.vision_desc')</p>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                             </div>
                             <div class="contents">
                                 <h3 class="font-semibold uppercase mb-10 text-20 text-black">@lang('gettoknowus.mission')</h3>
-                                <p class="text-14 text-gray-400 font-medium">@lang('gettoknowus.mission_desc')</p>
+                                <p class="text-16 text-gray-400 font-medium">@lang('gettoknowus.mission_desc')</p>
                             </div>
                         </div>
                     </div>
