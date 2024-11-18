@@ -3,12 +3,12 @@
         <div class="container">
             <div class="row items-center">
                 <div class="col col-12 hidden sm:block">
-                    <div class="lqd-imggrp-single mb-35">
+                    {{-- <div class="lqd-imggrp-single mb-35">
                         <div class="lqd-imggrp-img-container">
                             <figure><img src="{{ asset('assets/img/Roots-Logo-White.png') }}"
                                     alt="hub logo"></figure>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
 
                 <div class="col col-12 col-md-5 col-lg-6 sm:hidden">
