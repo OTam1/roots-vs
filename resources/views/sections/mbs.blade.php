@@ -1,4 +1,4 @@
-<div class="responsive-container">
+<div class="responsive-container" style="display: contents">
     <div class="content-wrapper">
         {{-- <div class="overlay"></div> --}}
         <div class="image-section">

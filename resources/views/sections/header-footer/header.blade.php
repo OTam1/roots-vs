@@ -30,7 +30,7 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
             <div class="header-module module-primary-nav static flex-col items-end">
                 <div class="navbar-collapse lqd-submenu-default-style inline-flex flex-col items-stretch h-auto"
                     id="main-header-collapse" aria-expanded="false" role="navigation">
-                    <ul class="main-nav lqd-menu-counter-right main-nav-hover-default flex reset-ul flex-nowrap items-stretch justify-end text-16 link-medium link-black lg:text-14"
+                    <ul class="main-nav lqd-menu-counter-right main-nav-hover-default flex reset-ul flex-nowrap items-stretch justify-end text-18 link-medium link-black lg:text-14"
                         data-submenu-options="{&quot;toggleType&quot;: &quot;fade&quot;, &quot;handler&quot;: &quot;mouse-in-out&quot;}"
                         data-localscroll="true"
                         data-localscroll-options="{&quot;itemsSelector&quot;:&quot;> li > a&quot;, &quot;trackWindowScroll&quot;: true }">
@@ -267,10 +267,16 @@ data-sticky-values-measured="false" data-sticky-options="{&quot;dynamicColors&qu
             @if (!request()->routeIs('home')) 
             href="{{ route('home') }}" 
             @endif
-            ><span
-                class="navbar-brand-inner justify-start"><img class="logo-default" width="52"
-                    height="23" src="{{ asset('assets/img/Roots-Logo-Original.png') }}"
-                    alt="Hub Theme"></span></a>
+            ><span class="navbar-brand-inner justify-start">
+                @if (!request()->routeIs('home')) 
+                <img class="logo-light" width="52" height="23" src="{{ asset('assets/img/Roots-Logo-Original.png') }}" alt="Roots Ventures">
+                <img class="logo-default" width="52" height="23" src="{{ asset('assets/img/Roots-Logo-Original.png') }}" alt="Roots Ventures">
+                @else
+                <img class="logo-light" width="52" height="23" src="{{ asset('assets/img/Roots_Logo_White.png') }}" alt="Roots Ventures">
+                <img class="logo-default" width="52" height="23" src="{{ asset('assets/img/Roots_Logo_White.png') }}" alt="Roots Ventures">
+                @endif
+            </span>
+        </a>
     </div>
     <div class="lqd-mobile-sec-nav w-full absolute z-10">
         <div class="mobile-navbar-collapse navbar-collapse collapse text-white" id="lqd-mobile-sec-nav"
