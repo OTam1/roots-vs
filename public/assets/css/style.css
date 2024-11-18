@@ -134,6 +134,9 @@ width: 2em !important;
     .responsive-container {
         height: 90vh;
     }
+	.content-wrapper {
+		height: 110vh !important;
+	}
 }
 
 .content-wrapper {
