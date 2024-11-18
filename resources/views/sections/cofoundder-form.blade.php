@@ -9,7 +9,7 @@ style="background-image: url();" dir="{{ app()->getLocale() == 'ar' ? 'rtl' : 'l
                 </h2>
             </div>
             <div class="ld-fancy-heading">
-                <p class="ld-fh-element mb-2/5em text-30 leading-1em">@lang('home.contact_desc')
+                <p class="ld-fh-element mb-2/5em text-30 leading-1-4em">@lang('home.contact_desc')
                 </p>
             </div>
         </div>
