@@ -2399,4 +2399,52 @@ width: 800px;
 		line-height: 1.4em
 	}
 	
+	@media (max-width: 768px) {
+		/* Target only the specific section using the unique "text-box-single" class */
+		.text-box-single .row {
+			flex-wrap: wrap; /* Allow wrapping of elements */
+		}
+	
+		/* Move the image to the top */
+		.text-box-single .row > .col:nth-child(3) {
+			order: 1; /* Image appears first */
+			width: 100%; /* Full width for the image container */
+			display: flex;
+			justify-content: center; /* Center the image horizontally */
+			margin-bottom: 20px; /* Add spacing below the image */
+		}
+	
+		/* Make the image span full width */
+		.text-box-single .row > .col:nth-child(3) img {
+			width: 100%; /* Full width for the image */
+			max-width: 100%; /* Prevent image overflow */
+			height: auto; /* Maintain aspect ratio */
+			border-radius: 20px; /* Preserve rounded corners */
+		}
+	
+		/* Vision and Mission Section below the image */
+		.text-box-single .row > .col:nth-child(2) {
+			order: 2; /* Vision and Mission container */
+			width: 100%; /* Full width container */
+			display: flex;
+			flex-wrap: wrap; /* Allow wrapping */
+			justify-content: space-between; /* Space between items */
+			margin-top: 20px;
+			justify-content: center !important;
+		}
+	
+		/* Vision and Mission columns take full width */
+		.text-box-single .row > .col:nth-child(2) .col-6 {
+			width: 48%; /* Each column takes 48% width for side-by-side alignment */
+			flex: 0 0 48%; /* Ensure consistent sizing */
+			margin-bottom: 20px; /* Add spacing between Vision and Mission */
+		}
+	
+		/* About Section appears last */
+		.text-box-single .row > .col:nth-child(1) {
+			order: 3; /* About Us appears after Vision and Mission */
+			width: 100%; /* Full width */
+			margin-top: 20px; /* Add spacing above */
+		}
+	}
 	

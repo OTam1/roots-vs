@@ -1,8 +1,8 @@
 <section class="lqd-section text-box-single pt-120" data-section-luminosity="light">
     <div class="container px-15">
         <div class="row" style="display: flex; align-items: start; place-content: center;">
+            <!-- About Section -->
             <div class="col col-6 col-md-6" style="display: flex; flex-direction: column;">
-                <!-- About Section -->
                 <div class="ld-fancy-heading">
                     <h1 class="ld-fh-element mb-0/75em text-38 -tracking-0/5 text-primary">@lang('gettoknowus.about')</h1>
                 </div>
@@ -46,7 +46,7 @@
                 </div>
             </div>
 
-            <!-- Image Section (right side) -->
+            <!-- Image Section -->
             <div class="col col-6 col-md-6" style="display: flex;align-items: start;justify-content: start;">
                 @if (App::getLocale() === 'ar')
                 <img class="w-70percent rounded-20" src="assets/img/Roots-about.png" style="max-width: 100%; height: auto; border-radius: 20px;">
