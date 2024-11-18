@@ -7,7 +7,7 @@
                     <h1 class="ld-fh-element mb-0/75em text-38 -tracking-0/5 text-primary">@lang('gettoknowus.about')</h1>
                 </div>
                 <div class="ld-fancy-heading">
-                    <p class="ld-fh-element mb-0/5em leading-1/5em text-20 md:pr-0">
+                    <p class="ld-fh-element mb-0/5em leading-1/5em text-19-5 md:pr-0">
                         @lang('gettoknowus.about_desc')
                     </p>
                 </div>
@@ -24,7 +24,7 @@
                             </div>
                             <div class="contents">
                                 <h3 class="font-semibold uppercase mb-10 text-20 text-black">@lang('gettoknowus.vision')</h3>
-                                <p class="text-16 text-gray-400 font-medium">@lang('gettoknowus.vision_desc')</p>
+                                <p class="text-15 text-gray-400 font-medium">@lang('gettoknowus.vision_desc')</p>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                             </div>
                             <div class="contents">
                                 <h3 class="font-semibold uppercase mb-10 text-20 text-black">@lang('gettoknowus.mission')</h3>
-                                <p class="text-16 text-gray-400 font-medium">@lang('gettoknowus.mission_desc')</p>
+                                <p class="text-15 text-gray-400 font-medium">@lang('gettoknowus.mission_desc')</p>
                             </div>
                         </div>
                     </div>
