@@ -1,4 +1,4 @@
-<section id="blog" class="lqd-section blog py-60" data-section-luminosity="light" dir="{{ app()->getLocale() == 'ar' ? 'rtl' : 'ltr' }}">
+<section id="blog" class="lqd-section blog py-60 pt-120" data-section-luminosity="light" dir="{{ app()->getLocale() == 'ar' ? 'rtl' : 'ltr' }}">
     <div class="container">
         <div class="row">
             <div class="col col-12 col-lg-12">

@@ -237,9 +237,10 @@ width: 2em !important;
     }
 	.mbs-text{
 		font-size: calc(1.2rem + 1vw);
-		text-align: justify;
+		text-align: start;
 		font-weight: 500;
 		line-height: 1.1;
+		letter-spacing: 1.48px;
 	}
 	.mbs-para{
 		font-weight: bold;
